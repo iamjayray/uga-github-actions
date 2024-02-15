@@ -21,13 +21,10 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Host
-        run: yarn dev && yarn test:e2e:ci:api-testing
-
-    # - name: Run Cypress Tests
-    #   run: |
-    #     chmod +x runcypress.sh
-    #     ./runcypress.sh
+      - name: Run Cypress Tests
+        run: |
+          chmod +x runcypress.sh
+          ./runcypress.sh
 
     # - name: Upload Test Artifacts
     #   uses: actions/upload-artifact@v2
