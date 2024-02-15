@@ -6,12 +6,17 @@ on:
       - main
 
 jobs:
-  cypress:
+  build:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         node-version: [14.x]
+
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -20,3 +25,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Verify dependencies
+        run: echo "Dependencies installed successfully!"
+
+      - name: Run Cypress Shell Script
+        run: |
+          chmod +x ./runcypress.sh && ./runcypress.sh
