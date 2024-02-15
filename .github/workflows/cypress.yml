@@ -29,5 +29,4 @@ jobs:
         run: echo "Dependencies installed successfully!"
 
       - name: Run Cypress Shell Script
-        run: |
-          chmod +x ./runcypress.sh
+        run: sh ./cypress.sh
