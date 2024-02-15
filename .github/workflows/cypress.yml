@@ -6,28 +6,28 @@ on:
       - main
 
 jobs:
-  build:
+  cypress-tests:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 14
 
-      - name: Install dependencies
-        run: yarn install
+    - name: Install Dependencies
+      run: yarn install
 
-      - name: Verify dependencies
-        run: echo "Dependencies installed successfully!"
+    - name: Run Cypress Tests
+      run: |
+        chmod +x runcypress.sh
+        ./runcypress.sh
 
-      - name: Run Cypress Shell Script
-        run: |
-          chmod +x ./runcypress.sh && ./runcypress.sh
+    - name: Upload Test Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: cypress-reports
+        path: cypress/reports
