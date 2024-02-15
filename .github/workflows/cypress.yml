@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  install:
+  cypress:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -19,13 +19,6 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
-
-  cypress-run:
-    runs-on: ubuntu-22.04
-    needs: install
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
       - name: Yarn develop
         run: yarn dev
