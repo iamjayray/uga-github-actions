@@ -22,10 +22,7 @@ jobs:
         run: yarn install
 
       - name: Host
-        run: yarn dev
-
-      - name: Api testing
-        run: yarn test:e2e:ci:api-testing
+        run: yarn dev && yarn test:e2e:ci:api-testing
 
     # - name: Run Cypress Tests
     #   run: |
