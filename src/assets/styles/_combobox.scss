@@ -1,0 +1,22 @@
+.combobox {
+    .dropdown-menu {
+      max-height: 300px;
+      overflow-y: auto;
+    }
+  }
+  
+  .custom-combo-box {
+    .dropdown-toggle {
+      border: 1px solid #ced4da;
+      border-radius: 0;
+      padding: 20px;
+  
+      .chevron {
+        transition: transform 0.3s ease;
+      }
+    }
+  
+    &.chevron-rotate .chevron-down-solid .chevron {
+      transform: rotate(180deg);
+    }
+  }

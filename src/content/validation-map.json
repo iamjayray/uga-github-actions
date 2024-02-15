@@ -1,0 +1,22 @@
+{
+  "NAMES": "ug-app-profile-errors",
+  "PRONOUNS": "ug-app-profile-errors",
+  "GENDERS": "ug-app-profile-errors",
+  "PHONES": "ug-app-profile-errors",
+  "ADDRESSES": "ug-app-my-information",
+  "ETHNICITIES": "ug-app-my-information",
+  "HIGH_SCHOOLS": "ug-app-my-schools",
+  "USER_INFO": "ug-app-my-information",
+  "RESIDENCY": "ug-app-arizona-residency",
+  "UNIFORMED_SERVICES": "ug-app-my-information",
+  "CITIZENSHIP": "ug-app-my-information",
+  "CORPORATE_PARTNERS": "ug-app-my-information",
+  "PREVIOUS_ASU_AFFILIATION": "ug-app-my-information",
+  "PRIMARY_LANGUAGE": "ug-app-my-information",
+  "GUARDIANS": "ug-app-my-information",
+  "SAR_QUESTIONS": "miscellaneous",
+  "OTHER_INSTITUTIONS": "ug-app-my-schools",
+  "PAC_12": "ug-app-my-schools",
+  "SELF_REPORTED": "ug-app-my-high-school-grades",
+  "PROGRAMS_OF_INTEREST": "ug-app-my-program"
+}

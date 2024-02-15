@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/",
+    "name": "home"
+  },
+  {
+    "path": "create",
+    "name": "user-create-account"
+  },
+  {
+    "path": "login",
+    "name": "user-login"
+  },
+  {
+    "path": "reset-password",
+    "name": "user-reset-password"
+  }
+]

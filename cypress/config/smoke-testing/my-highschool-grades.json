@@ -1,0 +1,256 @@
+{
+  "errorMessage": "This is a required field",
+  "validVisaCode": "RE",
+  "nonUsCitizenVisaCode": "F1",
+  "pastGraduationSchool": [
+    {
+      "highSchoolId": "1",
+      "extOrgId": null,
+      "ceeb": null,
+      "name": "Accelerate Online Academy",
+      "country": "AFG",
+      "state": "BDS",
+      "city": "s",
+      "gradMonth": "2",
+      "gradYear": "2022",
+      "startMonth": null,
+      "startYear": null,
+      "endMonth": null,
+      "endYear": null,
+      "sais": null,
+      "sessionCode": null,
+      "transcriptNameId": "1"
+    }
+  ],
+  "futureGraduationSchool": [
+    {
+      "highSchoolId": "1",
+      "extOrgId": null,
+      "ceeb": null,
+      "name": "Accelerate Online Academy",
+      "country": "AFG",
+      "state": "BDS",
+      "city": "s",
+      "gradMonth": "2",
+      "gradYear": "2028",
+      "startMonth": null,
+      "startYear": null,
+      "endMonth": null,
+      "endYear": null,
+      "sais": null,
+      "sessionCode": null,
+      "transcriptNameId": "1"
+    }
+  ],
+  "duration": [
+    {
+      "type": "Quarterly",
+      "noOfGrades": 4
+    },
+    {
+      "type": "Trimester",
+      "noOfGrades": 3
+    },
+    {
+      "type": "Semester",
+      "noOfGrades": 2
+    },
+    {
+      "type": "Full Year",
+      "noOfGrades": 1
+    }
+  ],
+  "courseWork": {
+    "gradingSystem": "A-F",
+    "course": {
+      "subject": "English",
+      "academicYear": "senior",
+      "courseName": "senior",
+      "customCourseName": null,
+      "duration": "semester",
+      "courseLevel": "high school",
+      "grades": ["A", "C"]
+    }
+  },
+  "twoWayBindingResponses": {
+    "sarQuestionResponses": {
+      "code": 200,
+      "data": [
+        {
+          "answer": "N",
+          "name": "APPQNAME11"
+        },
+        {
+          "answer": "N",
+          "name": "PREMED"
+        },
+        {
+          "answer": "N",
+          "name": "PRELAW"
+        },
+        {
+          "answer": "N",
+          "name": "PREVET"
+        },
+        {
+          "answer": "Y",
+          "name": "SLFRPTQ1"
+        },
+        {
+          "answer": "Y",
+          "name": "ASUCOMOTH"
+        },
+        {
+          "answer": "0",
+          "name": "TTLCOLLCRD"
+        },
+        {
+          "answer": "Amazon DSP",
+          "name": "CORPPRTNM"
+        },
+        {
+          "answer": "Y",
+          "name": "CORPPRTYN"
+        }
+      ]
+    },
+    "highschoolAcademics": {
+      "code": 200,
+      "data": {
+        "currentUnweightedGpa": 12,
+        "gpaScaleId": "1",
+        "classRank": "121",
+        "classSize": "212",
+        "gradingScaleId": "2"
+      }
+    },
+    "highschoolCourseWorks": {
+      "code": 200,
+      "data": [
+        {
+          "highSchoolCourseworkId": "1",
+          "subjectId": "1",
+          "courseLevelId": "3",
+          "academicYearId": "2",
+          "courseId": "2",
+          "courseTitleOther": null,
+          "courseYear": "2011",
+          "termTypeId": "1",
+          "courseTitleAlternateText": null,
+          "grades": [
+            {
+              "gradeId": "11",
+              "termOrderNumber": "1"
+            },
+            {
+              "gradeId": "12",
+              "termOrderNumber": "2"
+            }
+          ]
+        },
+        {
+          "highSchoolCourseworkId": "2",
+          "subjectId": "1",
+          "courseLevelId": "2",
+          "academicYearId": "3",
+          "courseId": "85",
+          "courseTitleOther": "test",
+          "courseYear": "2012",
+          "termTypeId": "2",
+          "courseTitleAlternateText": "test",
+          "grades": [
+            {
+              "gradeId": "11",
+              "termOrderNumber": "1"
+            },
+            {
+              "gradeId": "12",
+              "termOrderNumber": "2"
+            },
+            {
+              "gradeId": "16",
+              "termOrderNumber": "3"
+            }
+          ]
+        },
+        {
+          "highSchoolCourseworkId": "3",
+          "subjectId": "4",
+          "courseLevelId": "3",
+          "academicYearId": "2",
+          "courseId": "46",
+          "courseTitleOther": null,
+          "courseYear": "2011",
+          "termTypeId": "2",
+          "courseTitleAlternateText": null,
+          "grades": [
+            {
+              "gradeId": "11",
+              "termOrderNumber": "1"
+            },
+            {
+              "gradeId": "14",
+              "termOrderNumber": "2"
+            },
+            {
+              "gradeId": "17",
+              "termOrderNumber": "3"
+            }
+          ]
+        },
+        {
+          "highSchoolCourseworkId": "4",
+          "subjectId": "5",
+          "courseLevelId": "4",
+          "academicYearId": "3",
+          "courseId": "58",
+          "courseTitleOther": null,
+          "courseYear": "2012",
+          "termTypeId": "3",
+          "courseTitleAlternateText": null,
+          "grades": [
+            {
+              "gradeId": "12",
+              "termOrderNumber": "1"
+            },
+            {
+              "gradeId": "14",
+              "termOrderNumber": "2"
+            },
+            {
+              "gradeId": "12",
+              "termOrderNumber": "3"
+            },
+            {
+              "gradeId": "15",
+              "termOrderNumber": "4"
+            }
+          ]
+        }
+      ]
+    },
+    "highschools": {
+      "code": 200,
+      "data": [
+        {
+          "highSchoolId": "1",
+          "extOrgId": "1100040290",
+          "ceeb": null,
+          "name": "GED",
+          "country": "USA",
+          "state": "AK",
+          "city": "Akiak",
+          "gradMonth": "2",
+          "gradYear": "2006",
+          "startMonth": null,
+          "startYear": null,
+          "endMonth": null,
+          "endYear": null,
+          "sais": null,
+          "sessionCode": null,
+          "transcriptNameId": "1"
+        }
+      ]
+    }
+  }
+}

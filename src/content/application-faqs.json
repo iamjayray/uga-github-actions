@@ -1,0 +1,27 @@
+[
+  {
+    "id": "app-faq-1",
+    "title": "What do I need to complete my application to ASU?",
+    "description": "<p>For domestic applicants, you need:</p> <ul><li>A copy of your driver's license or SSN.</li><li>Your mailing address, phone number and email address.</li><li>The names and dates of the high schools and colleges you've previously attended or graduated from.</li><li>A form of payment for the application fee, if applicable. (Payment is not required at the time of submission, but your application won't be processed until the fee is paid or waived for certain applicants.)</li></ul><p>For international applicants, you need:</p><ul><li>Your mailing address, phone number and email address.</li><li>The names and dates of the secondary schools and colleges you've previously attended or graduated from.</li><li>A form of payment for the application fee, if applicable. (Payment is not required at the time of submission, but your application won't be processed until the fee is paid or waived for certain applicants.)</li></ul><p>If you haven't graduated from high school or secondary school yet, you need to provide:</p><ul><li>All the grades you've earned or expect to earn per course.</li><li>A copy of the courses and grades you're currently taking or plan to take in your final year of high school or secondary school.</li></ul>"
+  },
+  {
+    "id": "app-faq-2",
+    "title": "How long will it take to complete the application?",
+    "description": "<p>Most applicants can finish their application in one sitting. It can take anywhere from 20 minutes to one hour, depending on your background and the information you provide.</p>"
+  },
+  {
+    "id": "app-faq-3",
+    "title": "Is there an application fee?",
+    "description": "<p>Yes, ASU Online charges an application fee of $70. The fee can be paid electronically when you submit your application or later at your convenience. However, your application won't be processed until the fee is paid.</p><p>Select corporate partner affiliated applicants will receive a tuition waiver, in which case no fee payment is required.</p>"
+  },
+  {
+    "id": "app-faq-4",
+    "title": "When will I hear back from ASU after submitting my application?",
+    "description": "<p>It typically takes two to three weeks to receive an admission decision from ASU.</p><p>The time it takes to hear back varies depending on several factors, such as:</p><ul><li>The time of year your application was submitted.</li><li>When you paid your application fee or when it was waived.</li><li>When we receive all your official transcripts from high school, secondary school or any other colleges listed in your application.</li></ul>"
+  },
+  {
+    "id": "app-faq-5",
+    "title": "Do I need my transcripts before I apply?",
+    "description": "<p>No, you are not required to have a copy of your unofficial transcripts when you apply to ASU, but it can be helpful.</p><p>The application will ask you for the dates you attended previous schooling. These dates will later be verified against your official transcripts, which you’ll provide after submitting your application. If you’re currently in high school or secondary school, you can send the transcripts you have available now, and you’ll be required to send a final set of transcripts upon graduation. This step is required before a final admission decision can be delivered.</p><p>It is important to include attendance at any other colleges and universities in your application, as omitting this information may have negative impacts on later tasks, such as eligibility for federal student aid.</p>"
+  }
+]

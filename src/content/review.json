@@ -1,0 +1,78 @@
+{
+  "title": "Review",
+  "eta": "<span class='px-space-xxs'>Estimated time:</span><span class='font-weight-bold'>3 - 5 minutes</span>",
+  "text": "Certify your application",
+  "subText": "You’re almost there! Review each section and edit any incorrect information.",
+  "azCommunityCollegeConsent": {
+    "title": "Arizona Community College transcript information",
+    "subTitle": "Consent to send your ASU transcripts to your Arizona community college",
+    "text": "The federal Family Educational Rights and Privacy Act (FERPA) of 1974 protects the privacy of student educational records, including transcripts, by placing certain restrictions on the disclosure of that information. As a result, your authorization is required in order for Arizona State University (ASU) to release your educational records to your Arizona community college(s) for the purpose of checking your progress towards completion of an associate’s degree. All educational records are released subject to the confidentiality provisions of appropriate state and federal laws and regulations. All information may be retained in the records of both ASU and your Arizona community college(s).",
+    "consentLabel": "Authorization",
+    "authorizationItems": [
+      "I authorize the release of my academic records from ASU to my Arizona community college(s) without prior notice and I understand that my academic records may be maintained by both institutions.",
+      "I understand that I have the right to rescind this authorization at any time by notifying the office of <a target='_blank' href='https://provost.asu.edu/academic-alliances' class='text-underline'>Academic Partnerships</a>.",
+      "I understand that such revocation will not affect any disclosures previously made before receipt of any such written revocation."
+    ],
+    "subText": "If it is appropriate to award an associate degree, my signature below gives permission to the community college to award the degree and notify me of the results without further intervention on my part."
+  },
+  "applicationAffidavit": {
+    "title": "Application affidavit",
+    "text": "The information on this application is complete and correct, and I understand that any misrepresentation or falsification is cause for canceling enrollment and/or credits earned, or other disciplinary action. All documents submitted for admission consideration are the property of Arizona State University and will not be returned to me, nor duplicated for me, under any circumstances.",
+    "officialTranscripts": {
+      "title": "Submitting Official Transcripts (For Degree-Seeking Students)",
+      "text": "I understand that I am responsible for submitting all official transcripts from prior institutions to the university. However, if necessary, I grant Arizona State University permission to obtain official transcripts on my behalf from all schools I have attended, and I authorize and direct any school receiving such a request to provide the requested official transcript to Arizona State University."
+    },
+    "academicInterity": {
+      "title": "Academic Integrity",
+      "text": "Arizona State University is committed to academic integrity in all scholarship, research and creative endeavors. My application is an affirmation of my willingness to educate and comport myself within the guidelines of Arizona State University’s Academic Integrity and Responsible Conduct of Research policies."
+    },
+    "prohibitionAgainstDescrimination": {
+      "title": "Prohibition Against Discrimination, Harassment and Retaliation",
+      "text": "I understand that Title IX protects individuals from discrimination based on sex in any educational program or activity operated by recipients of federal financial assistance. As required by Title IX, ASU does not discriminate on the basis of sex in the education programs or activities that we operate, including in admission and employment. Inquiries concerning the application of Title IX may be referred to the Title IX Coordinator or to the U.S. Department of Education, Assistant Secretary, or both. Learn more at <a href='https://policy.asu.edu/' target='_blank' class='text-underline font-weight-bold'>ACD 401: Prohibition Against Discrimination, Harassment and Retaliation.</a>",
+      "contacts": [
+        {
+          "title": "Email:",
+          "text": "TitleIXCoordinator@asu.edu"
+        },
+        {
+          "title": "Address:",
+          "text": "1120 S. Cady Mall INTDSB Suite 284"
+        },
+        {
+          "title": "Phone:",
+          "text": "480-965-0696"
+        }
+      ],
+      "cta": {
+        "label": "asu.edu/reportit",
+        "link": "https://www.asu.edu/reportit/",
+        "target": "_blank"
+      }
+    },
+    "subText": "By clicking “Submit Application,” you are submitting your application to Admission Services for processing and agreeing with the terms of the affidavit. Once submitted, you cannot change your application online."
+  },
+  "applicationFee": {
+    "title": "Pay your application fee",
+    "text": "In order for your application to be processed, there is a non-refundable application fee.",
+    "payment": {
+      "label": "Choose a payment option",
+      "options": [
+        {
+          "text": "Pay now (Visa, Mastercard or Discover)",
+          "value": "Pay_now_(Visa_Mastercard_or_Discover)"
+        },
+        {
+          "text": "Pay later",
+          "value": "Pay_later"
+        }
+      ],
+      "paylaterAlertMessage": "No problem. Just remember, you will need to pay the fee to start processing your application and get an admission decision.",
+      "payNowAlertMessage": "When you click ‘Submit application,’ you will be taken to the payment form. Please do not close the form until your payment is processed. After payment, you will be directed to your post-application next steps."
+    },
+    "feeWaivedMessage": "Your application fee has been waived. If all your information is correct, you may proceed and submit your application.",
+    "paymentCompletedConfirmMessage": {
+      "payNow": "Your fee has successfully been paid.",
+      "payLater": "You’ve selected the ‘Pay later’ option. You can now proceed and submit your application."
+    }
+  }
+}

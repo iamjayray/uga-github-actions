@@ -1,0 +1,535 @@
+{
+  "title": "My information",
+  "eta": "<span class='px-space-xxs'>Estimated time:</span><span class='font-weight-bold'>10 minutes</span>",
+  "formerName": {
+    "label": "Former or alternate name(s)",
+    "tooltip": "Provide any name(s) you have used during high school or college. This includes maiden names, nicknames, aliases or previous legal names. This is required to properly match your records.",
+    "text": "If you have had a former name, please let us know.",
+    "firstName": {
+      "label": "First name",
+      "placeholder": "Enter your text"
+    },
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Enter your text"
+    },
+    "namesTabelLabel": "Former or Alternate Names",
+    "addNameCtaLabel": "Add a former name",
+    "saveCtaLabel": "Save name",
+    "cancelCtaLabel": "Cancel",
+    "previewLabel": "Former name(s)"
+  },
+  "legalSex": {
+    "label": "Legal sex",
+    "tooltip": "Legal sex should match what is marked on documents such as your birth certificate, state ID or driver’s license. This is required for federal reporting purposes. Unfortunately, some requirements are not inclusive of intersex students or students who do not identify as male or female. But ASU welcomes and encourages all students to apply.",
+    "options": [
+      {
+        "text": "Male",
+        "value": "M"
+      },
+      {
+        "text": "Female",
+        "value": "F"
+      }
+    ],
+    "formInfo": {
+      "title": "Gender and pronouns",
+      "text": "You can share more about your gender identity and pronouns in your "
+    }
+  },
+  "primaryLanguage": {
+    "label": "Primary language spoken at home",
+    "placeholder": "Select language…",
+    "languageInputLabel": "Enter your primary language"
+  },
+  "homeAddress": {
+    "label": "Home address",
+    "tooltip": "We ask this for communication purposes regarding your application.",
+    "text": "Begin by selecting your home country.",
+    "placeholder": "Select country...",
+    "addressLine1Label": "Address line 1",
+    "addressLine2Label": "Address line 2",
+    "cityLabel": "City",
+    "state": {
+      "label": "State",
+      "placeholder": "Select a state"
+    },
+    "zipCodeLabel": "ZIP / Postal code",
+    "previewAddressLabel": "Home address",
+    "formInfo": {
+      "title": "Phone numbers",
+      "text": "You can edit your phone numbers in your "
+    }
+  },
+  "ethnicOrRacial": {
+    "label": "Ethnic/racial background",
+    "tooltip": "We ask this for federal reporting purposes to the U.S. Department of Education",
+    "isHispanicOrLatino": {
+      "label": "Are you Hispanic/Latino?",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ],
+      "originLabel": "Select Hispanic/Latino origin"
+    },
+    "race": {
+      "label": "What is your race?",
+      "text": "Please choose all that apply:",
+      "placeholder": "Choose race..."
+    },
+    "primaryRaceLabel": "Please select one of the chosen ethnicities / races that the applicant considers himself/herself to be. This is documented for reporting purposes."
+  },
+  "usCitizenship": {
+    "label": "U.S. citizenship",
+    "tooltip": "We ask this for federal reporting purposes to the U.S. Department of Education",
+    "text": "Begin by selecting your citizenship status. Some responses require additional information.",
+    "options": [
+      {
+        "text": "I am a U.S. citizen",
+        "value": true
+      },
+      {
+        "text": "I am not a U.S. citizen",
+        "value": false
+      }
+    ],
+    "countryOfBirth": {
+      "label": "Country of birth",
+      "placeholder": "Select a country",
+      "tooltip": "We ask this for federal reporting purposes to the U.S. Department of Education."
+    },
+    "USssn": {
+      "label": "Social Security Number",
+      "tooltip": "We ask this for federal reporting purposes to the U.S. Department of Education and for IRS tax reporting purposes."
+    },
+    "typeOfVisa": {
+      "label": "What <span class='text-primary'>type of visa</span> will you be holding?",
+      "placeholder": "Choose visa type...",
+      "tooltip": "We ask this for federal reporting purposes to the U.S. Department of Education.",
+      "options": [
+        {
+          "text": "Permanent resident",
+          "value": "Permanent_Resident",
+          "visaPermitTypeCode": "IP"
+        },
+        {
+          "text": "Deferred Action for Childhood Arrivals (DACA)",
+          "value": "Deferred_Action_for_Childhood_Arrivals_(DACA)",
+          "visaPermitTypeCode": "DACA"
+        },
+        {
+          "text": "Student (F-1)",
+          "value": "Student_(F1)",
+          "visaPermitTypeCode": "F1"
+        },
+        {
+          "text": "Exchange Visitor (J-1)",
+          "value": "Exchange_Visitor(J1)",
+          "visaPermitTypeCode": "J1"
+        },
+        {
+          "text": "Refugee",
+          "value": "Refugee",
+          "visaPermitTypeCode": "RE"
+        },
+        {
+          "text": "International attending ASU Online programs only (JN)",
+          "value": "International_attending_ASU_Online_Programs_only_(JN)",
+          "visaPermitTypeCode": "JN"
+        },
+        {
+          "text": "Other",
+          "value": "Other",
+          "visaPermitTypeCode": "oth"
+        }
+      ],
+      "sidebarData": {
+        "title": "International Student Visa",
+        "items": [
+          {
+            "title": "Permanent resident",
+            "text": "If you have only high school transcripts and have not completed any college courses, then you only need to submit high school transcripts. This includes GED transcripts."
+          },
+          {
+            "title": "Deferred Action for Childhood Arrivals (DACA)",
+            "text": "If you have only high school transcripts and have not completed any college courses, then you only need to submit high school transcripts. This includes GED transcripts."
+          },
+          {
+            "title": "Student (F-1)",
+            "text": "If you have only high school transcripts and have not completed any college courses, then you only need to submit high school transcripts. This includes GED transcripts."
+          },
+          {
+            "title": "Exchange Visitor (J-1)",
+            "text": "If you have only high school transcripts and have not completed any college courses, then you only need to submit high school transcripts. This includes GED transcripts."
+          },
+          {
+            "title": "International attending ASU Online programs only (JN)",
+            "text": "If you have only high school transcripts and have not completed any college courses, then you only need to submit high school transcripts. This includes GED transcripts."
+          }
+        ]
+      },
+      "previewLabel": "Which type of visa will you be holding?"
+    },
+    "countryOfCitizenship": {
+      "label": "Country of citizenship",
+      "placeholder": "Select a country"
+    },
+    "nonUSssnLabel": "Social Security Number (if applicable)",
+    "cityOfBirthLabel": "City of Birth",
+    "f1VisaError": {
+      "text": "If you intend to study in the United States, please be aware that online programs are not eligible for F-1.",
+      "subText": "If you are interested in attending an on campus program, please"
+    },
+    "otherVisaChoices": {
+      "label": "Other Visa Choices",
+      "placeholder": "Select a Visa Choice"
+    },
+    "issuingI20": {
+      "label": "For the purposes of issuing an I-20 and obtaining a Student Visa, are you currently in the United States on any kind of Student Visa?",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "yes"
+        },
+        {
+          "text": "No",
+          "value": "no"
+        }
+      ]
+    },
+    "intAddressLabel": "International Address",
+    "address": {
+      "country": {
+        "label": "Country",
+        "placeholder": "Select a country"
+      },
+      "addressLine1": {
+        "label": "Address line 1",
+        "placeholder": "Street and number, P.O. box, c/o."
+      },
+      "addressLine2": {
+        "label": "Address line 2",
+        "placeholder": "Apartment, suite, unit, building, floor, etc."
+      },
+      "cityLabel": "City",
+      "stateLabel": "State / Province / Region",
+      "zipCodeLabel": "Zip / Postal code"
+    },
+    "shippingAddress": {
+      "label": "I-20 shipping address",
+      "text": "Choose where you would like your I-20 to be shipped",
+      "placeholder": "Select an address"
+    }
+  },
+  "guardian": {
+    "label": "Parent or legal guardian",
+    "previewAdditionalGuardianLabel": "Additional parent or legal guardian",
+    "tooltip": "If you are under the age of 18, you are considered a dependent. Please provide your parent or legal guardian information.",
+    "firstnameLabel": "First name",
+    "lastNameLabel": "Last name",
+    "guardianRelation": {
+      "label": "Relation",
+      "previewLabel": "Parent or Legal Guardian Relation",
+      "placeholder": "Choose a relation",
+      "options": [
+        {
+          "text": "Mother",
+          "value": "Mother"
+        },
+        {
+          "text": "Father",
+          "value": "Father"
+        },
+        {
+          "text": "Grandparent",
+          "value": "Grandparent"
+        },
+        {
+          "text": "Aunt",
+          "value": "Aunt"
+        },
+        {
+          "text": "Uncle",
+          "value": "Uncle"
+        },
+        {
+          "text": "Sibling",
+          "value": "Sibling"
+        },
+        {
+          "text": "Other",
+          "value": "Other"
+        }
+      ]
+    },
+    "highestSchoolingLevel": {
+      "label": "Highest level of schooling completed",
+      "previewLabel": "Parent or Legal Guardian Schooling Level",
+      "placeholder": "Choose a school level",
+      "options": [
+        {
+          "text": "Middle School/Junior High",
+          "value": "Middle School/Junior High"
+        },
+        {
+          "text": "High School",
+          "value": "High School"
+        },
+        {
+          "text": "College or Beyond",
+          "value": "College or Beyond"
+        },
+        {
+          "text": "Other/Unknown",
+          "value": "Other/Unknown"
+        }
+      ]
+    },
+    "previousAsuStudent": {
+      "label": "Did this guardian attend ASU?",
+      "previewLabel": "Parent or Legal Guardian Attended ASU",
+      "options": [
+        {
+          "text": "Yes",
+          "value": true
+        },
+        {
+          "text": "No",
+          "value": false
+        }
+      ]
+    },
+    "isLiving": {
+      "label": "Is this person living?",
+      "options": [
+        {
+          "text": "Yes",
+          "value": true
+        },
+        {
+          "text": "No",
+          "value": false
+        }
+      ]
+    },
+    "emailAddressLabel": "Email address",
+    "phoneNumberLabel": "Phone number",
+    "tabelLabel": "Parent or legal guardians",
+    "addNewGuardianLabel": "Add additional parent or guardian",
+    "requiredAlertMessage": "To save a parent or legal guardian, you must fill out all the fields in this section. Otherwise, please click “Clear fields” below."
+  },
+  "asuAffiliation": {
+    "label": "Previous ASU affiliation",
+    "previewLabel": "Previous ASU affiliation",
+    "tooltip": "This is required to match your ASU records in the readmission process. If you do not mark that you are a readmission student, your former credits may not transfer to your new record.",
+    "text": "Please choose all that apply:",
+    "options": [
+      {
+        "text": "I previously attended ASU as an undergraduate degree-seeking student",
+        "value": "affiliationASUCOMMDGS"
+      },
+      {
+        "text": "I attended ASU as a nondegree or graduate student",
+        "value": "affiliationASUCOMMNDG"
+      },
+      {
+        "text": "I attended ASU’s Global launch",
+        "value": "affiliationASUCOMGLLN"
+      },
+      {
+        "text": "I attended Global Freshman Academy or any transfer pathway program",
+        "value": "affiliationASUCOMGFA"
+      },
+      {
+        "text": "I am currently or previously was an ASU employee",
+        "value": "affiliationASUCOMEMPL"
+      },
+      {
+        "text": "I attended ASU as part of a summer program in high school",
+        "value": "affiliationASUCOMSUMM"
+      },
+      {
+        "text": "Other (i.e., applied but never enrolled, season ticket holder, etc.)",
+        "value": "affiliationASUCOMOTH"
+      },
+      {
+        "text": "I have never been affiliated with Arizona State University",
+        "value": "affiliationASUCOMNVR"
+      }
+    ],
+    "affiliateId": {
+      "label": "What is your ASU Affiliate ID?",
+      "previewLabel": "Affiliate ID",
+      "placeholder": "Example: 9923457200"
+    }
+  },
+  "usUniformedServices": {
+    "label": "Affiliation to U.S. Uniformed Services",
+    "tooltip": "If you or a family member have served or currently serve, you may qualify for additional financial aid or be interested in special engagement opportunities at ASU.",
+    "text": "If you are affiliated with U.S. Uniformed Services, we will ask for additional information.",
+    "relation": {
+      "previewLabel": "Military status",
+      "placeholder": "Choose...",
+      "options": [
+        {
+          "text": "I am a U.S. service member or veteran",
+          "value": "I am a U.S. service member or veteran"
+        },
+        {
+          "text": "I am the spouse/dependent of a U.S. service member or veteran",
+          "value": "Spouse/Dependent of a U.S. service member or veteran"
+        },
+        {
+          "text": "None of these options apply to me",
+          "value": "None of these options apply"
+        }
+      ]
+    },
+    "status": {
+      "label": "Choose the status that best applies to you:",
+      "options": [
+        {
+          "text": "Active Duty",
+          "value": "Active Duty"
+        },
+        {
+          "text": "Armed Forces Reserve",
+          "value": "Armed Forces Reserve"
+        },
+        {
+          "text": "National Guard",
+          "value": "National Guard"
+        },
+        {
+          "text": "Veteran",
+          "value": "Veteran"
+        }
+      ]
+    },
+    "branch": {
+      "membersLabel": "Select your branch of service:",
+      "spouseLabel": "Select your spouse or guardian’s branch of service:",
+      "previewLabel": "Branch",
+      "placeholder": "Select a service branch",
+      "defaultOptions": [
+        {
+          "text": "United States Army",
+          "value": "U.S. Army"
+        },
+        {
+          "text": "United States Marine Corps",
+          "value": "U.S. Marine Corps"
+        },
+        {
+          "text": "United States Navy",
+          "value": "U.S. Navy"
+        },
+        {
+          "text": "United States Air Force",
+          "value": "U.S. Air Force"
+        },
+        {
+          "text": "United States Coast Guard",
+          "value": "U.S. Coast Guard"
+        },
+        {
+          "text": "United States Space Force",
+          "value": "U.S. Space Force"
+        },
+        {
+          "text": "United States Public Health Service Commissioned Corps",
+          "value": "USPHS"
+        },
+        {
+          "text": "National Oceanic and Atmospheric Administration Commissioned Officer Corps",
+          "value": "NOAA"
+        }
+      ],
+      "nationalGuardOptions": [
+        {
+          "text": "United States Army",
+          "value": "U.S. Army"
+        },
+        {
+          "text": "United States Air Force",
+          "value": "U.S. Air Force"
+        }
+      ],
+      "armedForceOptions": [
+        {
+          "text": "United States Army",
+          "value": "U.S. Army"
+        },
+        {
+          "text": "United States Marine Corps",
+          "value": "U.S. Marine Corps"
+        },
+        {
+          "text": "United States Navy",
+          "value": "U.S. Navy"
+        },
+        {
+          "text": "United States Air Force",
+          "value": "U.S. Air Force"
+        },
+        {
+          "text": "United States Coast Guard",
+          "value": "U.S. Coast Guard"
+        }
+      ],
+      "psKey": "APPQNAME13"
+    },
+    "appliedForBenefit": {
+      "label": "I have applied or plan to apply for Department of Veterans Affairs educational benefits based on my U.S. services affiliation identified above:",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "requestTranscript": {
+      "label": "I authorize Arizona State University to request my Joint Service Transcript on my behalf.",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    }
+  },
+  "partnerBenefits": {
+    "label": "Partner benefits",
+    "tooltip": "Your response has no impact on your admission. ASU may use this information for benefit eligibility verification, reporting and communication purposes about the education partnership with ASU.",
+    "text": "Do you plan to use an education benefit or scholarship through an employer, corporation, foundation or other ASU education partner?",
+    "options": [
+      {
+        "text": "Yes",
+        "value": "Y"
+      },
+      {
+        "text": "No",
+        "value": "N"
+      }
+    ],
+    "currentEmployer": {
+      "label": "What is the name of your current employer?",
+      "placeholder": "Choose your employer",
+      "previewLabel": "Current employer"
+    }
+  }
+}

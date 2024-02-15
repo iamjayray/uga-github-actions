@@ -1,0 +1,707 @@
+{
+  "prefillPageDetails": {
+    "myInformation": {
+      "formerNames": [],
+      "legalSex": { "text": "Male", "value": "M" },
+      "primaryLanguage": {
+        "selectValue": {
+          "id": "2",
+          "language": "Spanish",
+          "languageCode3": "spa",
+          "displayOrder": 10,
+          "selected": true,
+          "text": "Spanish",
+          "value": "spa"
+        },
+        "inputValue": null
+      },
+      "homeAddress": {
+        "addressId": "1",
+        "type": "PERMANENT",
+        "street1": "Test",
+        "street2": "",
+        "city": "test",
+        "stateProvince": {
+          "stateCode": "BDS",
+          "description": "Badakhshan",
+          "selected": true,
+          "text": "Badakhshan",
+          "value": "BDS"
+        },
+        "postalCode": "123456",
+        "countryCode": {
+          "countryCode": "AFG",
+          "countryCodeTwoChar": "AF",
+          "description": "Afghanistan",
+          "selected": true,
+          "text": "Afghanistan",
+          "value": "AFG"
+        }
+      },
+      "ethnicOrRacialBackground": {
+        "hispanicOrLatino": { "isHispanicOrLatino": null, "origin": null },
+        "race": [],
+        "primaryRace": null
+      },
+      "usCitizenship": {
+        "isUsCitizen": { "text": "I am a U.S. citizen", "value": true },
+        "countryOfBirth": {
+          "countryCode": "AFG",
+          "countryCodeTwoChar": "AF",
+          "description": "Afghanistan",
+          "selected": true,
+          "text": "Afghanistan",
+          "value": "AFG"
+        },
+        "ssn": "000000000",
+        "typeOfVisa": null,
+        "countryOfCitizenShip": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        },
+        "cityOfBirth": null,
+        "otherVisaChoices": null,
+        "issuingI20": null,
+        "intAddress": {
+          "type": "SEVIS",
+          "countryCode": null,
+          "street1": null,
+          "street2": "",
+          "city": null,
+          "stateProvince": null,
+          "postalCode": null
+        },
+        "shippingAddressType": null,
+        "shippingAddress": {
+          "type": "I20",
+          "countryCode": null,
+          "street1": null,
+          "street2": null,
+          "city": null,
+          "stateProvince": null,
+          "postalCode": null
+        }
+      },
+      "guardians": [],
+      "asuAffiliation": {
+        "affiliations": ["affiliationASUCOMNVR"],
+        "affiliateId": ""
+      },
+      "usUniformedServices": {
+        "relation": {
+          "text": "None of these options apply to me",
+          "value": "None of these options apply"
+        },
+        "status": null,
+        "branch": null,
+        "appliedForBenefit": null,
+        "requestTranscript": null
+      },
+      "partnerBenefits": {
+        "educationBenefit": { "text": "No", "value": "N" },
+        "currentEmployer": null
+      }
+    }
+  },
+
+  "sectionFormerName": {
+    "formerNames": {
+      "code": 200,
+      "data": [
+        {
+          "id": "3",
+          "nameType": "former",
+          "firstName": "TEST1",
+          "lastName": "TEST1",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "4",
+          "nameType": "former",
+          "firstName": "TEST2",
+          "lastName": "TEST2",
+          "middleName": null,
+          "suffix": null
+        }
+      ]
+    },
+    "formerNamesMaxLength": {
+      "code": 200,
+      "data": [
+        {
+          "id": "2",
+          "nameType": "former",
+          "firstName": "Aqib",
+          "lastName": "Javeed",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "3",
+          "nameType": "former",
+          "firstName": "TEST1",
+          "lastName": "TEST1",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "4",
+          "nameType": "former",
+          "firstName": "TEST2",
+          "lastName": "TEST2",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "5",
+          "nameType": "former",
+          "firstName": "TEST3",
+          "lastName": "TEST3",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "6",
+          "nameType": "former",
+          "firstName": "TEST4",
+          "lastName": "TEST4",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "7",
+          "nameType": "former",
+          "firstName": "TEST5",
+          "lastName": "TEST5",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "8",
+          "nameType": "former",
+          "firstName": "TEST6",
+          "lastName": "TEST6",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "9",
+          "nameType": "former",
+          "firstName": "TEST7",
+          "lastName": "TEST7",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "10",
+          "nameType": "former",
+          "firstName": "TEST8",
+          "lastName": "TEST8",
+          "middleName": null,
+          "suffix": null
+        },
+        {
+          "id": "11",
+          "nameType": "former",
+          "firstName": "TEST9",
+          "lastName": "TEST9",
+          "middleName": null,
+          "suffix": null
+        }
+      ]
+    },
+
+    "formerNamesErrorMessages": [
+      {
+        "firstName": ",",
+        "lastName": ",",
+        "type": "new",
+        "errorMessage": "can only contain letters, spaces and hyphens (-)"
+      },
+      {
+        "firstName": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "lastName": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+        "type": "new",
+        "errorMessage": "should not be more than"
+      }
+    ]
+  },
+  "sectionPartnerBenefits": {
+    "choice": "amazon career choice"
+  },
+  "sectionPrimaryLanguage": {
+    "primaryLanguage": {
+      "otherLanguage": "Other",
+      "primaryLanguage": "English"
+    }
+  },
+  "sectionHomeAddress": {
+    "homeAddress": {
+      "addressId": "1",
+      "country": "United States",
+      "type": "PERMANENT",
+      "street1": "TEST",
+      "street2": "TEST",
+      "city": "TEST",
+      "stateProvince": "TEST",
+      "postalCode": "00000"
+    },
+    "otherAddress": {
+      "addressId": "2",
+      "country": "Canada",
+      "type": "I20",
+      "street1": "TEST",
+      "street2": "TEST",
+      "city": "TEST",
+      "stateProvince": "TEST",
+      "postalCode": "00000"
+    }
+  },
+  "sectionEthnicities": {
+    "hispanic": "Argentinian"
+  },
+  "sectionUSCitizenship": {
+    "usVisaTypeF1": "f-1",
+    "usVisaTypeExchangeVisitorJ1": "j-1",
+    "other": "other"
+  },
+  "sectionMilitaryAffiliation": {
+    "areYouAffiliatedAsDependent": "dependent",
+    "areYouAffiliatedAsServiceMember": "service member",
+    "areYouAffiliatedAsNone": "none"
+  },
+
+  "twoWayDataBinding": {
+    "responses": {
+      "application": {
+        "code": 200,
+        "data": [
+          {
+            "appId": "3138006",
+            "submitted": "N",
+            "createdAt": "2023-11-29 04:16:23",
+            "submittedAt": null,
+            "userInfo": {
+              "dateOfBirth": "1990-01-01",
+              "birthCountry": "AFG",
+              "citizenCountry": "USA",
+              "visaCode": null,
+              "attendedASU": null,
+              "asuId": null,
+              "firstGeneration": null,
+              "sex": "M",
+              "preferredFirstName": null,
+              "ssn": "*********",
+              "primaryLanguageAtHome": "ace",
+              "primaryLanguageAtHomeOther": null
+            },
+            "instStatus": null,
+            "name": {
+              "id": "1",
+              "nameType": "legal",
+              "firstName": "AQIB",
+              "lastName": "JAVEED",
+              "middleName": null,
+              "suffix": null
+            }
+          }
+        ]
+      },
+      "names": {
+        "code": 200,
+        "data": [
+          {
+            "id": "1",
+            "nameType": "legal",
+            "firstName": "AQIB",
+            "lastName": "JAVEED",
+            "middleName": null,
+            "suffix": null
+          },
+          {
+            "id": "2",
+            "nameType": "former",
+            "firstName": "A",
+            "lastName": "J",
+            "middleName": null,
+            "suffix": null
+          }
+        ]
+      },
+      "addresses": {
+        "code": 200,
+        "data": [
+          {
+            "addressId": "1",
+            "type": "PERMANENT",
+            "street1": "TEST",
+            "street2": "TEST",
+            "city": "TEST",
+            "stateProvince": "TEST",
+            "postalCode": "00000",
+            "countryCode": "Z09"
+          },
+          {
+            "addressId": "2",
+            "type": "I20",
+            "street1": "TEST",
+            "street2": "TEST",
+            "city": "TEST",
+            "stateProvince": "TEST",
+            "postalCode": "00000",
+            "countryCode": "Z09"
+          }
+        ]
+      },
+      "ethnicities": {
+        "code": 200,
+        "data": [
+          {
+            "ethnicGroupCode": "A",
+            "culturalOriginCode": "A600",
+            "reportingPreference": false
+          },
+          {
+            "ethnicGroupCode": "H",
+            "culturalOriginCode": "H700",
+            "reportingPreference": false
+          },
+          {
+            "ethnicGroupCode": "N",
+            "culturalOriginCode": "N389",
+            "reportingPreference": true
+          }
+        ]
+      },
+      "guardians": {
+        "code": 200,
+        "data": [
+          {
+            "guardianId": "1",
+            "guardianName": "TEST TEST",
+            "email": "test@asu.edu",
+            "guardianRelation": "Mother",
+            "firstName": "TEST",
+            "lastName": "TEST",
+            "phoneCountryCode": null,
+            "phoneNumber": "00000000000",
+            "isLiving": true,
+            "highestSchoolingLevel": "High School",
+            "previousAsuStudent": true
+          },
+          {
+            "guardianId": "2",
+            "guardianName": "TEST TEST",
+            "email": "test@asu.edu",
+            "guardianRelation": "Father",
+            "firstName": "TEST",
+            "lastName": "TEST",
+            "phoneCountryCode": null,
+            "phoneNumber": "00000000000",
+            "isLiving": true,
+            "highestSchoolingLevel": "Other/Unknown",
+            "previousAsuStudent": true
+          }
+        ]
+      },
+      "militaryaffiliations": {
+        "code": 200,
+        "data": {
+          "status": "Active Duty",
+          "branch": "U.S. Army",
+          "vaEducationBenefits": "N",
+          "jointServiceTranscript": "Y"
+        }
+      },
+      "visasupplementals": {
+        "code": 201,
+        "data": {
+          "studentVisaStatus": "yes"
+        }
+      },
+      "sarquestionresponses": {
+        "code": 200,
+        "data": [
+          {
+            "answer": "Y",
+            "name": "ASUCOMMDGS"
+          },
+          {
+            "answer": "Amazon Career Choice",
+            "name": "CORPPRTNM"
+          },
+          {
+            "answer": "Y",
+            "name": "CORPPRTYN"
+          }
+        ]
+      }
+    }
+  },
+  "twoWayDataBindingI20AndMilitary": {
+    "responses": {
+      "application": {
+        "code": 200,
+        "data": [
+          {
+            "appId": "3138006",
+            "submitted": "N",
+            "createdAt": "2023-11-29 04:16:23",
+            "submittedAt": null,
+            "userInfo": {
+              "dateOfBirth": "1990-01-01",
+              "birthCountry": "IND",
+              "citizenCountry": "IND",
+              "visaCode": "F1",
+              "attendedASU": null,
+              "asuId": null,
+              "firstGeneration": null,
+              "sex": "M",
+              "preferredFirstName": null,
+              "ssn": "*********",
+              "primaryLanguageAtHome": "ace",
+              "primaryLanguageAtHomeOther": null
+            },
+            "instStatus": null,
+            "name": {
+              "id": "1",
+              "nameType": "legal",
+              "firstName": "AQIB",
+              "lastName": "JAVEED",
+              "middleName": null,
+              "suffix": null
+            }
+          }
+        ]
+      },
+      "addresses": {
+        "code": 200,
+        "data": [
+          {
+            "addressId": "1",
+            "type": "PERMANENT",
+            "street1": "TEST",
+            "street2": "TEST",
+            "city": "TEST",
+            "stateProvince": "AZ",
+            "postalCode": "00000",
+            "countryCode": "USA"
+          },
+          {
+            "addressId": "2",
+            "type": "SEVIS",
+            "street1": "TEST",
+            "street2": "TEST",
+            "city": "TEST",
+            "stateProvince": "KA",
+            "postalCode": "00000",
+            "countryCode": "IND"
+          },
+          {
+            "addressId": "3",
+            "type": "I20",
+            "street1": "TEST",
+            "street2": "TEST",
+            "city": "TEST",
+            "stateProvince": "KA",
+            "postalCode": "00000",
+            "countryCode": "IND"
+          }
+        ]
+      },
+      "militaryaffiliations": {
+        "code": 200,
+        "data": {
+          "status": "Spouse/Dependent of a U.S. service member or veteran",
+          "branch": "U.S. Army",
+          "vaEducationBenefits": "Y",
+          "jointServiceTranscript": "NA"
+        }
+      }
+    }
+  },
+  "briteVerifyTestDetails": {
+    "invalidDetails": {
+      "address": {
+        "addressId": "1",
+        "type": "PERMANENT",
+        "street1": "187 Hudson Street",
+        "street2": "test",
+        "city": "Teterboro",
+        "stateProvince": {
+          "stateCode": "AL",
+          "description": "Alabama",
+          "selected": true,
+          "text": "Alabama",
+          "value": "AL"
+        },
+        "postalCode": "07608",
+        "countryCode": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        }
+      },
+      "response": {
+        "address": {
+          "address1": "187 Hudson Street",
+          "address2": "Test",
+          "city": "Teterboro",
+          "state": "NJ",
+          "zip": "07608",
+          "status": "invalid",
+          "errors": ["street_number_invalid"],
+          "corrected": false
+        },
+        "duration": 0.259336854
+      }
+    },
+    "validDetails": {
+      "address": {
+        "addressId": "1",
+        "type": "PERMANENT",
+        "street1": "9355 N 91st St Unit 107",
+        "street2": "",
+        "city": "Scottsdale",
+        "stateProvince": {
+          "stateCode": "AZ",
+          "description": "Arizona",
+          "selected": true,
+          "text": "Arizona",
+          "value": "AZ"
+        },
+        "postalCode": "85258-5007",
+        "countryCode": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        }
+      },
+      "response": {
+        "address": {
+          "address1": "9355 N 91st St Unit 107",
+          "address2": " ",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85258-5007",
+          "status": "valid",
+          "errors": [],
+          "corrected": false
+        },
+        "duration": 0.416469476
+      }
+    },
+    "correctedDetails": {
+      "address": {
+        "addressId": "1",
+        "type": "PERMANENT",
+        "street1": "9355 N 91st St Unit 107",
+        "street2": "",
+        "city": "Scottsdale",
+        "stateProvince": {
+          "stateCode": "AZ",
+          "description": "Arizona",
+          "selected": true,
+          "text": "Arizona",
+          "value": "AZ"
+        },
+        "postalCode": "56723",
+        "countryCode": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        }
+      },
+      "response": {
+        "address": {
+          "address1": "9355 N 91st St Unit 107",
+          "address2": " ",
+          "city": "Scottsdale",
+          "state": "AZ",
+          "zip": "85258-5007",
+          "status": "valid",
+          "errors": [],
+          "corrected": true
+        },
+        "duration": 0.349876655
+      }
+    },
+    "canadaAddressDetails": {
+      "address": {
+        "addressId": "1",
+        "type": "PERMANENT",
+        "street1": "9355 N 91st St Unit 107",
+        "street2": "",
+        "city": "Test",
+        "stateProvince": {
+          "stateCode": "MB",
+          "description": "Manitoba",
+          "selected": true,
+          "text": "Manitoba",
+          "value": "MB"
+        },
+        "postalCode": "56723",
+        "countryCode": {
+          "countryCode": "CAN",
+          "countryCodeTwoChar": "CA",
+          "description": "Canada",
+          "selected": true,
+          "text": "Canada",
+          "value": "CAN"
+        }
+      },
+      "response": {
+        "address": {
+          "address1": "9355 N 91st St Unit 107",
+          "address2": " ",
+          "city": "Fisher",
+          "state": "MN",
+          "zip": "56723",
+          "status": "invalid",
+          "errors": ["unknown_street"],
+          "corrected": false
+        },
+        "duration": 0.329006535
+      }
+    },
+    "nonUSandCAAddressDetails": {
+      "address": {
+        "addressId": "1",
+        "type": "PERMANENT",
+        "street1": "9355 N 91st St Unit 107",
+        "street2": "",
+        "city": "Test",
+        "stateProvince": {
+          "stateCode": "BGL",
+          "description": "Baghlan",
+          "selected": true,
+          "text": "Baghlan",
+          "value": "BGL"
+        },
+        "postalCode": "56723",
+        "countryCode": {
+          "countryCode": "AFG",
+          "countryCodeTwoChar": "AF",
+          "description": "Afghanistan",
+          "selected": true,
+          "text": "Afghanistan",
+          "value": "AFG"
+        }
+      }
+    }
+  }
+}

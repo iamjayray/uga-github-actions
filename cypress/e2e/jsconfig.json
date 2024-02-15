@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "@bahmutov/cy-api"]
+  },
+  "include": ["./**/*", "../support/**/*"]
+}

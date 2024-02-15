@@ -1,0 +1,227 @@
+{
+  "title": "My high school grades",
+  "eta": "<span class=\"px-space-xxs\">Estimated time:</span><span class=\"font-weight-bold\">5 - 60 minutes</span>",
+  "nonResidentMessage": "Based on the information you provided, it appears that you are not a resident of the United States. Therefore, this page is not necessary. <span class='font-weight-bold'>Please continue to the next step.</span>",
+  "intro": {
+    "text": "<p>Self-reporting high school grades is an option that can speed up the admission process for current or recently graduated high school students.</p><p>The grades you enter must be accurate so it’s recommended that you use a copy of your transcripts to complete this section. You will also need to include any dual enrollment courses that you have taken at other colleges or universities while in high school.</p>",
+    "gradeReporting": {
+      "label": "Do you want to self-report your high school grades?",
+      "helpText": "Select an option for grade reporting to continue.",
+      "options": [
+        {
+          "option": {
+            "text": "Self-report high school grades now",
+            "value": "Y"
+          },
+          "card": {
+            "icon": "list",
+            "title": "Self-report high school grades now",
+            "text": "Ideal for high school students or recent graduates with less than 12 transfer credits.",
+            "list": [
+              "30-45 minutes of additional completion time.",
+              "Decision time: Less than one week.",
+              "Send official transcripts later."
+            ]
+          }
+        },
+        {
+          "option": {
+            "text": "Transcripts only",
+            "value": "N"
+          },
+          "card": {
+            "icon": "certificate",
+            "title": "Transcripts only",
+            "text": "Ideal for students with more than 12 transfer credits, or an associate or bachelor's degree.",
+            "list": [
+              "Complete your application faster.",
+              "Decision time: Average of one to two weeks after transcripts are received.",
+              "Send official transcripts soon."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "futureHighSchoolDateIntro": {
+    "title": "Enter your anticipated year 4 or senior year courses",
+    "tooltip": "Assured admission is extended to any applicant who is on track to earn a high school diploma, while meeting the minimum admission requirements. All students who do not meet the assured admission standards will be evaluated through a process called Individual Review. Admission Services will review all available information about a student’s application, carefully considering all aspects of a student’s academic background and accomplishments. Submission of an ACT or SAT test score is highly recommended. In some cases, additional information will be requested.",
+    "alert": {
+      "title": "Transcripts required upon graduation",
+      "text": "Please note, you will still need to submit official transcripts once you graduate."
+    },
+    "subTexts": [
+      "Select a subject and enter all required fields for your grades.",
+      "For in-progress or planned senior year courses, list the course and set the grade to “in progress.”"
+    ]
+  },
+  "overallAcademics": {
+    "title": "Overall academics",
+    "unweightedGpa": {
+      "label": "Enter your current unweighted GPA",
+      "toolTip": "An unweighted GPA does not consider class difficulty, so all classes are scored the same. This provides a fair evaluation of academic performance for all applicants. A weighted GPA considers course difficulty and gives more weight to challenging classes.",
+      "placeholder": "Enter your unweighted GPA"
+    },
+    "gpaScale": {
+      "label": "GPA scale"
+    },
+    "classRankSize": {
+      "label": "Class rank / Class size",
+      "rankLabel": "Class rank",
+      "sizeLabel": "Class size"
+    },
+    "gradingSystem": {
+      "label": "Grading system"
+    }
+  },
+  "highSchoolCourses": {
+    "label": "Enter your required high school courses",
+    "toolTip": "Assured admission is extended to applicants on track to earn a high school diploma, while meeting the minimum admission requirements. Students who do not meet the assured admission standards go through an Individual Review process. Admission Services carefully assess all aspects of the application, including academic background, achievements and test scores. Submission of an ACT or SAT test score is highly recommended. Additional information may be requested in some cases.",
+    "helperText": [
+      "Select a subject and enter all required fields for your high school grades.",
+      "For in-progress or planned senior year courses, list the course and set the grade to 'in progress.'"
+    ],
+    "minCourseErrorText": "Please enter at least one course.",
+    "seniorYearCourseErrorText": "Please enter at least one course for senior year.",
+    "subjects": [
+      {
+        "label": "English",
+        "text": "english",
+        "description": "Enter <b>up to four years</b> of English courses below.</br></br> If you do not have the full number of years of coursework, please include all courses completed for subject, and we will conduct an individual review of your application to help determine admissibility."
+      },
+      {
+        "label": "Math",
+        "text": "math",
+        "description": "List <b>up to  four years</b> of math courses below.</br></br> If you do not have the full number of years of coursework, please include all courses completed for subject, and we will conduct an individual review of your application to help determine admissibility."
+      },
+      {
+        "label": "Science",
+        "text": "science",
+        "description": "List <b>up to three years</b> of laboratory science courses below.</br></br> If you do not have the full number of years of coursework, please include all courses completed for subject, and we will conduct an individual review of your application to help determine admissibility."
+      },
+      {
+        "label": "Social Science",
+        "text": "socialScience",
+        "description": "List <b>up to two years</b> of social science courses below.</br></br> If you do not have the full number of years of coursework, please include all courses completed for subject, and we will conduct an individual review of your application to help determine admissibility."
+      },
+      {
+        "label": "Language",
+        "text": "language",
+        "description": "List <b>up to two years</b> of foreign language courses below.</br></br> If you do not have the full number of years of coursework, please include all courses completed for subject, and we will conduct an individual review of your application to help determine admissibility."
+      },
+      {
+        "label": "Fine Arts and CTE",
+        "text": "fineArtAndCte",
+        "description": "List <b>up to one year</b> of fine arts or CTE (career and technical education) courses below.</br></br> If you do not have the full number of years of coursework, please include all courses completed for subject, and we will conduct an individual review of your application to help determine admissibility."
+      },
+      {
+        "label": "Electives",
+        "text": "electives",
+        "description": "List elective courses below.</br></br> Though electives are not required for admission, it’s highly recommended that you still add them. Elective courses added here may potentially fulfill other course requirements, and they may help us better understand your qualifications for admission."
+      }
+    ]
+  },
+  "addCourse": {
+    "title": "Add a course",
+    "academicYear": {
+      "label": "Academic year",
+      "toolTip": "We ask this to identify which academic year you completed each course (freshman/9th grade, sophomore/10th grade, junior/11th grade, senior/12th grade)."
+    },
+    "courseName": {
+      "label": "Course name",
+      "toolTip": "We ask this so we can evaluate your course credits against ASU’s core competency requirements for admission."
+    },
+    "customCourseName": {
+      "label": "Course title"
+    },
+    "duration": {
+      "label": "Duration",
+      "toolTip": "We ask this so we can evaluate your course credits against ASU’s core competency requirements for admission."
+    },
+    "courseLevel": {
+      "label": "Course level",
+      "toolTip": "We ask this so we can evaluate your course credits against ASU’s core competency requirements for admission."
+    },
+    "grades": {
+      "label": "Grades",
+      "type": [
+        {
+          "text": "Full Year",
+          "gradeFields": [
+            {
+              "label": "Grade dropdown",
+              "toolTip": "Semester",
+              "fieldId": "yearGrade"
+            }
+          ]
+        },
+        {
+          "text": "Quarterly",
+          "gradeFields": [
+            {
+              "label": "1st quarter grade",
+              "toolTip": "1st quarter grade",
+              "fieldId": "1stQuarterGrade"
+            },
+            {
+              "label": "2nd quarter grade",
+              "toolTip": "2nd quarter grade",
+              "fieldId": "2ndQuarterGrade"
+            },
+            {
+              "label": "3rd quarter grade",
+              "toolTip": "3rd quarter grade",
+              "fieldId": "3rdQuarterGrade"
+            },
+            {
+              "label": "4th quarter grade",
+              "toolTip": "4th quarter grade",
+              "fieldId": "4thQuarterGrade"
+            }
+          ]
+        },
+        {
+          "text": "Trimester",
+          "gradeFields": [
+            {
+              "label": "1st Trimester grade",
+              "toolTip": "1st Trimester grade",
+              "fieldId": "1stTrimesterGrade"
+            },
+            {
+              "label": "2nd Trimester grade",
+              "toolTip": "2nd Trimester grade",
+              "fieldId": "2ndTrimesterGrade"
+            },
+            {
+              "label": "3rd Trimester grade",
+              "toolTip": "3rd Trimester grade",
+              "fieldId": "3rdTrimesterGrade"
+            }
+          ]
+        },
+        {
+          "text": "Semester",
+          "gradeFields": [
+            {
+              "label": "1st Semester grade",
+              "toolTip": "1st Semester grade",
+              "fieldId": "1stSemesterGrade"
+            },
+            {
+              "label": "2nd Semester grade",
+              "toolTip": "2nd Semester grade",
+              "fieldId": "2ndSemesterGrade"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "previewLabels": {
+    "selfReported": "Self-reported",
+    "unweightedGpaAndScale": "Unweighted GPA/Scale",
+    "classRankSize": "Class rank/Class size",
+    "gradingSystem": "Grading system"
+  }
+}

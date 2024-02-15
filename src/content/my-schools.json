@@ -1,0 +1,392 @@
+{
+  "title": "My schools",
+  "eta": "<span class='px-space-xxs'>Estimated time:</span><span class='font-weight-bold'>5 - 10 minutes</span>",
+  "school": {
+    "title": "Current or most recent high school",
+    "toolTip": "We ask this so we can match your transcripts to your application.",
+    "country": {
+      "placeholder": "Select a country"
+    },
+    "state": {
+      "label": "State / Province / Region",
+      "placeholder": "Select a state"
+    },
+    "sais": {
+      "label": "SAIS",
+      "toolTip": "Student Accountability Information System (SAIS). Every student attending school in Arizona is assigned an official SAIS Student ID number by the state department. If you have attended school in Arizona within the last two years, you should already have an SAIS ID number. You can get this number from your previous school or use the 'lookup' feature on the Common Logon site.",
+      "placeholder": "Enter your SAIS Number"
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "Select a city"
+    },
+    "highSchool": {
+      "label": "High School",
+      "toolTip": "Required for matching up student records.",
+      "placeholder": "Select high school",
+      "options": [
+        {
+          "text": "Home School",
+          "value": null
+        },
+        {
+          "text": "GED",
+          "value": "1100040290"
+        },
+        {
+          "text": "HiSet",
+          "value": "1100040290"
+        },
+        {
+          "text": "My High School is not on the list",
+          "value": "My High School is not on the list"
+        }
+      ],
+      "customNameLabel": "School name",
+      "firstAttendedLabel": "Date first attended",
+      "lastAttendedLabel": "Date last attended"
+    },
+    "graduationDateLabel": "Graduation Date",
+    "transcriptNameLabel": "Name printed on the transcript offered by this institution?",
+    "saveCtaLabel": "Save school",
+    "cancelCtaLabel": "Cancel"
+  },
+  "college": {
+    "title": "Colleges and universities",
+    "toolTip": "Applicants must submit transcripts from each college listed here to ensure a full academic record. Failure to do so may negatively impact your admission or financial aid.",
+    "text": "Arizona State University reserves the right to verify your prior enrollment. Failure to list a prior college or university on your application may result in denial of admission for failure to submit accurate information.",
+    "attendedCollege": {
+      "label": "Have you previously attended or are you currently attending a college or university?",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "attended/attending college"
+        },
+        {
+          "text": "No",
+          "value": "never attended"
+        }
+      ]
+    },
+    "semesterCreditsLabel": "Enter the total number of college and/or university semester credits you have completed",
+    "transferCreditGuide": {
+      "image": "transferGuideImg",
+      "title": "Transfer credits to ASU",
+      "items": [
+        {
+          "title": "Accepted credits",
+          "text": "ASU accepts college-level (not remedial) courses in which transfer students have earned a grade of “C” (4.00=“A”) or better from regionally accredited colleges and universities."
+        },
+        {
+          "title": "Applicability",
+          "text": "The applicability of a specific transfer course toward an ASU degree program depends on the requirements of the department, division, college or school in which you are enrolled at ASU."
+        },
+        {
+          "title": "Credit hours",
+          "text": "A maximum of 64 semester hours of credit will be accepted as lower-division credit when transferred from a regionally accredited community, junior or two-year college, with the exception of some special programs. An unlimited number of credits hours will be accepted from four-year institutions. Upon admission to the university, you will work with an ASU academic advisor to determine how your transferable credits apply toward your selected major."
+        },
+        {
+          "title": "Credit conversion",
+          "text": "Acceptable academic credits earned at other institutions that are based on a different unit of credit than the one prescribed by the Arizona Board of Regents are subject to conversion before being transferred to ASU. All ASU students must meet graduation requirements (university, college, major and general studies requirements) to earn a four-year degree."
+        },
+        {
+          "title": "Degree requirements",
+          "text": "The ASU college of your major determines how transfer courses fulfill the degree requirements of your ASU major. You should review the degree requirements of the program into which you intend to transfer and talk with an academic advisor about your transfer credits and how they will apply to your degree program."
+        },
+        {
+          "title": "Determining GPA",
+          "text": "Grades and honor points that you earned at other colleges and universities are considered for admission, but your ASU cumulative grade point average is based solely on coursework taken at ASU."
+        }
+      ]
+    },
+    "institution": {
+      "title": "Please enter each individual institution you have attended",
+      "country": {
+        "label": "Country",
+        "placeholder": "Select a country"
+      },
+      "state": {
+        "label": "State / Province / Region",
+        "placeholder": "Select a state"
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "Select a city"
+      },
+      "institute": {
+        "label": "Institution",
+        "placeholder": "Select institution",
+        "customInstituteLabel": "Institution name"
+      },
+      "degreeAwarded": {
+        "label": "Degree awarded",
+        "placeholder": "Degree awarded",
+        "options": [
+          {
+            "text": "Arizona General Education Curriculum",
+            "value": "AGEC"
+          },
+          {
+            "text": "Arizona General Education Curriculum in Progress",
+            "value": "AGECIP"
+          },
+          {
+            "text": "Associate Degree",
+            "value": "A"
+          },
+          {
+            "text": "Associate of Applied Science",
+            "value": "AAS"
+          },
+          {
+            "text": "Associate of Arts",
+            "value": "AA"
+          },
+          {
+            "text": "Associate of Science",
+            "value": "AS"
+          },
+          {
+            "text": "Bachelor of Applied Science",
+            "value": "BAS"
+          },
+          {
+            "text": "Bachelor of Arts",
+            "value": "BA"
+          },
+          {
+            "text": "Bachelor of Science",
+            "value": "BS"
+          },
+          {
+            "text": "California State Univ Gen Ed (CSUGE)",
+            "value": "CSUGE"
+          },
+          {
+            "text": "California State Univ Gen Ed (CSUGE) in Progress",
+            "value": "CSUGEIP"
+          },
+          {
+            "text": "Doctor of Arts",
+            "value": "DA"
+          },
+          {
+            "text": "Doctor of Science",
+            "value": "DS"
+          },
+          {
+            "text": "Inter Gen Ed Trans Curriculum (IGETC)",
+            "value": "IGETC"
+          },
+          {
+            "text": "Inter Gen Ed Trans Curriculum (IGETC) in Progress",
+            "value": "IGETCIP"
+          },
+          {
+            "text": "Master of Arts",
+            "value": "MA"
+          },
+          {
+            "text": "Master of Science",
+            "value": "MS"
+          },
+          {
+            "text": "No Degree Awarded",
+            "value": "none"
+          }
+        ]
+      },
+      "DegreeConcentration": {
+        "label": "Degree concentration",
+        "placeholder": "Enter your degree concentration"
+      },
+      "graduationDateLabel": "Graduation Date",
+      "firstAttendedLabel": "Date first attended",
+      "lastAttendedLabel": "Date last attended",
+      "transcriptNameLabel": "Name printed on the transcript offered by this institution?",
+      "saveCtaLabel": "Save institution",
+      "cancelCtaLabel": "Cancel"
+    }
+  },
+  "eligibilityToReturn": {
+    "label": "Previous college eligibility",
+    "text": "Are you eligible to return to each of the colleges or universities you have attended in the last seven years? If you have not attended college, please answer yes.",
+    "options": [
+      {
+        "text": "Yes",
+        "value": "Y"
+      },
+      {
+        "text": "No",
+        "value": "N"
+      }
+    ],
+    "first": {
+      "collegeLabel": "List the most recent college/university for which you are ineligible to return first",
+      "reasons": {
+        "title": "Indicate below the reason why you are ineligible to return",
+        "academicRelated": {
+          "label": "Academic related",
+          "options": [
+            {
+              "text": "Yes",
+              "value": "Y"
+            },
+            {
+              "text": "No",
+              "value": "N"
+            },
+            {
+              "text": "No response",
+              "value": "NA"
+            }
+          ]
+        },
+        "studentConduct": {
+          "label": "Student conduct",
+          "options": [
+            {
+              "text": "Yes",
+              "value": "Y"
+            },
+            {
+              "text": "No",
+              "value": "N"
+            },
+            {
+              "text": "No response",
+              "value": "NA"
+            }
+          ]
+        },
+        "other": {
+          "label": "Other",
+          "options": [
+            {
+              "text": "Yes",
+              "value": "Y"
+            },
+            {
+              "text": "No",
+              "value": "N"
+            },
+            {
+              "text": "No response",
+              "value": "NA"
+            }
+          ]
+        },
+        "explainationLabel": "Please explain why you are ineligible to return to the college/university listed"
+      },
+      "saveCtaLabel": "Save",
+      "cancelCtaLabel": "Cancel"
+    },
+    "second": {
+      "collegeLabel": "Additional college/university for which you are ineligible to return, if applicable:",
+      "reasons": {
+        "title": "Indicate below the reason why you are ineligible to return",
+        "academicRelated": {
+          "label": "Academic related",
+          "options": [
+            {
+              "text": "Yes",
+              "value": "Y"
+            },
+            {
+              "text": "No",
+              "value": "N"
+            },
+            {
+              "text": "No response",
+              "value": "NA"
+            }
+          ]
+        },
+        "studentConduct": {
+          "label": "Student conduct",
+          "options": [
+            {
+              "text": "Yes",
+              "value": "Y"
+            },
+            {
+              "text": "No",
+              "value": "N"
+            },
+            {
+              "text": "No response",
+              "value": "NA"
+            }
+          ]
+        },
+        "other": {
+          "label": "Other",
+          "options": [
+            {
+              "text": "Yes",
+              "value": "Y"
+            },
+            {
+              "text": "No",
+              "value": "N"
+            },
+            {
+              "text": "No response",
+              "value": "NA"
+            }
+          ]
+        },
+        "explainationLabel": "Please explain why you are ineligible to return to the college/university listed"
+      },
+      "saveCtaLabel": "Save",
+      "cancelCtaLabel": "Cancel"
+    }
+  },
+  "transcriptPolicy": {
+    "title": "Transcript policy",
+    "text": "All applicants must send official transcripts from their school as an admissions requirement. This task will appear in My ASU after submitting your application.",
+    "subText": "Which transcripts do I need to send?",
+    "acknowledgement": "I acknowledge that I will need to submit official transcripts from the previous institutions I have attended.",
+    "transcriptRequirements": {
+      "image": "transcriptImg",
+      "title": "Transcript Requirements",
+      "items": [
+        {
+          "title": "High school transcripts only",
+          "text": "If you have only high school transcripts and have not completed any college courses, then only submit high school transcripts. This includes GED transcripts."
+        },
+        {
+          "title": "High school and college transcripts",
+          "text": "Submit both high school transcripts and college transcripts if you have completed less than 24 college credit hours or you are under the age of 22 years old."
+        },
+        {
+          "title": "College transcripts only",
+          "text": "If you have 24 or more credit hours and are over the age of 22 years old, then submit college transcripts.* For example, if you have an associate degree, you do not need to submit high school transcripts."
+        }
+      ],
+      "additionalTip": "*Some programs may require high school transcripts regardless of transfer credits or age. Please be sure to refer to admission requirements for your program of choice."
+    }
+  },
+  "previewLabels": {
+    "schools": {
+      "graduationSchoolTitle": "Graduating school",
+      "pastSchoolTitle": "Past schools",
+      "schoolName": "High school name",
+      "nameOnTranscript": "Name on transcript",
+      "location": "Location",
+      "graduationDate": "Graduation date",
+      "startDate": "Start date",
+      "endDate": "End date"
+    },
+    "otherInstitutions": {
+      "title": "Past colleges/universities",
+      "instituteName": "School name",
+      "nameOnTranscript": "Name on transcript",
+      "location": "Location",
+      "concentration": "Degree concentration",
+      "degree": "Degree",
+      "startDate": "Date first attended",
+      "endDate": "Date last attended"
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "title": "My ASU program",
+  "eta": "<span class='px-space-xxs'>Estimated time:</span><span class='font-weight-bold'>5 - 10 minutes</span>",
+  "subText": "Choosing your major is an important step in applying. Remember, you can always change your major after you apply. Please refer to the academic calendar for session start dates:",
+  "academicCalander": {
+    "label": "Academic Calendar",
+    "sidebarData": {
+      "title": "Academic Calendar",
+      "items": [
+        {
+          "title": "Fall 2023",
+          "calanders": [
+            {
+              "title": "Session A:",
+              "text": "Thursday, 8/17/2023 – Friday, 10/6/2023"
+            },
+            {
+              "title": "Session B:",
+              "text": "Wednesday,10/11/2023 – Friday, 12/1/2023"
+            },
+            {
+              "title": "Session C:",
+              "text": "Thursday, 8/17/2023 – Friday, 12/1/2023 (Final Exams 12/4/2023 - 12/9/2023)"
+            }
+          ]
+        },
+        {
+          "title": "Spring 2024",
+          "calanders": [
+            {
+              "title": "Session A:",
+              "text": "Monday, 1/8/2024 – Tuesday, 2/27/2024"
+            },
+            {
+              "title": "Session B:",
+              "text": "Monday, 3/11/2024 – Friday, 4/26/2024 (ASU Online and iCourses may end on Tuesday, 4/30/2024)"
+            },
+            {
+              "title": "Session C:",
+              "text": "Monday, 1/8/2024 – Friday, 4/26/2024 (Final Exams 4/29/2024 – 5/4/2024)"
+            }
+          ]
+        },
+        {
+          "title": "Summer 2024",
+          "calanders": [
+            {
+              "title": "Session A:",
+              "text": "Thursday, 5/16/2024 – Wednesday, 6/26/2024"
+            },
+            {
+              "title": "Session B:",
+              "text": "Monday, 7/1/2024 – Friday, 8/9/2024"
+            },
+            {
+              "title": "Session C:",
+              "text": "Thursday, 5/16/2024 – Wednesday, 7/10/2024"
+            }
+          ]
+        },
+        {
+          "title": "Fall 2024",
+          "calanders": [
+            {
+              "title": "Session A:",
+              "text": "Thursday, 8/22/2024 – Friday, 10/11/2024"
+            },
+            {
+              "title": "Session B:",
+              "text": "Wednesday,10/16/2024 – Friday, 12/6/2024"
+            },
+            {
+              "title": "Session C:",
+              "text": "Thursday, 8/22/2024 – Friday, 12/6/2024 (Final Exams 12/9/2024 - 12/14/2024)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "additionalMajorAlertText": "Your selected major has higher admission requirements for applicants. In order to expedite your admissions decision, ASU requires you to choose an additional major without higher admission requirements in case you do not meet admissions criteria for your first choice.",
+  "interestedInAnything": {
+    "label": "Lastly, are you interested in any of the following?",
+    "options": [
+      {
+        "text": "Pre-law",
+        "value": "otherInterestPRELAW",
+        "previewLabel": "Pre-law interest"
+      },
+      {
+        "text": "Pre-med or pre-health*",
+        "value": "otherInterestPREMED",
+        "previewLabel": "Pre-med/health interest"
+      },
+      {
+        "text": "Pre-veterinary",
+        "value": "otherInterestPREVET",
+        "previewLabel": "Pre-veterinary interest"
+      },
+      {
+        "text": "Future opportunities to earn a teaching certificate in the field of your major",
+        "value": "otherInterestAPPQNAME11",
+        "previewLabel": "Teaching certificate interest"
+      }
+    ],
+    "subText": "*ASU provides academic and career advising for students interested in: chiropractic, dentistry, medicine, naturopathy, occupational therapy, optometry, pharmacy, physical therapy, physician assistant, podiatry and veterinary medicine."
+  },
+  "rnToBsn": {
+    "title": "Additional nursing questions",
+    "licensed": {
+      "label": "Are you licensed in good standing to practice as an RN?",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "licensedState": {
+      "label": "In what state are you licensed to practice as a registered nurse?",
+      "placeholder": "Choose a state"
+    },
+    "rnLicensenumber": {
+      "label": "RN license number",
+      "placeholder": "License number"
+    },
+    "expirationLabel": "License expiration date",
+    "desciplinaryActions": {
+      "label": "Is your license encumbered (disciplinary action by the State Board of Nursing)?",
+      "text": "If your license is or becomes encumbered, please contact an RN-BSN advisor within 10 working days of the disciplinary action.",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "dateScheduledForNclexrn": {
+      "label": "Date scheduled to take NCLEX-RN",
+      "subText": "If you do not have your RN license, you must take NCLEX-RN within 12 weeks of completing the associate degree or diploma in nursing."
+    },
+    "employer": {
+      "label": "Employer",
+      "placeholder": "Employer"
+    },
+    "partnerCode": {
+      "label": "Partner Code (if applicable)",
+      "previewLabel": "Partner Code",
+      "subText": "This is obtained through an information session at your place of employment. You may or may not have a Partner Code.",
+      "placeholder": "Partner Code"
+    },
+    "partnerCodeLabel": "Partner Code if applicable (obtained through an information session at your place of employment). You may or may not have a Partner Code.",
+    "releaseInfoToEmployer": {
+      "label": "I authorize ASU to release my name and graduation information to my employer.",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "communityCollege": {
+      "label": "If you are pursuing an RN-BSN Pathway from one of the Arizona Community Colleges, please indicate which one:",
+      "options": [
+        {
+          "text": "None of the options",
+          "value": "NONE"
+        },
+        {
+          "text": "Arizona Western College",
+          "value": "AWC"
+        },
+        {
+          "text": "Central Arizona College",
+          "value": "CAC"
+        },
+        {
+          "text": "Chandler-Gilbert Community College",
+          "value": "CGCC"
+        },
+        {
+          "text": "Cochise College",
+          "value": "CC"
+        },
+        {
+          "text": "Coconino Community College",
+          "value": "CCC"
+        },
+        {
+          "text": "Eastern Arizona College",
+          "value": "EAC"
+        },
+        {
+          "text": "Estrella Mountain Community College",
+          "value": "EMCC"
+        },
+        {
+          "text": "Gateway Community College",
+          "value": "GWCC"
+        },
+        {
+          "text": "Glendale Community College",
+          "value": "GCC"
+        },
+        {
+          "text": "Mesa Community College",
+          "value": "MesaCC"
+        },
+        {
+          "text": "Mohave Community College",
+          "value": "MohaveCC"
+        },
+        {
+          "text": "Northland Pioneer College",
+          "value": "NPC"
+        },
+        {
+          "text": "Paradise Valley Community College",
+          "value": "PVCC"
+        },
+        {
+          "text": "Phoenix College",
+          "value": "PC"
+        },
+        {
+          "text": "Pima Community College",
+          "value": "PCC"
+        },
+        {
+          "text": "Scottsdale Community College",
+          "value": "SCC"
+        },
+        {
+          "text": "Yavapai College",
+          "value": "YC"
+        }
+      ],
+      "placeholder": "Choose..."
+    },
+    "reverseTransferAgreement": {
+      "label": "Reverse Transfer Agreement?",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        },
+        {
+          "text": "No Response",
+          "value": "NA"
+        }
+      ]
+    }
+  },
+  "degreePreviewLabels": {
+    "first": {
+      "title": "First choice",
+      "location": "Location",
+      "term": "Starting term"
+    },
+    "second": {
+      "title": "Second choice",
+      "location": "Location",
+      "term": "Starting term"
+    }
+  }
+}

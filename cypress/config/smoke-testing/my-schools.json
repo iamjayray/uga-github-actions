@@ -1,0 +1,482 @@
+{
+  "errorMessage": "This is a required field",
+  "highschool": {
+    "graduationSchoolUSnonArizon": {
+      "country": "United states",
+      "state": "Alabama",
+      "city": "Abbeville",
+      "school": "Abbeville Christian Academy",
+      "graduationDate": {
+        "month": "January",
+        "year": "2021"
+      }
+    },
+    "graduationSchoolUSArizon": {
+      "country": "United states",
+      "state": "Arizona",
+      "city": "Ajo",
+      "sais": "1111111111",
+      "school": "Ajo Hs",
+      "graduationDate": {
+        "month": "January",
+        "year": "2021"
+      }
+    },
+    "graduationSchoolNonUs": {
+      "country": "Afghanistan",
+      "state": "Badghis",
+      "city": "city",
+      "school": "Test school",
+      "graduationDate": {
+        "month": "January",
+        "year": "2021"
+      }
+    },
+    "maxLength": {
+      "highschool": {
+        "code": 200,
+        "data": [
+          {
+            "highSchoolId": "1",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "GED",
+            "country": "USA",
+            "state": "AK",
+            "city": "Akiak",
+            "gradMonth": "2",
+            "gradYear": "2006",
+            "startMonth": null,
+            "startYear": null,
+            "endMonth": null,
+            "endYear": null,
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "2",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test2",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "3",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test3",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "4",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test4",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "5",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test5",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "6",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test6",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "7",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test7",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "8",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test8",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "9",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test9",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          },
+          {
+            "highSchoolId": "10",
+            "extOrgId": "1100040290",
+            "ceeb": null,
+            "name": "Test10",
+            "country": "ALA",
+            "state": "state",
+            "city": "city",
+            "gradMonth": null,
+            "gradYear": null,
+            "startMonth": "02",
+            "startYear": "2021",
+            "endMonth": "02",
+            "endYear": "2023",
+            "sais": null,
+            "sessionCode": null,
+            "transcriptNameId": "1"
+          }
+        ]
+      },
+      "highschoolacademics": { "code": 200, "data": null }
+    },
+    "nonUsSchool": {
+      "country": "Afghanistan",
+      "state": "Badghis",
+      "city": "city",
+      "school": "Test school",
+      "graduationDate": {
+        "month": "January",
+        "year": "2021"
+      }
+    }
+  },
+  "college": {
+    "transferCredits": {
+      "pastDatedSchool": {
+        "country": "Afghanistan",
+        "state": "Badghis",
+        "city": "city",
+        "school": "Test school",
+        "graduationDate": {
+          "month": "January",
+          "year": "2021"
+        }
+      }
+    },
+    "collegeInputs": [
+      {
+        "country": "united states",
+        "state": "Arizona",
+        "city": "Avondale",
+        "institute": "Rio Salado College",
+        "customInstituteName": null,
+        "degreeAwarded": "Associate Degree",
+        "degreeConcentration": "Test",
+        "dateFirstAttended": {
+          "month": "january",
+          "year": "2015"
+        },
+        "dateLastAttended": {
+          "month": "january",
+          "year": "2017"
+        }
+      },
+      {
+        "country": "afghanistan",
+        "state": "Badghis",
+        "city": "Test",
+        "institute": "Not listed",
+        "customInstituteName": "Test",
+        "degreeAwarded": "Associate Degree",
+        "degreeConcentration": "Test",
+        "dateFirstAttended": {
+          "month": "january",
+          "year": "2013"
+        },
+        "dateLastAttended": {
+          "month": "january",
+          "year": "2015"
+        }
+      }
+    ],
+    "editAndDelete": {
+      "institute": {
+        "country": "united states",
+        "state": "Arizona",
+        "city": "Avondale",
+        "institute": "Rio Salado College",
+        "customInstituteName": null,
+        "degreeAwarded": "Associate Degree",
+        "degreeConcentration": "Test",
+        "dateFirstAttended": {
+          "month": "january",
+          "year": "2015"
+        },
+        "dateLastAttended": {
+          "month": "january",
+          "year": "2017"
+        }
+      }
+    }
+  },
+  "previousCollegeEligiibility": {
+    "first": {
+      "collegeName": "Test",
+      "academicRelated": "Yes",
+      "studentConduct": "No",
+      "other": "No response",
+      "explaination": "test"
+    },
+    "second": {
+      "collegeName": "Test",
+      "academicRelated": "NO",
+      "studentConduct": "Yes",
+      "other": "No response",
+      "explaination": "test"
+    }
+  },
+  "twoWayBindingResponses": {
+    "highschools": {
+      "code": 200,
+      "data": [
+        {
+          "highSchoolId": "1",
+          "extOrgId": "1100040290",
+          "ceeb": null,
+          "name": "GED",
+          "country": "USA",
+          "state": "AK",
+          "city": "Akiak",
+          "gradMonth": "2",
+          "gradYear": "2006",
+          "startMonth": null,
+          "startYear": null,
+          "endMonth": null,
+          "endYear": null,
+          "sais": null,
+          "sessionCode": null,
+          "transcriptNameId": "1"
+        }
+      ]
+    },
+    "otherInstitutions": {
+      "code": 200,
+      "data": [
+        {
+          "otherInstitutionId": "1",
+          "instExtOrgID": "",
+          "instCEEB": null,
+          "instName": "TestP",
+          "instCountry": "USA",
+          "instState": "AZ",
+          "instCity": "Apache Junction",
+          "instDegree": "AGEC",
+          "instConcentration": "test",
+          "instLastAttendedMonth": "3",
+          "instLastAttendedYear": "2022",
+          "instFirstAttendedMonth": "2",
+          "instFirstAttendedYear": "2021",
+          "totalCreditHours": null,
+          "transcriptNameId": "1"
+        }
+      ]
+    },
+    "sarQuestionResponses": {
+      "code": 200,
+      "data": [
+        {
+          "answer": "N",
+          "name": "APPQNAME11"
+        },
+        {
+          "answer": "N",
+          "name": "PREMED"
+        },
+        {
+          "answer": "N",
+          "name": "PRELAW"
+        },
+        {
+          "answer": "N",
+          "name": "PREVET"
+        },
+        {
+          "answer": "N",
+          "name": "PAC12Q1"
+        },
+        {
+          "answer": "Test",
+          "name": "PAC12Q2"
+        },
+        {
+          "answer": "Y",
+          "name": "PAC12Q3"
+        },
+        {
+          "answer": "N",
+          "name": "PAC12Q4"
+        },
+        {
+          "answer": "NA",
+          "name": "PAC12Q5"
+        },
+        {
+          "answer": "Test",
+          "name": "PAC12Q5EXP"
+        },
+        {
+          "answer": "Test",
+          "name": "PAC12Q6"
+        },
+        {
+          "answer": "NA",
+          "name": "PAC12Q7"
+        },
+        {
+          "answer": "N",
+          "name": "PAC12Q8"
+        },
+        {
+          "answer": "Y",
+          "name": "PAC12Q9"
+        },
+        {
+          "answer": "Test",
+          "name": "PAC12Q9EXP"
+        },
+        {
+          "answer": "Y",
+          "name": "ASUCOMOTH"
+        },
+        {
+          "answer": "12",
+          "name": "TTLCOLLCRD"
+        },
+        {
+          "answer": "Amazon DSP",
+          "name": "CORPPRTNM"
+        },
+        {
+          "answer": "Y",
+          "name": "CORPPRTYN"
+        }
+      ]
+    },
+    "applications": {
+      "code": 200,
+      "data": [
+        {
+          "appId": "3137937",
+          "submitted": "N",
+          "createdAt": "2023-11-07 03:53:06",
+          "submittedAt": null,
+          "userInfo": {
+            "dateOfBirth": "2013-02-02",
+            "birthCountry": "ALA",
+            "citizenCountry": "USA",
+            "visaCode": null,
+            "attendedASU": null,
+            "asuId": null,
+            "firstGeneration": null,
+            "sex": "M",
+            "preferredFirstName": null,
+            "ssn": "*********",
+            "primaryLanguageAtHome": "ace",
+            "primaryLanguageAtHomeOther": null
+          },
+          "instStatus": "attended/attending college",
+          "name": {
+            "id": "1",
+            "nameType": "legal",
+            "firstName": "Abhishek",
+            "lastName": "Ganesan",
+            "middleName": null,
+            "suffix": null
+          }
+        }
+      ]
+    },
+    "highschoolacademics": { "code": 200, "data": null }
+  }
+}

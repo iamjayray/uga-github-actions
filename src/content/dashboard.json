@@ -1,0 +1,78 @@
+{
+  "title": "Next steps",
+  "sectionQtr": {
+    "title": "Qualified Tuition Reduction (QTR) Reminder",
+    "text": "Do you qualify as a recipient or beneficiary of the <u><a style='color:black;' href='https://cfo.asu.edu/reduced-tuition' target='_blank'>Qualified Tuition Reduction (QTR) Program?</a></u> You should receive an email in the next few days with more information about this."
+  },
+  "sectionListTimeline": [
+    {
+      "title": "Submit your transcripts",
+      "texts": [
+        "To be admitted to ASU, you are required to submit official transcripts from every previous institution you attended to Admission Services.",
+        "Transcripts can be mailed directly from your previous institution or requested via a secured transcript service such as Parchment."
+      ],
+      "cta": {
+        "label": "Learn more about transcripts.",
+        "link": "https://admission.asu.edu/apply/transcripts",
+        "target": "_blank"
+      }
+    },
+    {
+      "title": "Receive your ASURITE User ID and My ASU access",
+      "texts": [
+        "You should receive an email with your ASURITE User ID and activation code in two to three business days. Be sure to check your spam folder for the activation email as well.",
+        "After activating your ASURITE User ID, you’ll have access to My ASU. This is where you can track your application status and any additional application requirements based on your selected program, such as submitting SAT or ACT scores."
+      ]
+    },
+    {
+      "title": "Fill out the FAFSA",
+      "texts": [
+        "The <a href='https://studentaid.gov/h/apply-for-aid/fafsa' id='fill_fafsa_link' class='text-underline' target='_blank'>Free Application for Federal Student Aid</a> is used to award grants, loans, Federal Work-Study and certain scholarships. We encourage you to compare financial aid and college costs. ASU's Federal School Code is 001081.",
+        "Submit your completed FAFSA by ASU's March 1 priority filing date to be considered for the most need-based aid."
+      ]
+    }
+  ],
+  "sectionApplicationSummary": {
+    "title": "Application summary",
+    "applicationIdLabel": "Application ID",
+    "programLabel": "Program",
+    "locationLabel": "Location",
+    "termLabel": "Term",
+    "cta": {
+      "label": "Review what you submitted",
+      "link": "#"
+    }
+  },
+  "sectionHelp": {
+    "title": "Need more help?",
+    "text": "Your enrollment coach is available to help you complete your application journey.",
+    "helpItems": [
+      {
+        "title": "Phone:",
+        "cta": {
+          "label": "866-277-6589",
+          "link": "tel:866-277-6589"
+        },
+        "texts": [
+          "Call for immediate support.",
+          "Monday through Friday, 6 a.m. to 6.p.m. (Arizona time)"
+        ]
+      },
+      {
+        "title": "Email:",
+        "cta": {
+          "label": "enrollmentonline@asu.edu",
+          "link": "mailto:enrollmentonline@asu.edu"
+        },
+        "texts": ["Response within one to two business days."]
+      }
+    ]
+  },
+  "sectionAppSubmittedModal": {
+    "title": "Application submitted!",
+    "text": "You have successfully submitted your undergraduate application for admission to Arizona State University. A confirmation email has been sent to ",
+    "stayOnTrackText": "Stay on track",
+    "subText": "Review your next steps, complete any remaining tasks and check for application status updates on your dashboard.",
+    "ctaLabel": "See my next steps"
+  }
+}

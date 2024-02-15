@@ -1,0 +1,74 @@
+[
+  {
+    "order": 1,
+    "text": "January",
+    "value": "01",
+    "monthIndex": 0
+  },
+  {
+    "order": 2,
+    "text": "February",
+    "value": "02",
+    "monthIndex": 1
+  },
+  {
+    "order": 3,
+    "text": "March",
+    "value": "03",
+    "monthIndex": 2
+  },
+  {
+    "order": 4,
+    "text": "April",
+    "value": "04",
+    "monthIndex": 3
+  },
+  {
+    "order": 5,
+    "text": "May",
+    "value": "05",
+    "monthIndex": 4
+  },
+  {
+    "order": 6,
+    "text": "June",
+    "value": "06",
+    "monthIndex": 5
+  },
+  {
+    "order": 7,
+    "text": "July",
+    "value": "07",
+    "monthIndex": 6
+  },
+  {
+    "order": 8,
+    "text": "August",
+    "value": "08",
+    "monthIndex": 7
+  },
+  {
+    "order": 9,
+    "text": "September",
+    "value": "09",
+    "monthIndex": 8
+  },
+  {
+    "order": 10,
+    "text": "October",
+    "value": "10",
+    "monthIndex": 9
+  },
+  {
+    "order": 11,
+    "text": "November",
+    "value": "11",
+    "monthIndex": 10
+  },
+  {
+    "order": 12,
+    "text": "December",
+    "value": "12",
+    "monthIndex": 11
+  }
+]

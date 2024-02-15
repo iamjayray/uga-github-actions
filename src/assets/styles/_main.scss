@@ -1,0 +1,142 @@
+h1,
+h2 {
+  letter-spacing: -0.035em;
+}
+
+h3 {
+  letter-spacing: -0.025em;
+}
+
+a.rds-link {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid var(--dark-3, #191919);
+}
+
+// focus class for card components
+.card-focus:focus {
+  outline: 2px solid #4d90fe;
+  -webkit-box-shadow: 0px 0px 5px #4d90fe;
+  box-shadow: 0 0 5px #4d90fe;
+}
+
+.rds-tab {
+  //Active class for tabs
+  .tab-active-primary {
+    border-bottom: 5px solid var(--primary, $asu-maroon);
+    color: var(--primary, $asu-maroon) !important;
+  }
+
+  .tab-active-secondary {
+    border-bottom: 5px solid var(--secondary, $asu-gold);
+    color: var(--secondary, $asu-gold) !important;
+  }
+}
+
+// Image
+//
+// object-fit utility classes
+.object-fit-fill {
+  object-fit: fill;
+}
+
+.object-fit-contain {
+  object-fit: contain;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.object-fit-scale-down {
+  object-fit: scale-down;
+}
+
+.object-fit-none {
+  object-fit: none;
+}
+
+.col-form-label {
+  padding-bottom: 0px !important;
+}
+
+// Form Invalid feedback
+// override invalid-feedback
+.invalid-feedback {
+  position: absolute;
+  left: 0;
+  font-weight: bold !important;
+  font-size: 13px;
+}
+
+// toolTip icon
+.tool-tip-icon .fa-icon {
+  font-size: 18px;
+  @media (min-width: 992px) {
+    font-size: 24px;
+  }
+}
+
+@import "./v-select-overrides";
+@import "./radio-button-overrides";
+@import "./typography";
+@import "./v-phone-number-input-overrides";
+
+.z-overlay {
+  z-index: 5000;
+}
+.z-overlay-loader {
+  z-index: 5001;
+}
+// global css
+
+.tooltip-icon {
+  border: 1px solid $asu-light-4;
+  border-radius: 50%;
+  height: 24px !important;
+  width: 24px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 576px) {
+    height: 16px !important;
+    width: 16px !important;
+  }
+}
+.tooltip {
+  z-index: 1012 !important;
+}
+.z-pro-max {
+  z-index: 100;
+}
+.z-pro {
+  z-index: 90;
+}
+.z-grande {
+  z-index: 80;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+// router-link
+a.router-link-active {
+  svg {
+    color: var(--dark-3) !important;
+  }
+  font-weight: bold;
+  color: var(--dark-3) !important;
+}
+
+// danger button
+
+.danger-button {
+  display: inline;
+  background-color: #f7dddd !important;
+  border-color: var(--danger) !important;
+  color: var(--dark-3) !important;
+  border: 2px solid;
+}

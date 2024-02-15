@@ -1,0 +1,400 @@
+{
+  "prefillPageDetails": {
+    "myInformation": {
+      "formerNames": [],
+      "legalSex": { "text": "Male", "value": "M" },
+      "primaryLanguage": {
+        "selectValue": {
+          "id": "2",
+          "language": "Spanish",
+          "languageCode3": "spa",
+          "displayOrder": 10,
+          "selected": true,
+          "text": "Spanish",
+          "value": "spa"
+        },
+        "inputValue": null
+      },
+      "homeAddress": {
+        "addressId": "1",
+        "type": "PERMANENT",
+        "street1": "Test",
+        "street2": "",
+        "city": "test",
+        "stateProvince": {
+          "stateCode": "BDS",
+          "description": "Badakhshan",
+          "selected": true,
+          "text": "Badakhshan",
+          "value": "BDS"
+        },
+        "postalCode": "123456",
+        "countryCode": {
+          "countryCode": "AFG",
+          "countryCodeTwoChar": "AF",
+          "description": "Afghanistan",
+          "selected": true,
+          "text": "Afghanistan",
+          "value": "AFG"
+        }
+      },
+      "ethnicOrRacialBackground": {
+        "hispanicOrLatino": { "isHispanicOrLatino": null, "origin": null },
+        "race": [],
+        "primaryRace": null
+      },
+      "usCitizenship": {
+        "isUsCitizen": { "text": "I am a U.S. citizen", "value": true },
+        "countryOfBirth": {
+          "countryCode": "AFG",
+          "countryCodeTwoChar": "AF",
+          "description": "Afghanistan",
+          "selected": true,
+          "text": "Afghanistan",
+          "value": "AFG"
+        },
+        "ssn": "000000000",
+        "typeOfVisa": null,
+        "countryOfCitizenShip": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        },
+        "cityOfBirth": null,
+        "otherVisaChoices": null,
+        "issuingI20": null,
+        "intAddress": {
+          "type": "SEVIS",
+          "countryCode": null,
+          "street1": null,
+          "street2": "",
+          "city": null,
+          "stateProvince": null,
+          "postalCode": null
+        },
+        "shippingAddressType": null,
+        "shippingAddress": {
+          "type": "I20",
+          "countryCode": null,
+          "street1": null,
+          "street2": null,
+          "city": null,
+          "stateProvince": null,
+          "postalCode": null
+        }
+      },
+      "guardians": [],
+      "asuAffiliation": {
+        "affiliations": ["affiliationASUCOMNVR"],
+        "affiliateId": ""
+      },
+      "usUniformedServices": {
+        "relation": {
+          "text": "None of these options apply to me",
+          "value": "None of these options apply"
+        },
+        "status": null,
+        "branch": null,
+        "appliedForBenefit": null,
+        "requestTranscript": null
+      },
+      "partnerBenefits": {
+        "educationBenefit": { "text": "No", "value": "N" },
+        "currentEmployer": null
+      }
+    },
+    "myProgram": {
+      "programsSelected": [
+        {
+          "title": "Anthropology, BA",
+          "acadPlanCode": "LAASBBA",
+          "shortTitle": "BA",
+          "highAdmissionProgram": false,
+          "subPlanCode": null,
+          "payloadData": {
+            "priority": "1",
+            "programCode": "UGLA",
+            "planCode": "LAASBBA",
+            "location": "ONLNE",
+            "term": "2241",
+            "session": "SESA",
+            "subPlanCode": null
+          },
+          "startDate": "2024 Spring - (Session A)"
+        }
+      ],
+      "otherInterests": [],
+      "rnToBsn": {
+        "isLicensed": null,
+        "license": {
+          "state": null,
+          "number": null,
+          "expirationDate": { "day": null, "month": null, "year": null },
+          "disciplinaryActionTaken": null
+        },
+        "dateScheduledForNclexrn": { "day": null, "month": null, "year": null },
+        "employer": null,
+        "partnerCode": null,
+        "releaseInfoToEmployer": null,
+        "communityColleges": null,
+        "reverseTransferAggrement": null
+      }
+    },
+    "mySchools": {
+      "schools": [
+        {
+          "highSchoolId": "1",
+          "country": {
+            "countryCode": "USA",
+            "countryCodeTwoChar": "US",
+            "description": "United States",
+            "selected": true,
+            "text": "United States",
+            "value": "USA"
+          },
+          "state": {
+            "stateCode": "AL",
+            "description": "Alabama",
+            "selected": false,
+            "text": "Alabama",
+            "value": "AL"
+          },
+          "sais": null,
+          "city": { "text": "Abbeville", "value": "Abbeville" },
+          "highSchool": {
+            "externalOrgId": "1100010001",
+            "schoolTypeCode": "HS",
+            "description": "Abbeville HS",
+            "countryCode": "USA",
+            "stateCode": "AL",
+            "city": "Abbeville",
+            "atpCode": "010000",
+            "selected": false,
+            "text": "Abbeville HS",
+            "value": "1100010001"
+          },
+          "schoolName": null,
+          "dateFirstAttended": { "month": null, "year": null },
+          "dateLastAttended": { "month": null, "year": null },
+          "graduationDate": {
+            "month": {
+              "order": 2,
+              "text": "February",
+              "value": "02",
+              "monthIndex": 1
+            },
+            "year": { "text": "2010", "value": 2010 }
+          },
+          "nameOnTranscript": {
+            "id": "1",
+            "nameType": "legal",
+            "firstName": "Abhishek",
+            "lastName": "Ganesan",
+            "middleName": null,
+            "suffix": null,
+            "text": "Abhishek Ganesan",
+            "value": "1"
+          },
+          "type": "new"
+        }
+      ],
+      "college": {
+        "attendedCollege": { "text": "No", "value": "never attended" },
+        "totelSemisterCredits": "0",
+        "institutions": []
+      },
+      "iseligibleToReturnToColleges": null,
+      "ineligibleToReturnCollege": {
+        "first": {
+          "name": null,
+          "reasons": {
+            "academicRelated": null,
+            "studentConduct": null,
+            "other": null,
+            "explaination": null
+          }
+        },
+        "second": {
+          "name": null,
+          "reasons": {
+            "academicRelated": null,
+            "studentConduct": null,
+            "other": null,
+            "explaination": null
+          }
+        }
+      },
+      "transcriptPolicyAcknowledge": "Yes"
+    },
+    "myHighSchoolGrades": {
+      "gradePath": "N",
+      "overallAcademics": {
+        "unweightedGpa": null,
+        "gpaScale": null,
+        "gradingSystem": null,
+        "classRankSize": { "rank": null, "size": null },
+        "delete": true
+      },
+      "highSchoolCourses": []
+    },
+    "arizonaResidency": {
+      "sectionDomicile": {
+        "permanentHome": {
+          "value": "Outside the U.S. or Not Listed",
+          "text": "Outside the U.S. or Not Listed"
+        },
+        "isAzResident12m": null,
+        "dateMovedToAz": null
+      },
+      "sectionLegalGuardian": {
+        "stateParentLives": {
+          "value": "Outside the U.S. or Not Listed",
+          "text": "Outside the U.S. or Not Listed"
+        },
+        "selectParentRelationship": null,
+        "dateParentMovedToAz": null,
+        "isParentFiledTaxLastYear": null,
+        "selectStateParentFiledTax": null,
+        "isParentHavingLicenseInAz": null,
+        "isParentEmployedInAz": null
+      }
+    }
+  },
+  "validationApiResponse": { "code": 200, "data": {} },
+  "feesApiResponse": { "code": 200, "data": { "fee": "70.00" } },
+  "feeNotWaivedApiResponse": { "code": 200, "data": { "hasWaiver": "false" } },
+  "feeWaivedApiResponse": { "code": 200, "data": { "hasWaiver": "true" } },
+  "paymentsApiResponse": {
+    "code": 200,
+    "data": [
+      {
+        "transactionId": null,
+        "transactionTotalAmount": null,
+        "transactionStatus": null,
+        "transactionDate": null,
+        "paymentType": "Mail Pending",
+        "paymentCode": "XX"
+      }
+    ]
+  },
+  "briteverifyResponse": {
+    "addressandPhone": {
+      "phone": {
+        "number": "4806073388",
+        "service_type": "land",
+        "phone_location": "business",
+        "status": "valid",
+        "errors": []
+      },
+      "address": {
+        "address1": "9355 N 91st St Unit 107",
+        "address2": " ",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip": "85258-5007",
+        "status": "valid",
+        "errors": [],
+        "corrected": false
+      },
+      "duration": 0.416469476
+    },
+    "phone": {
+      "phone": {
+        "number": "4806073388",
+        "service_type": "land",
+        "phone_location": "business",
+        "status": "valid",
+        "errors": []
+      },
+      "duration": 0.020450213
+    }
+  },
+  "editFunctionality": {
+    "appPages": [
+      {
+        "editButtonDataCy": "my-information",
+        "pageDataCy": "my-information-view",
+        "url": "my-information"
+      },
+      {
+        "editButtonDataCy": "my-programs",
+        "pageDataCy": "my-programs-view",
+        "url": "my-program"
+      },
+      {
+        "editButtonDataCy": "my-schools",
+        "pageDataCy": "my-schools-view",
+        "url": "my-schools"
+      },
+      {
+        "editButtonDataCy": "my-high-school-grades",
+        "pageDataCy": "my-high-school-grades-view",
+        "url": "my-high-school-grades"
+      },
+      {
+        "editButtonDataCy": "arizona-residency",
+        "pageDataCy": "arizona-residency-view",
+        "url": "arizona-residency"
+      }
+    ],
+    "profilePage": {
+      "dataCy": "my-profile",
+      "url": "user/profile"
+    }
+  },
+  "azCommunityCollegeConsent": {
+    "otherInstitution": {
+      "code": 200,
+      "data": [
+        {
+          "otherInstitutionId": "1",
+          "instExtOrgID": "1204498420",
+          "instCEEB": null,
+          "instName": "Carrington College - All Locations",
+          "instCountry": "USA",
+          "instState": "AZ",
+          "instCity": "Phoenix",
+          "instDegree": "none",
+          "instConcentration": null,
+          "instLastAttendedMonth": "4",
+          "instLastAttendedYear": "2021",
+          "instFirstAttendedMonth": "4",
+          "instFirstAttendedYear": "2017",
+          "totalCreditHours": null,
+          "transcriptNameId": "1"
+        }
+      ]
+    }
+  },
+  "paymentCompleted": {
+    "paylater": {
+      "code": 200,
+      "data": [
+        {
+          "transactionId": null,
+          "transactionTotalAmount": null,
+          "transactionStatus": null,
+          "transactionDate": null,
+          "paymentType": "Mail Pending",
+          "paymentCode": "MA"
+        }
+      ]
+    },
+    "payNow": {
+      "code": 200,
+      "data": [
+        {
+          "transactionId": "5001612791",
+          "transactionTotalAmount": "7000",
+          "transactionStatus": "1",
+          "transactionDate": "2023-11-10",
+          "paymentType": "Credit Card",
+          "paymentCode": "VI"
+        }
+      ]
+    }
+  }
+}

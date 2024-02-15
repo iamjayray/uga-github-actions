@@ -1,0 +1,5 @@
+*                            @ASU/adms-admissions-application-ui-writers
+/CODEOWNERS                  @ASU/devops-admins
+/Jenkinsfile                 @ASU/devops-infrastructure
+terraform/                   @ASU/devops-infrastructure
+ansible/                     @ASU/devops-infrastructure

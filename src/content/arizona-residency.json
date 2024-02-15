@@ -1,0 +1,776 @@
+{
+  "intro": {
+    "title": "Arizona residency",
+    "eta": "<span class=\"px-space-xxs\">Estimated time:</span><span class=\"font-weight-bold\">3 -  7 minutes</span>",
+    "introduction": "Your residency classification determines whether you pay in-state or out-of-state tuition and is determined when you are admitted based on guidelines provided by the Arizona Board of Regents. Questions in this section help determine your residency classification. You may be asked to provide documentation to confirm your status."
+  },
+  "sectionDomicile": {
+    "title": "Residency",
+    "permanentHome": {
+      "label": "Begin by selecting the state you consider to be your permanent home.",
+      "psKey": "DOM_STATE",
+      "placeholder": "Select state"
+    },
+    "isAzResident12m": {
+      "psKey": "DOM_AZ",
+      "label": "Have you been living in Arizona continuously for the last 12 months?",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "dateMovedToAz": {
+      "psKey": "DOM_AZ_DT",
+      "label": "When did you begin living in Arizona?",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    }
+  },
+  "sectionEnrollment": {
+    "isEnrolledInAnotherUni": {
+      "label": "Are you currently enrolled at another college or university?",
+      "psKey": "ENRL_CUR1",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "inputEnrolledLocation": {
+      "label": "Where are you currently enrolled?",
+      "psKey": "ENRL_LOC1",
+      "placeholder": "Enter name of college or university"
+    },
+    "selectStateEnrolled": {
+      "label": "In which state is that school located?",
+      "psKey": "ENRL_ST",
+      "placeholder": "Select state"
+    },
+    "isEnrollAZedCurrentOrLastYear": {
+      "label": "Were you enrolled at any Arizona college or university in %current_year% or %current_year-1% calendar year?",
+      "psKey": "ENRL_AZ",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    }
+  },
+  "sectionDependent": {
+    "isTaxClaimedAsDependent": {
+      "label": "Were you claimed as a dependent for income tax purposes by a parent or legal guardian for %current_year-1% or %current_year-2%?",
+      "psKey": "DEP_CLM",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    }
+  },
+  "sectionDriverLicense": {
+    "isHavingLicense": {
+      "label": "Do you have a current driver’s license or state issued ID?",
+      "psKey": "DL_ID",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateLicenseIssued": {
+      "label": "In which state was your license issued?",
+      "psKey": "DL_ST1",
+      "placeholder": "Select state"
+    },
+    "dateLicenseIssued": {
+      "label": "When was your license issued?",
+      "psKey": "DL_ISS_DT",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    }
+  },
+  "sectionVehicle": {
+    "isOwnsVehicle": {
+      "label": "Do you own or operate a car, motorcycle or other motor vehicle?",
+      "psKey": "VEH_OWN",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "isVehicleRegisteredInAZ": {
+      "label": "Is this vehicle registered in the state of Arizona?",
+      "psKey": "VEH_REG_ST",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "dateVehicleRegistered": {
+      "label": "When was your vehicle registered?",
+      "psKey": "STVHREG",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    }
+  },
+  "sectionTax": {
+    "isFiledTaxLastYear": {
+      "label": "Did you, or will you, file state taxes for %current_year-1%?",
+      "psKey": "TAX_FILE",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateFiledTax": {
+      "label": "Where did or where will you file your state taxes for %current_year-1%?",
+      "psKey": "TAX_LOC",
+      "placeholder": "Select state"
+    }
+  },
+  "sectionFinancialSupport": {
+    "title": "Financial support",
+    "tooltip": "The following questions are used to determine if you are financially independent. If you answer “yes” to any of the questions, you will be considered financially independent and will not be required to provide parental information.",
+    "text": "Estimate a percentage of financial support from each of the following sources for the last 12 months. Support includes housing, transportation, tuition, books, food, entertainment and healthcare. Indicate all that apply and <b>list at least 50% for the parent/legal guardian category if your parents/legal guardians claim you on their taxes.</b>",
+    "source": [
+      {
+        "text": "Parent or legal guardian",
+        "label": "Parent or legal guardian financial support",
+        "value": "inputParentOrGuardianSupport",
+        "psKey": "FINSUP12MB"
+      },
+      {
+        "text": "Employment",
+        "label": "Employment financial support",
+        "value": "inputEmploymentSupport",
+        "psKey": "FINSUP12MA"
+      },
+      {
+        "text": "Financial aid",
+        "label": "Financial aid financial support",
+        "value": "inputFinancialAidSupport",
+        "psKey": "FINSUP12MC"
+      },
+      {
+        "text": "Spouse",
+        "label": "Spouse financial support",
+        "value": "inputSpouseSupport",
+        "psKey": "FINSUP12MD"
+      },
+      {
+        "text": "Other",
+        "label": "Other financial support",
+        "value": "inputOtherSourceSupport",
+        "psKey": "FINSUP12ME"
+      }
+    ],
+    "otherOptions": {
+      "label": "Which describes your \"other\" source of financial support?(Check all that apply)?",
+      "source": [
+        {
+          "text": "Savings/trust fund",
+          "label": "Savings/trust fund financial support",
+          "value": "inputOtherSourceSupportSavings",
+          "psKey": "RES_SUPA"
+        },
+        {
+          "text": "Retirement",
+          "label": "Retirement financial support",
+          "value": "inputOtherSourceSupportRetirement",
+          "psKey": "RES_SUPB"
+        },
+        {
+          "text": "Social Security/Disability",
+          "label": "Social Security/Disability financial support",
+          "value": "inputOtherSourceSupportSocialSecurity",
+          "psKey": "RES_SUPC"
+        },
+        {
+          "text": "Veteran Benefits",
+          "label": "Veteran Benefits financial support",
+          "value": "inputOtherSourceSupportVeteransBenefits",
+          "psKey": "RES_SUPD"
+        },
+        {
+          "text": "State or Federal Benefits",
+          "label": "State or Federal Benefits financial support",
+          "value": "inputOtherSourceSupportStateOrFederalAid",
+          "psKey": "RES_SUPE"
+        },
+        {
+          "text": "Unemployment",
+          "label": "Unemployment financial support",
+          "value": "inputOtherSourceSupportUnemployment",
+          "psKey": "RES_SUPF"
+        },
+        {
+          "text": "Other/none of the above",
+          "label": "Other/none of the above",
+          "value": "inputOtherSourceSupportOther",
+          "psKey": "RES_SUPG"
+        }
+      ],
+      "inputOtherSourceNota": {
+        "label": "Please describe your source of support:",
+        "psKey": "RES_SUP_SC"
+      }
+    }
+  },
+  "sectionEmployment": {
+    "isEmployed": {
+      "label": "Are you currently employed?",
+      "psKey": "JOB_CURR1",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateEmployed": {
+      "label": "Where is your primary work location?",
+      "psKey": "JOB_CURR",
+      "placeholder": "Select state"
+    },
+    "dateEmployed": {
+      "label": "When did your employment at this location begin?",
+      "psKey": "JOB_ST_DT",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    },
+    "isEmployedInLast12m": {
+      "label": "Were you employed in the last 12 months?",
+      "psKey": "EMPL_12MO",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateEmployedLast12m": {
+      "label": "Where was your primary work location?",
+      "psKey": "JOB_LOC",
+      "placeholder": "Select state"
+    }
+  },
+  "sectionLegalGuardian": {
+    "stateParentLives": {
+      "label": "In which state do your parent(s) or legal guardian(s) currently live?",
+      "psKey": "DOM_PAR",
+      "placeholder": "Select state"
+    },
+    "selectParentRelationship": {
+      "label": "Which parent or legal guardian lives in Arizona?",
+      "psKey": "DOM_WHO",
+      "placeholder": "Select parent or legal guardian",
+      "options": [
+        {
+          "text": "Mother",
+          "value": "mother"
+        },
+        {
+          "text": "Father",
+          "value": "father"
+        },
+        {
+          "text": "Both",
+          "value": "both"
+        }
+      ]
+    },
+    "dateParentMovedToAz": {
+      "label": "When did your parent(s) or legal guardian(s) begin living in Arizona continuously?",
+      "psKey": "DOM_PAR_DT",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    },
+    "isParentFiledTaxLastYear": {
+      "label": "Did or will your parent(s) or legal guardian(s) file a state income tax return for the %current_year-1% tax year?",
+      "psKey": "PAR_TAX",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateParentFiledTax": {
+      "label": "In which state did, or will, your parent(s) or legal guardian(s) file state income taxes?",
+      "psKey": "PAR_TAX_ST",
+      "placeholder": "Select state"
+    },
+    "isParentHavingLicenseInAz": {
+      "label": "Does either parent or legal guardian have a current Arizona driver license?",
+      "psKey": "PAR_DL",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "isParentEmployedInAz": {
+      "label": "Is either parent or legal guardian employed in Arizona?",
+      "psKey": "PAR_JOB_AZ",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    }
+  },
+  "sectionMarried": {
+    "isMarried": {
+      "label": "Are you married?",
+      "psKey": "MARRIED",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateSpouseLives": {
+      "label": "In which state does your spouse currently live?",
+      "psKey": "SP_DOM_LOC",
+      "placeholder": "Select state"
+    },
+    "dateSpouseMovedToAz": {
+      "label": "When did your spouse begin living in Arizona?",
+      "psKey": "DOM_EST_DT",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    },
+    "isSpouseHavingValidId": {
+      "label": "Does your spouse have a valid drivers license or state-issued ID?",
+      "psKey": "SP_DL_ID",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateValidIdIssued": {
+      "label": "What state issued this drivers license or state ID? ",
+      "psKey": "DL_ST2",
+      "placeholder": "Select state"
+    },
+    "dateSpouseObtainedId": {
+      "label": "When did your spouse obtain this drivers license or state ID?",
+      "psKey": "SP_DL_DT",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    },
+    "isSpouseEmployed": {
+      "label": "Is your spouse employed?",
+      "psKey": "SP_EMPL",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateSpouseEmployed": {
+      "label": "In which state is your spouse employed?",
+      "psKey": "SP_JOB",
+      "placeholder": "Select state"
+    },
+    "dateSpouseEmploymentStarted": {
+      "label": "When did your spouses employment at this location begin?",
+      "psKey": "SP_JOB_LOC",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    },
+    "isSpouseEmployedInAnyUni": {
+      "label": "Is your spouse currently enrolled at ASU or any other college or university?",
+      "psKey": "SP_STDNT",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "isSpouseFileTax": {
+      "label": "Did or will your spouse file a state income tax return for the %current_year-1% tax year?",
+      "psKey": "SP_TAX",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateSpouseFiledTax": {
+      "label": "In which state did, or will, your spouse file state income taxes?",
+      "psKey": "SP_TAX_ST",
+      "placeholder": "Select state"
+    },
+    "isSpouseDependent": {
+      "label": "Is your spouse dependent on someone other than you for financial support, e.g. parents, guardians, family or financial aid?",
+      "psKey": "SP_DEP_FIN",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    }
+  },
+  "sectionMilitaryActiveDuty": {
+    "selectStateStationed": {
+      "label": "Where are you currently stationed?",
+      "psKey": "LOC_STAT",
+      "placeholder": "Select state"
+    },
+    "selectStateOfLegalResidence": {
+      "label": "What is your state of legal residence as noted on your leave and earnings statement (LES)?",
+      "psKey": "LES_ST_RES",
+      "placeholder": "Select state"
+    }
+  },
+  "sectionVote": {
+    "isRegisteredToVote": {
+      "label": "Are you registered to vote?",
+      "psKey": "VOTEREG",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateRegisteredToVote": {
+      "label": "In which state are you registered to vote?",
+      "psKey": "VOTEREGST",
+      "placeholder": "Select state"
+    }
+  },
+  "sectionMilitaryDependency": {
+    "selectSectorOfMilitary": {
+      "label": "You indicated that you were the spouse or dependent of a U.S. service member or veteran. Which best describes the service member or veteran?",
+      "psKey": "SP_VET_TYP",
+      "placeholder": "Select one",
+      "options": [
+        {
+          "text": "Active Duty",
+          "value": "active"
+        },
+        {
+          "text": "Armed Forces Reserve",
+          "value": "reserve"
+        },
+        {
+          "text": "National Guard",
+          "value": "guard"
+        },
+        {
+          "text": "Not Applicable",
+          "value": "NA"
+        },
+        {
+          "text": "Veteran",
+          "value": "veteran"
+        }
+      ]
+    },
+    "selectStateGuardianStationed": {
+      "label": "Where is your spouse/parent/guardian currently stationed?",
+      "psKey": "SP_STA_LOC",
+      "requiredSectorOfMilitaryToShow": ["active", "reserve", "guard", "NA"],
+      "placeholder": "Select state"
+    },
+    "selectStateGuardianLegalResidence": {
+      "label": "What is your spouse/parent/guardians state of legal residence?",
+      "psKey": "PAR_ST_RES",
+      "placeholder": "Select state"
+    },
+    "dateGuardianRetired": {
+      "label": "When was your parent/guardian/spouse discharged or released from active duty?",
+      "psKey": "SP_VET_DIS",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    },
+    "isEligibleFor30or33ChapterBenefits": {
+      "label": "Are you eligible for Chapter 30 or Chapter 33 benefits?",
+      "psKey": "CH30_33BEN",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "selectStateParentLives": {
+      "label": "In which state do your parent(s) or legal guardian(s) currently live?",
+      "psKey": "DOM_PAR",
+      "placeholder": "Select state"
+    }
+  },
+  "sectionVeteran": {
+    "selectService": {
+      "label": "You indicated that you are a veteran of the US military. Which character of service is noted on your DD-214?",
+      "psKey": "DD214CHRSV",
+      "placeholder": "Select branch",
+      "options": [
+        {
+          "text": "Under Honorable Conditions (General)",
+          "value": "UHC"
+        },
+        {
+          "text": "Under Other Than Honorable Conditions",
+          "value": "OUHC"
+        },
+        {
+          "text": "Bad Conduct",
+          "value": "BC"
+        },
+        {
+          "text": "Dishonorable",
+          "value": "DH"
+        },
+        {
+          "text": "Uncharacterized",
+          "value": "UC"
+        },
+        {
+          "text": "Honorable",
+          "value": "H"
+        }
+      ]
+    },
+    "isEligibleFor30or33ChapterBenefits": {
+      "label": "Are you eligible for Chapter 30 or Chapter 33 benefits?",
+      "psKey": "CH30_33BEN",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "dateOfRetirement": {
+      "label": "When were you discharged or released from active duty?",
+      "psKey": "MILEXITDT",
+      "month": {
+        "label": "Month",
+        "placeholder": "Select month"
+      },
+      "year": {
+        "label": "Year",
+        "placeholder": "Select year"
+      }
+    }
+  },
+  "sectionNativeAmerican": {
+    "isNativeAmerican": {
+      "label": "You indicated you are American Indian or Alaska Native. Do you have a tribal enrollment card or certificate of Indian blood?",
+      "psKey": "TRIBAL_CRT",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    }
+  },
+  "sectionProp308": {
+    "permanentHome": {
+      "label": "Which state do you consider to be your permanent domicile (i.e., your true, fixed and permanent home)?",
+      "psKey": "DOM_STATE",
+      "tooltip": "Your residency classification determines whether you pay in-state or out-of-state tuition and is determined when you are admitted based on guidelines provided by the Arizona Board of Regents. Questions in this section help determine your residency classification. You may be asked to provide documentation to confirm your status.",
+      "placeholder": "Select state"
+    },
+    "isGraduateFromAZPublicSchool": {
+      "label": "Did you (or will you) graduate from an Arizona public or private high school, or homeschool equivalent, or obtain an Arizona high school equivalency diploma, e.g, GED?",
+      "psKey": "308_AZ_HS",
+      "tooltip": "Arizona Proposition 308 is a legislative referral that voters passed in the November 2022 election. With the passage of Arizona Prop. 308, some students who qualify as noncitizens may be eligible for an in-state college tuition rate.</br> Answers to these questions will help determine your residency classification. You may be asked to provide documentation to confirm your status. More information about Prop 308 can be found <a href='https://tuition.asu.edu/Prop308' class='text-white text-underline' target='_blank'>here</a>.",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    },
+    "isAttendAZPublicSchool": {
+      "label": "Did you (or will you) attend an Arizona public or private high school, or homeschool while physically present in Arizona for a minimum of two years?",
+      "psKey": "308_AZ_2YR",
+      "options": [
+        {
+          "text": "Yes",
+          "value": "Y"
+        },
+        {
+          "text": "No",
+          "value": "N"
+        }
+      ]
+    }
+  }
+}

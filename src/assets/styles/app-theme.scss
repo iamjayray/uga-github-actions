@@ -1,0 +1,60 @@
+// App Theme
+
+// Required bootstrap dependency
+@import "~bootstrap/scss/functions.scss";
+@import "~bootstrap/scss/variables.scss";
+@import "~bootstrap/scss/mixins.scss";
+
+// BS-overrides
+@import "./bootstrap-overrides";
+
+// Optional
+@import "~bootstrap/scss/root.scss";
+@import "~bootstrap/scss/reboot.scss";
+@import "~bootstrap/scss/type.scss";
+@import "~bootstrap/scss/alert.scss";
+@import "~bootstrap/scss/buttons.scss";
+@import "~bootstrap/scss/card.scss";
+@import "~bootstrap/scss/carousel.scss";
+@import "~bootstrap/scss/close.scss";
+@import "~bootstrap/scss/code.scss";
+@import "~bootstrap/scss/custom-forms.scss";
+@import "~bootstrap/scss/dropdown.scss";
+@import "~bootstrap/scss/forms.scss";
+@import "~bootstrap/scss/grid.scss";
+@import "~bootstrap/scss/images.scss";
+@import "~bootstrap/scss/input-group.scss";
+@import "~bootstrap/scss/list-group.scss";
+@import "~bootstrap/scss/media.scss";
+@import "~bootstrap/scss/modal.scss";
+@import "~bootstrap/scss/nav.scss";
+@import "~bootstrap/scss/navbar.scss";
+@import "~bootstrap/scss/pagination.scss";
+@import "~bootstrap/scss/print.scss";
+@import "~bootstrap/scss/spinners.scss";
+@import "~bootstrap/scss/tables.scss";
+@import "~bootstrap/scss/transitions.scss";
+@import "~bootstrap/scss/utilities.scss";
+@import "~bootstrap/scss/badge.scss";
+@import "~bootstrap/scss/tooltip.scss";
+@import "~bootstrap/scss/progress.scss";
+
+@import "./skip-link";
+@import "./combobox";
+@import "vue-select/dist/vue-select.css";
+
+// import bootstrap vue files
+@import "~bootstrap-vue/src/variables.scss";
+@import "~bootstrap-vue/src/components/dropdown/index.scss";
+@import "~bootstrap-vue/src/components/sidebar/index.scss";
+@import "~bootstrap-vue/src/components/avatar/index.scss";
+@import "~bootstrap-vue/src/components/tooltip/index.scss";
+
+// custom css classes
+@import "./main";
+@import 'animate.css';
+
+.animate__animated.animate__zoomIn {
+    --animate-duration: 0.4s;
+  }
+  

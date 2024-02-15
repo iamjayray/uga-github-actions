@@ -1,0 +1,15 @@
+[
+  { "genderIdentity": "Female", "text": "Female", "value": "Female" },
+  { "genderIdentity": "Male", "text": "Male", "value": "Male" },
+  { "genderIdentity": "Nonbinary", "text": "Nonbinary", "value": "Nonbinary" },
+  {
+    "genderIdentity": "Other",
+    "text": "Identity not listed",
+    "value": "Identity not listed"
+  },
+  {
+    "genderIdentity": "Other",
+    "text": "Prefer not to say",
+    "value": "Prefer not to say"
+  }
+]

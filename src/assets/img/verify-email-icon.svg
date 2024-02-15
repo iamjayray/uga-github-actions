@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179.067" height="113.006" viewBox="0 0 179.067 113.006">
+  <defs>
+    <filter id="Ellipse_12440" x="0" y="54.928" width="57.56" height="57.56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.114"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_12439" x="117.212" y="0" width="61.855" height="61.855" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.098"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="verify_email" data-name="verify email" transform="translate(-188.31 -210.995)">
+    <rect id="Rectangle_22295" data-name="Rectangle 22295" width="173.032" height="23.204" transform="translate(193 300.797)" fill="#ededed"/>
+    <g id="envelope-open-text-duotone" transform="translate(242.187 238.923)">
+      <path id="Path_266227" data-name="Path 266227" d="M73.447,29.06a9.18,9.18,0,0,0-3.688-6.573l-5.468-4.047V35.834l9.156-6.774Zm.029,35.231V34.743L42.248,57.876a9.242,9.242,0,0,1-11.021,0L0,34.743V64.291H0a9.193,9.193,0,0,0,9.184,9.184H64.291a9.193,9.193,0,0,0,9.184-9.184ZM9.184,35.834V18.441L3.717,22.487A9.18,9.18,0,0,0,.029,29.06ZM41.545,1.593A8.054,8.054,0,0,0,36.738,0,8.137,8.137,0,0,0,31.93,1.579L27.869,4.592H45.606ZM25.257,18.369a2.3,2.3,0,1,0,0,4.592H48.218a2.3,2.3,0,0,0,0-4.592Zm0,9.184a2.3,2.3,0,1,0,0,4.592H48.218a2.3,2.3,0,0,0,0-4.592Z" fill="#a2a2a2"/>
+      <path id="Path_266228" data-name="Path 266228" d="M68.592,32A4.587,4.587,0,0,0,64,36.592V63.241L88.784,81.6a4.714,4.714,0,0,0,2.77.918,4.618,4.618,0,0,0,2.77-.918l24.784-18.355V36.592A4.587,4.587,0,0,0,114.514,32ZM80.073,45.777h22.961a2.3,2.3,0,0,1,0,4.592H80.073a2.3,2.3,0,0,1,0-4.592Zm0,9.184h22.961a2.3,2.3,0,1,1,0,4.592H80.073a2.3,2.3,0,0,1,0-4.592Z" transform="translate(-54.816 -27.408)" fill="#a2a2a2" opacity="0.4"/>
+    </g>
+    <g id="Group_86618" data-name="Group 86618" transform="translate(202.184 271.922) rotate(8)">
+      <g transform="matrix(0.99, -0.14, 0.14, 0.99, -22.22, -58.4)" filter="url(#Ellipse_12440)">
+        <circle id="Ellipse_12440-2" data-name="Ellipse 12440" cx="17.513" cy="17.513" r="17.513" transform="translate(13.87 60.93) rotate(8)" fill="#ffc627"/>
+      </g>
+      <path id="at-regular" d="M11.921,2.235a9.686,9.686,0,1,0,0,19.371,1.118,1.118,0,0,1,0,2.235A11.921,11.921,0,1,1,23.842,11.921v1.3a4.283,4.283,0,0,1-7.79,2.459,5.588,5.588,0,1,1-.6-8.093,1.118,1.118,0,0,1,2.058.605v5.029a2.049,2.049,0,1,0,4.1,0v-1.3A9.684,9.684,0,0,0,11.921,2.235Zm3.353,9.686a3.353,3.353,0,1,0-3.353,3.353,3.353,3.353,0,0,0,3.353-3.353Z" transform="translate(3.169 8.453) rotate(-11)" fill="#191919"/>
+    </g>
+    <g id="lock-duotone" transform="translate(218.84 252.391) rotate(-16)">
+      <path id="Path_266229" data-name="Path 266229" d="M0,1.9A1.9,1.9,0,0,1,1.9,0h9.5a1.9,1.9,0,0,1,1.9,1.9V7.6a1.9,1.9,0,0,1-1.9,1.9H1.9A1.9,1.9,0,0,1,0,7.6Z" transform="translate(0 5.697)" fill="#3c3c3c"/>
+      <path id="Path_266230" data-name="Path 266230" d="M4.273,1.9A2.373,2.373,0,0,0,1.9,4.273V5.7H0V4.273a4.273,4.273,0,1,1,8.546,0V5.7h-1.9V4.273A2.373,2.373,0,0,0,4.273,1.9Z" transform="translate(2.374 0)" fill="#3c3c3c" opacity="0.4"/>
+    </g>
+    <path id="sparkle-solid" d="M14.28,32.808a1.4,1.4,0,0,0-2.533,0L8.291,40.29.808,43.747a1.4,1.4,0,0,0,0,2.533l7.483,3.457,3.457,7.483a1.4,1.4,0,0,0,2.533,0l3.457-7.483L25.22,46.28a1.4,1.4,0,0,0,0-2.533L17.737,40.29Z" transform="translate(321.233 253.454)" fill="#ffc627"/>
+    <path id="sparkle-solid-2" data-name="sparkle-solid" d="M5.374,32.3a.526.526,0,0,0-.953,0L3.12,35.12.3,36.421a.526.526,0,0,0,0,.953l2.816,1.3,1.3,2.816a.526.526,0,0,0,.953,0l1.3-2.816,2.816-1.3a.526.526,0,0,0,0-.953l-2.816-1.3Z" transform="translate(246.186 195.828)" fill="#ffc627"/>
+    <path id="sparkle-solid-3" data-name="sparkle-solid" d="M5.374,32.3a.526.526,0,0,0-.953,0L3.12,35.12.3,36.421a.526.526,0,0,0,0,.953l2.816,1.3,1.3,2.816a.526.526,0,0,0,.953,0l1.3-2.816,2.816-1.3a.526.526,0,0,0,0-.953l-2.816-1.3Z" transform="translate(337.466 243.661)" fill="#ffc627"/>
+    <g id="Group_86616" data-name="Group 86616" transform="translate(318.693 216.995) rotate(6)">
+      <g transform="matrix(0.99, -0.1, 0.1, 0.99, -130.3, 7.66)" filter="url(#Ellipse_12439)">
+        <circle id="Ellipse_12439-2" data-name="Ellipse 12439" cx="19.951" cy="19.951" r="19.951" transform="translate(130.38 6) rotate(6)" fill="#78be20"/>
+      </g>
+      <path id="check-solid" d="M20.009.428a1.462,1.462,0,0,1,0,2.066L8.332,14.171a1.462,1.462,0,0,1-2.066,0L.428,8.332A1.461,1.461,0,0,1,2.494,6.266l4.808,4.8L17.947.428a1.462,1.462,0,0,1,2.066,0Z" transform="translate(9.813 13.626)" fill="#fafafa"/>
+    </g>
+  </g>
+</svg>

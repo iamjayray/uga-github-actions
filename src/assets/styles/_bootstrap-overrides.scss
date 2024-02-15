@@ -1,0 +1,677 @@
+// custom
+@import "./colors.scss";
+@import "./spacing.scss";
+
+$white: #fff;
+$black: #191919;
+
+:root {
+  --box-shadow--form-default: 0 0 0 0.2rem #{$form-control-border-color};
+  --box-shadow--form-danger: 0 0 0 0.2rem #{$form-control-error-border-color};
+}
+
+// Zindex
+
+$zindex-1000: 1000;
+$zindex-1020: 1020;
+$zindex-1030: 1030;
+$zindex-100: 100;
+$zindex-90: 90;
+$zindex-80: 80;
+$zindex-10: 10;
+$zindex-5: 5;
+$zindex-1: 1;
+
+// clean the colors and theme-colors map
+$colors: map-remove(
+  $colors,
+  "blue",
+  "indigo",
+  "purple",
+  "pink",
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "teal",
+  "cyan",
+  "gray",
+  "gray-dark"
+);
+
+$theme-colors: (
+  "primary": $asu-maroon,
+  "secondary": $asu-gold,
+  "success": $asu-success,
+  "info": $asu-info,
+  "warning": $asu-warning,
+  "danger": $asu-danger,
+  "light-0": $white,
+  "light-1": $asu-light-1,
+  "light-2": $asu-light-2,
+  "light-3": $asu-light-3,
+  "light-4": $asu-light-4,
+  "light-5": $asu-light-5,
+  "dark-1": $asu-dark-1,
+  "dark-2": $asu-dark-2,
+  "dark-3": $asu-dark-3,
+  "secondary-100": $ug-gold-100,
+  "success-100": $ug-success-100,
+);
+
+// Remove vanilla grayscale colors
+$grays: map-remove(
+  $grays,
+  "100",
+  "200",
+  "300",
+  "400",
+  "500",
+  "600",
+  "700",
+  "800",
+  "900"
+);
+
+// Body
+//
+// Settings for the `<body> element`.
+$body-bg: $white;
+$body-color: var(--dark-3, $asu-dark-3);
+
+// Links
+//
+// Style anchor elements.
+$link-color: var(--primary, $asu-maroon);
+$link-hover-color: var(--link-hover-override, darken($asu-maroon, 15%));
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+// $grid-gutter-width is defined in _spacing.scss
+
+$grid-columns: 12;
+$grid-row-columns: 6;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+// Font
+$font-family-sans-serif: var(
+  --rds-font-family,
+  Arial,
+  Helvetica,
+  "Nimbus Sans L",
+  "Liberation Sans",
+  FreeSans,
+  sans-serif
+);
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 1rem;
+
+$font-weight-lighter: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-bolder: 700;
+
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+
+// Headings
+// bootstrap overridess
+$headings-margin-bottom: 0;
+$headings-line-height: 1.2;
+$headings-font-weight: 700;
+
+// BORDER COLORS
+$border-color: var(--light-4, $asu-light-4);
+
+$input-border-color: var(--light-4, $asu-light-4);
+$custom-select-border-color: var(--light-4, $asu-light-4);
+
+$nav-tabs-border-color: var(--light-4, $asu-light-4);
+
+$card-border-color: var(--light-4, $asu-light-4);
+$card-border-radius: 0;
+
+$hr-border-color: var(--light-4, $asu-light-4);
+
+// Alerts
+$alert-bg-level: -10.45;
+$alert-border-level: 0;
+$alert-color-level: 12.5;
+
+// Modals
+$modal-backdrop-bg: var(--dark-3, $asu-dark-3);
+$modal-backdrop-opacity: 0.8;
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+$input-btn-padding-y: 0.5rem;
+$input-btn-padding-x: 1rem;
+
+$input-btn-padding-y-sm: 0.25rem;
+$input-btn-padding-x-sm: 0.5rem;
+
+$input-btn-padding-y-lg: 1rem;
+$input-btn-padding-x-lg: 2rem;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+$btn-padding-y: $input-btn-padding-y;
+$btn-padding-x: $input-btn-padding-x;
+
+$btn-padding-y-sm: $input-btn-padding-y-sm;
+$btn-padding-x-sm: $input-btn-padding-x-sm;
+
+$btn-padding-y-lg: $input-btn-padding-y-lg;
+$btn-padding-x-lg: $input-btn-padding-x-lg;
+
+$btn-font-weight: $font-weight-bold;
+
+$btn-block-spacing-y: 2rem;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius: 50.25rem;
+$btn-border-radius-lg: 50.3rem;
+$btn-border-radius-sm: 50.2rem;
+
+$btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+// Tables
+$table-color: var(--dark-3, $asu-dark-3);
+$table-accent-bg: var(--light-3, #e8e8e8);
+$table-border-color: var(--light-4, $asu-light-4);
+
+// Navbar
+$navbar-light-color: var(--dark-3, $asu-dark-3);
+
+// Pagination
+$pagination-color: var(--dark-3, $asu-dark-3);
+$pagination-border-color: var(--white, $white);
+$pagination-hover-color: var(--dark-3, $asu-dark-3);
+$pagination-hover-border-color: var(light-2, $asu-light-2);
+$pagination-focus-box-shadow: var(--dark-3, $asu-dark-3);
+$pagination-active-bg: var(--primary, $asu-maroon);
+$pagination-active-border-color: var(--primary, $asu-maroon);
+$pagination-disabled-color: var(--dark-2, $asu-dark-2);
+$pagination-disabled-border-color: var(--white, $white);
+
+// dropdown ( updated for new ver of bootstrap )
+$dropdown-link-hover-bg: $gray-100;
+$dropdown-link-disabled-color: $gray-600;
+
+// input forms
+$input-padding-y: 16px;
+$input-padding-x: 16px;
+$input-height: 64px;
+$input-focus-border-color: var(--light-4);
+$input-focus-box-shadow: none;
+$input-border-radius: 0;
+$input-border-radius-lg: 0;
+$input-border-radius-sm: 0;
+$custom-select-border-radius: 0;
+$custom-control-indicator-checked-bg: $asu-dark-3;
+$custom-control-indicator-size: 1.1rem;
+
+// tabs
+
+$nav-tabs-border-color: $asu-light-4;
+$nav-tabs-border-width: 1px;
+$nav-tabs-border-radius: 0px;
+$nav-tabs-link-hover-border-color: transparent;
+$nav-tabs-link-active-color: $asu-dark-3;
+$nav-tabs-link-active-bg: transparent;
+$nav-tabs-link-active-border-color: $asu-gold;
+
+// tooltip
+$tooltip-border-radius: 0px;
+
+.form-control {
+  &:focus {
+    box-shadow: var(--box-shadow--form-default) !important;
+  }
+  color: var(--dark-3) !important;
+  @media (max-width: 992px) {
+    font-size: 14px !important;
+  }
+}
+
+.form-control.is-invalid {
+  border-width: 2px;
+  border-bottom-width: 5px;
+  border-color: var(--danger) !important;
+  &:focus {
+    box-shadow: var(--box-shadow--form-danger) !important;
+  }
+}
+.form-control:where(.is-valid) {
+  background: none !important;
+}
+
+// Button
+//
+// Manual overrides for RDS
+
+.btn-secondary,
+.btn-light-2 {
+  color: var(--dark-3, #191919);
+
+  &:hover {
+    color: var(--dark-3, #191919);
+  }
+}
+
+.btn-primary,
+.btn-dark {
+  color: var(--light-1, #fafafa);
+
+  &:hover {
+    color: var(--light-1, #fafafa);
+  }
+}
+
+.btn-outline-primary {
+  color: var(--dark-3, #191919) !important;
+
+  &:hover {
+    color: var(--light-1, #fafafa) !important;
+  }
+}
+
+.btn-outline-secondary,
+.btn-outline-warning {
+  color: var(--dark-3, #191919) !important;
+
+  &:hover {
+    color: var(--dark-3, #191919) !important;
+  }
+}
+
+.btn-outline-success,
+.btn-outline-dark {
+  color: var(--dark-3, #191919) !important;
+
+  &:hover {
+    color: var(--light-1, #fafafa) !important;
+  }
+}
+
+// UnOrdered List
+//
+// custom class for RDS
+ul.rds-list {
+  list-style: none;
+
+  li:before {
+    content: "\2022";
+    /* \2022 is the CSS Code/unicode for a bullet */
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+  }
+}
+
+// Generate contextual modifier classes for colorizing the list item(s).
+@each $color, $value in $theme-colors {
+  .rds-list-#{$color} {
+    li:before {
+      color: var(--#{$color}, $value);
+    }
+  }
+}
+
+// Modal
+//
+// manual override
+.modal-backdrop {
+  opacity: 0.8 !important;
+}
+
+// Icons
+//
+// fix for FA 6 updated CSS
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  box-sizing: border-box;
+}
+
+// Checkboxes
+//
+// manual override for RDS
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: var(--dark-3, #191919);
+  border-color: var(--secondary, #ffc627);
+  background-color: var(--secondary, #ffc627);
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23191919' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='-3 -3 6 6'%3e%3ccircle r='3' fill='%238c1d40'/%3e%3c/svg%3e") !important;
+}
+
+// Header Standard
+//
+// b-dropdown override
+.btn-dropdown-focus {
+  &:focus {
+    box-shadow: none;
+    outline: 2px solid var(--dark-3, #191919);
+    border-radius: 0;
+  }
+
+  font-weight: 400;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+nav.main-nav {
+  .dropdown-item:hover {
+    color: var(--primary, #8c1d40);
+    background-color: var(--white, #ffffff);
+    text-decoration: underline;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-text,
+  .header-text .btn {
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-text,
+  .header-text .btn {
+    font-size: 16px;
+  }
+}
+
+// end Header Standard
+
+.app-tab {
+  .nav-link.active {
+    outline: none !important;
+  }
+  .nav-class-custom {
+    flex-flow: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  .tab-title-link-class {
+    color: $asu-dark-3 !important;
+    opacity: 0.6;
+  }
+  .completed-tab {
+    opacity: 1 !important;
+  }
+  .tab-active {
+    opacity: 1;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom-width: 8px !important;
+  }
+}
+
+// Modal override
+
+.modal-content {
+  border-bottom: 8px solid $asu-gold !important;
+  border-radius: 0;
+}
+
+//Checkbox override
+$custom-checkbox-indicator-icon-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='11.98' height='8.934' viewBox='0 0 11.98 8.934'%3e%3cpath fill='%23ffffff' transform='translate(0 -65.098)' d='M4.069,73.857.176,69.963a.6.6,0,0,1,0-.847l.847-.847a.6.6,0,0,1,.847,0l2.623,2.623,5.618-5.618a.6.6,0,0,1,.847,0l.847.847a.6.6,0,0,1,0,.847L4.916,73.857a.6.6,0,0,1-.847,0Z'/%3e%3c/svg%3e");
+$custom-control-indicator-checked-bg: var(--dark-3, $asu-dark-3);
+$custom-control-indicator-checked-border-color: var(--dark-3, $asu-dark-3);
+$custom-control-indicator-size: 1.2rem;
+$custom-control-indicator-checked-disabled-bg: var(--dark-1);
+.custom-control.custom-checkbox {
+  margin-top: 16px;
+  input[type="checkbox"] {
+    cursor: pointer !important;
+  }
+  .custom-control-label {
+    line-height: 1.6;
+    padding-left: 8px !important;
+    cursor: pointer !important;
+    span {
+      position: relative;
+      top: 2px;
+    }
+  }
+}
+.twox-checkbox {
+  .custom-control.custom-checkbox .custom-control-label {
+    padding-left: 30px !important;
+    &:before {
+      width: 2rem !important;
+      height: 2rem !important;
+    }
+    &:after {
+      width: 2rem !important;
+      height: 2rem !important;
+    }
+    @media (max-width: 992px) {
+      font-size: 16px !important;
+    }
+  }
+}
+// END
+
+// bootstrap radio card with override
+.base-radio-card {
+  padding: 2px !important;
+
+  .custom-control-label {
+    width: 100%;
+    cursor: pointer !important;
+  }
+  .custom-control-label::before,
+  .custom-control-label::after {
+    display: none !important;
+  }
+  .check-mark {
+    right: 24px;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    .fa-icon {
+      width: 27px;
+      height: 27px;
+      margin: -1px 0px 0px -1px;
+    }
+  }
+}
+.is-active .base-radio-card {
+  border: 3px solid var(--secondary) !important;
+  padding: 0px !important;
+}
+
+.card-radio-parent:has(input[type="radio"]:focus-visible) {
+  box-shadow: 0px 0px 0px 3px var(--info);
+}
+// END
+
+// b-form-rating override
+.b-rating {
+  display: block !important;
+  padding: 0px !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  line-height: 1;
+  .b-rating-star {
+    margin: 0px 7px !important;
+    font-size: 22px !important;
+  }
+  .b-rating-star-full {
+    color: var(--secondary) !important;
+  }
+  .b-rating-star-empty {
+    color: var(--light-4) !important;
+  }
+}
+
+// b-form-rating override
+.b-rating-input span {
+  line-height: 1;
+}
+.b-rating.invalid {
+  .b-rating-star-empty {
+    color: var(--danger) !important;
+  }
+}
+// END
+// b-alert close button override
+.alert-dismissible .close {
+  background-color: var(--white);
+  opacity: 1;
+  color: var(--dark-3) !important;
+  border-radius: 50% !important;
+  border: 1px solid var(--light-4) !important;
+  padding: 0px !important;
+  margin: 16px 16px 0px 0px;
+  width: 32px;
+  height: 32px;
+  @media (max-width: 991px) {
+    width: 24px !important;
+    height: 24px !important;
+    margin: 8px 8px 0px 0px;
+  }
+}
+// end
+
+// table overrides
+
+.table {
+  td {
+    vertical-align: middle !important;
+  }
+  tbody,
+  thead {
+    white-space: nowrap;
+  }
+}
+// b-sidebar width override
+.b-sidebar.b-sidebar-right {
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 580px;
+  }
+}
+.b-sidebar > .b-sidebar-body {
+  overflow-x: hidden;
+}
+// END
+
+// b-form-radio-group-override
+.custom-radio {
+  margin-bottom: 16px !important;
+  .custom-control-label {
+    cursor: pointer !important;
+    span {
+      margin-left: 12px;
+    }
+    &::after,
+    &::before {
+      width: 1.5rem;
+      height: 1.5rem;
+      top: 0px !important;
+    }
+  }
+  .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--white) !important;
+    border-color: var(--primary) !important;
+  }
+}
+// target overlay which is second postion absolute on b-overlay component
+
+.b-overlay {
+  .position-absolute:nth-of-type(2) {
+    position: fixed !important;
+  }
+}
+
+.b-overlay.position-absolute {
+  z-index: 1048 !important;
+}
+
+@media (max-width: 767px) {
+  .new-animation-loader.b-overlay-wrap {
+    .position-absolute {
+      width: 100% !important;
+    }
+  }
+}
+
+// options group
+.custom-control-input.is-valid {
+  &:checked ~ .custom-control-label::before {
+    background-color: $asu-dark-3 !important;
+  }
+}
+
+.custom-control-input.is-valid ~ .custom-control-label {
+  color: $asu-dark-3 !important;
+}
+.custom-control-input.is-valid ~ .custom-control-label::before {
+  border-color: $asu-dark-3 !important;
+}
+
+// Tool tip
+$tooltip-max-width: 300px;
+.tooltip .tooltip-inner {
+  text-align: left !important;
+}
+
+.modal-footer{
+  border: 0 !important;
+}

@@ -1,0 +1,384 @@
+{
+  "flowDescription": "Visa type 'DACA/UD' and studied in Arizona and school name is not HiSet and prop-308",
+
+  "errorMessage": "This is a required field",
+  "ageGroup": "18+",
+
+  "appCreationDetails": {
+    "dob": {
+      "month": "January",
+      "date": "1",
+      "year": "2000"
+    },
+    "mainPhone": {
+      "country": "United States",
+      "phoneNumber": "5342352432"
+    },
+    "isMobileNumberEntered": { "text": "Yes", "value": "Y" },
+    "mobilePhone": {
+      "country": null,
+      "phoneNumber": null
+    },
+    "receiveInfoBySMS": { "text": "No", "value": "N" }
+  },
+
+  "myInformation": {
+    "formerNames": [],
+    "legalSex": { "text": "Male", "value": "M" },
+    "primaryLanguage": {
+      "selectValue": {
+        "id": "1",
+        "language": "English",
+        "languageCode3": "eng",
+        "displayOrder": 5,
+        "selected": true,
+        "text": "English",
+        "value": "eng"
+      },
+      "inputValue": null
+    },
+    "homeAddress": {
+      "type": "PERMANENT",
+      "countryCode": {
+        "countryCode": "USA",
+        "countryCodeTwoChar": "US",
+        "description": "United States",
+        "selected": true,
+        "text": "United States",
+        "value": "USA"
+      },
+      "street1": "187 Hudson Street",
+      "street2": "",
+      "city": "Teterboro",
+      "stateProvince": {
+        "stateCode": "AL",
+        "description": "Alabama",
+        "selected": true,
+        "text": "Alabama",
+        "value": "AL"
+      },
+      "postalCode": "07608"
+    },
+    "ethnicOrRacialBackground": {
+      "hispanicOrLatino": {
+        "isHispanicOrLatino": { "text": "No", "value": "N" },
+        "origin": null
+      },
+      "race": [
+        {
+          "ethnicCategoryCode": "W",
+          "ethnicCategoryDescription": "White",
+          "text": "White",
+          "value": "W",
+          "origin": null,
+          "isOriginAvailable": false,
+          "selected": false,
+          "preferredReference": false
+        }
+      ],
+      "primaryRace": null
+    },
+    "usCitizenship": {
+      "isUsCitizen": { "text": "I am not a U.S. citizen", "value": false },
+      "countryOfBirth": {
+        "countryCode": "USA",
+        "countryCodeTwoChar": "US",
+        "description": "United States",
+        "selected": true,
+        "text": "United States",
+        "value": "USA"
+      },
+      "ssn": "637647364",
+      "typeOfVisa": {
+        "text": "Deferred Action for Childhood Arrivals (DACA)",
+        "value": "Deferred_Action_for_Childhood_Arrivals_(DACA)",
+        "visaPermitTypeCode": "DACA"
+      },
+      "countryOfCitizenShip": {
+        "countryCode": "AFG",
+        "countryCodeTwoChar": "AF",
+        "description": "Afghanistan",
+        "selected": true,
+        "text": "Afghanistan",
+        "value": "AFG"
+      },
+      "cityOfBirth": null,
+      "otherVisaChoices": null,
+      "issuingI20": null,
+      "intAddress": {
+        "type": "SEVIS",
+        "countryCode": null,
+        "street1": null,
+        "street2": "",
+        "city": null,
+        "stateProvince": null,
+        "postalCode": null
+      },
+      "shippingAddressType": null,
+      "shippingAddress": {
+        "type": "I20",
+        "countryCode": null,
+        "street1": null,
+        "street2": null,
+        "city": null,
+        "stateProvince": null,
+        "postalCode": null
+      }
+    },
+    "guardians": [],
+    "asuAffiliation": {
+      "affiliations": ["affiliationASUCOMMDGS"],
+      "affiliateId": null
+    },
+    "usUniformedServices": {
+      "relation": {
+        "text": "None of these options apply to me",
+        "value": "None of these options apply"
+      },
+      "status": null,
+      "branch": null,
+      "appliedForBenefit": null,
+      "requestTranscript": null
+    },
+    "partnerBenefits": {
+      "educationBenefit": { "text": "No", "value": "N" },
+      "currentEmployer": null
+    }
+  },
+  "myProgram": {
+    "programsSelected": [
+      {
+        "title": "Accountancy, BS",
+        "acadPlanCode": "BAACCBS",
+        "shortTitle": "BS",
+        "startDate": "2024 summer - (Session B)",
+        "highAdmissionProgram": true,
+        "type": "new",
+        "subPlanCode": null,
+        "payloadData": {
+          "priority": "1",
+          "programCode": "UGBA",
+          "planCode": "BAACCBS",
+          "subPlanCode": null,
+          "location": "ONLNE",
+          "term": "2244",
+          "session": "SESB"
+        }
+      },
+      {
+        "title": "African and African American Studies, BA",
+        "acadPlanCode": "LAAFRBA",
+        "shortTitle": "BA",
+        "startDate": "2024 summer - (Session B)",
+        "highAdmissionProgram": false,
+        "type": "new",
+        "subPlanCode": null,
+        "payloadData": {
+          "priority": "2",
+          "programCode": "UGLA",
+          "planCode": "LAAFRBA",
+          "subPlanCode": null,
+          "location": "ONLNE",
+          "term": "2244",
+          "session": "SESA"
+        }
+      }
+    ],
+    "otherInterests": [],
+    "rnToBsn": {
+      "isLicensed": null,
+      "license": {
+        "state": null,
+        "number": null,
+        "expirationDate": { "day": null, "month": null, "year": null },
+        "disciplinaryActionTaken": null
+      },
+      "dateScheduledForNclexrn": { "day": null, "month": null, "year": null },
+      "employer": null,
+      "partnerCode": null,
+      "releaseInfoToEmployer": null,
+      "communityColleges": null,
+      "reverseTransferAggrement": null
+    }
+  },
+  "mySchools": {
+    "schools": [
+      {
+        "country": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        },
+        "state": {
+          "stateCode": "AZ",
+          "description": "Arizona",
+          "selected": false,
+          "text": "Arizona",
+          "value": "AZ"
+        },
+        "sais": "7384736434",
+        "city": { "text": "Anthem", "value": "Anthem" },
+        "highSchool": {
+          "externalOrgId": "1100011444",
+          "schoolTypeCode": "HS",
+          "description": "Boulder Creek",
+          "countryCode": "USA",
+          "stateCode": "AZ",
+          "city": "Anthem",
+          "atpCode": "030581",
+          "selected": false,
+          "text": "Boulder Creek",
+          "value": "1100011444"
+        },
+        "schoolName": null,
+        "dateFirstAttended": { "month": null, "year": null },
+        "dateLastAttended": { "month": null, "year": null },
+        "graduationDate": {
+          "month": {
+            "order": 1,
+            "text": "January",
+            "value": "01",
+            "monthIndex": 0
+          },
+          "year": { "text": "2028", "value": 2028 }
+        },
+        "nameOnTranscript": {
+          "id": "1",
+          "nameType": "legal",
+          "firstName": "AQIB",
+          "lastName": "JAVEED",
+          "middleName": null,
+          "suffix": "II",
+          "text": "AQIB JAVEED",
+          "value": "1"
+        },
+        "type": "new"
+      }
+    ],
+    "college": {
+      "attendedCollege": { "text": "No", "value": "never attended" },
+      "totelSemisterCredits": "0",
+      "institutions": []
+    },
+    "iseligibleToReturnToColleges": null,
+    "ineligibleToReturnCollege": {
+      "first": {
+        "name": null,
+        "reasons": {
+          "academicRelated": null,
+          "studentConduct": null,
+          "other": null,
+          "explaination": null
+        }
+      },
+      "second": {
+        "name": null,
+        "reasons": {
+          "academicRelated": null,
+          "studentConduct": null,
+          "other": null,
+          "explaination": null
+        }
+      }
+    },
+    "transcriptPolicyAcknowledge": "Yes"
+  },
+  "myHighSchoolGrades": {
+    "gradePath": "Y",
+    "overallAcademics": {
+      "unweightedGpa": "3.44",
+      "gpaScale": {
+        "id": "1",
+        "scaleDisplay": "4",
+        "psScaleName": "4PT",
+        "selected": true,
+        "text": "4",
+        "value": "1"
+      },
+      "gradingSystem": {
+        "id": "1",
+        "displayScaleTypeName": "A-F",
+        "selected": true,
+        "text": "A-F",
+        "value": "A-F"
+      },
+      "classRankSize": { "rank": "433", "size": "455" }
+    },
+    "highSchoolCourses": [
+      {
+        "academicYear": {
+          "id": "4",
+          "acadYear": "Senior/12",
+          "selected": false,
+          "text": "Senior/12",
+          "value": "4"
+        },
+        "courseName": {
+          "id": "1",
+          "subjectId": "1",
+          "name": "English I / Freshman English",
+          "orderBy": "10",
+          "selected": false,
+          "text": "English I / Freshman English",
+          "value": "1"
+        },
+        "customeCourseName": null,
+        "duration": {
+          "id": "1",
+          "typeName": "Semester",
+          "orderBy": "1",
+          "selected": false,
+          "text": "Semester",
+          "value": "1"
+        },
+        "courseLevel": {
+          "id": "1",
+          "code": "RG",
+          "name": "High School",
+          "orderBy": "1",
+          "selected": false,
+          "text": "High School",
+          "value": "1"
+        },
+        "grades": {
+          "1stSemesterGrade": {
+            "id": "1",
+            "grade": "A",
+            "orderBy": "1",
+            "gpaScaleTypeId": 1,
+            "selected": false,
+            "text": "A",
+            "value": "1"
+          },
+          "2ndSemesterGrade": {
+            "id": "2",
+            "grade": "B",
+            "orderBy": "2",
+            "gpaScaleTypeId": 1,
+            "selected": false,
+            "text": "B",
+            "value": "2"
+          }
+        },
+        "type": "new",
+        "id": "ot0lkfcvjd",
+        "gradingSystemOption": "A-F",
+        "subject": "1"
+      }
+    ]
+  },
+  "arizonaResidency": {
+    "sectionProp308": {
+      "permanentHome": { "value": "AL", "text": "Alabama" },
+      "isGraduateFromAZPublicSchool": { "text": "Yes", "value": "Y" },
+      "isAttendAZPublicSchool": { "text": "Yes", "value": "Y" }
+    }
+  },
+  "review": {
+    "paymentType": "payNow",
+    "creditCardType": "Visa"
+  }
+}

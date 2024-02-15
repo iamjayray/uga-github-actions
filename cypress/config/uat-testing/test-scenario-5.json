@@ -1,0 +1,307 @@
+{
+  "flowDescription": "US citizen with military affiliation active duty and higher admission program and past dated highschool with residency states outside the US flow",
+
+  "errorMessage": "This is a required field",
+  "ageGroup": "18-",
+
+  "appCreationDetails": {
+    "dob": {
+      "month": "January",
+      "date": "1",
+      "year": "2012"
+    },
+    "mainPhone": {
+      "country": "Albania",
+      "phoneNumber": "672123456"
+    },
+    "isMobileNumberEntered": { "text": "Yes", "value": "Y" },
+    "mobilePhone": {
+      "country": null,
+      "phoneNumber": null
+    },
+    "receiveInfoBySMS": { "text": "Yes", "value": "Y" }
+  },
+  "myInformation": {
+    "formerNames": [],
+    "legalSex": { "text": "Female", "value": "F" },
+    "primaryLanguage": {
+      "selectValue": {
+        "id": "2",
+        "language": "Spanish",
+        "languageCode3": "spa",
+        "displayOrder": 10,
+        "selected": true,
+        "text": "Spanish",
+        "value": "spa"
+      },
+      "inputValue": null
+    },
+    "homeAddress": {
+      "addressId": "1",
+      "type": "PERMANENT",
+      "street1": "#23 8th test",
+      "street2": "",
+      "city": "Cupertino",
+      "stateProvince": {
+        "stateCode": "DUR",
+        "description": "Durres",
+        "selected": true,
+        "text": "Durres",
+        "value": "DUR"
+      },
+      "postalCode": "123456",
+      "countryCode": {
+        "countryCode": "ALB",
+        "countryCodeTwoChar": "AL",
+        "description": "Albania",
+        "selected": true,
+        "text": "Albania",
+        "value": "ALB"
+      }
+    },
+    "ethnicOrRacialBackground": {
+      "hispanicOrLatino": {
+        "isHispanicOrLatino": { "text": "Yes", "value": "Y" }
+      },
+      "race": [],
+      "primaryRace": null
+    },
+    "usCitizenship": {
+      "isUsCitizen": { "text": "I am a U.S. citizen", "value": true },
+      "countryOfBirth": {
+        "countryCode": "AFG",
+        "countryCodeTwoChar": "AF",
+        "description": "Afghanistan",
+        "selected": true,
+        "text": "Afghanistan",
+        "value": "AFG"
+      },
+      "ssn": "000000000",
+      "typeOfVisa": null,
+      "countryOfCitizenShip": {
+        "countryCode": "USA",
+        "countryCodeTwoChar": "US",
+        "description": "United States",
+        "selected": true,
+        "text": "United States",
+        "value": "USA"
+      },
+      "cityOfBirth": null,
+      "otherVisaChoices": null,
+      "issuingI20": null,
+      "intAddress": {
+        "type": "SEVIS",
+        "countryCode": null,
+        "street1": null,
+        "street2": "",
+        "city": null,
+        "stateProvince": null,
+        "postalCode": null
+      },
+      "shippingAddressType": null,
+      "shippingAddress": {
+        "type": "I20",
+        "countryCode": null,
+        "street1": null,
+        "street2": null,
+        "city": null,
+        "stateProvince": null,
+        "postalCode": null
+      }
+    },
+    "guardians": [],
+    "asuAffiliation": {
+      "affiliations": ["affiliationASUCOMGLLN"],
+      "affiliateId": ""
+    },
+    "usUniformedServices": {
+      "relation": {
+        "text": "I am a U.S. service member or veteran",
+        "value": "I am a U.S. service member or veteran"
+      },
+      "status": { "text": "Active Duty", "value": "Active Duty" },
+      "branch": {
+        "text": "United States Marine Corps",
+        "value": "U.S. Marine Corps"
+      },
+      "appliedForBenefit": { "text": "No", "value": "N" },
+      "requestTranscript": { "text": "No", "value": "N" }
+    },
+    "partnerBenefits": {
+      "educationBenefit": { "text": "No", "value": "N" },
+      "currentEmployer": null
+    }
+  },
+  "myProgram": {
+    "programsSelected": [
+      {
+        "title": "Accountancy, BS",
+        "acadPlanCode": "BAACCBS",
+        "shortTitle": "BS",
+        "highAdmissionProgram": true,
+        "subPlanCode": null,
+        "payloadData": {
+          "priority": "1",
+          "programCode": "UGBA",
+          "planCode": "BAACCBS",
+          "location": "ONLNE",
+          "term": "2247",
+          "session": "SESB",
+          "subPlanCode": null
+        },
+        "startDate": "2024 fall - (Session B)"
+      },
+      {
+        "title": "Anthropology, BS",
+        "acadPlanCode": "LAASBBS",
+        "shortTitle": "BS",
+        "highAdmissionProgram": false,
+        "subPlanCode": null,
+        "payloadData": {
+          "priority": "2",
+          "programCode": "UGLA",
+          "planCode": "LAASBBS",
+          "location": "ONLNE",
+          "term": "2247",
+          "session": "SESB",
+          "subPlanCode": null
+        },
+        "startDate": "2024 fall - (Session B)"
+      }
+    ],
+    "otherInterests": [],
+    "rnToBsn": {
+      "isLicensed": null,
+      "license": {
+        "state": null,
+        "number": null,
+        "expirationDate": { "day": null, "month": null, "year": null },
+        "disciplinaryActionTaken": null
+      },
+      "dateScheduledForNclexrn": { "day": null, "month": null, "year": null },
+      "employer": null,
+      "partnerCode": null,
+      "releaseInfoToEmployer": null,
+      "communityColleges": null,
+      "reverseTransferAggrement": null
+    }
+  },
+  "mySchools": {
+    "schools": [
+      {
+        "highSchoolId": "1",
+        "country": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        },
+        "state": {
+          "stateCode": "AL",
+          "description": "Alabama",
+          "selected": false,
+          "text": "Alabama",
+          "value": "AL"
+        },
+        "sais": null,
+        "city": { "text": "Adamsville", "value": "Adamsville" },
+        "highSchool": { "text": "Home School", "value": null },
+        "schoolName": null,
+        "dateFirstAttended": { "month": null, "year": null },
+        "dateLastAttended": { "month": null, "year": null },
+        "graduationDate": {
+          "month": {
+            "order": 2,
+            "text": "February",
+            "value": "02",
+            "monthIndex": 1
+          },
+          "year": { "text": "2015", "value": 2015 }
+        },
+        "nameOnTranscript": {
+          "id": "1",
+          "nameType": "legal",
+          "firstName": "Abhishek",
+          "lastName": "Ganesan",
+          "middleName": null,
+          "suffix": null
+        }
+      }
+    ],
+    "college": {
+      "attendedCollege": { "text": "No", "value": "never attended" },
+      "totelSemisterCredits": "0",
+      "institutions": []
+    },
+    "iseligibleToReturnToColleges": null,
+    "ineligibleToReturnCollege": {
+      "first": {
+        "name": null,
+        "reasons": {
+          "academicRelated": null,
+          "studentConduct": null,
+          "other": null,
+          "explaination": null
+        }
+      },
+      "second": {
+        "name": null,
+        "reasons": {
+          "academicRelated": null,
+          "studentConduct": null,
+          "other": null,
+          "explaination": null
+        }
+      }
+    },
+    "transcriptPolicyAcknowledge": "Yes"
+  },
+  "myHighSchoolGrades": {
+    "gradePath": "N",
+    "overallAcademics": {
+      "unweightedGpa": null,
+      "gpaScale": null,
+      "gradingSystem": null,
+      "classRankSize": { "rank": null, "size": null },
+      "delete": true
+    },
+    "highSchoolCourses": []
+  },
+  "arizonaResidency": {
+    "sectionDomicile": {
+      "permanentHome": {
+        "value": "Outside the U.S. or Not Listed",
+        "text": "Outside the U.S. or Not Listed"
+      },
+      "isAzResident12m": null,
+      "dateMovedToAz": null
+    },
+    "sectionMilitaryActiveDuty": {
+      "selectStateStationed": {
+        "value": "Outside the U.S. or Not Listed",
+        "text": "Outside the U.S. or Not Listed"
+      },
+      "selectStateOfLegalResidence": {
+        "value": "Outside the U.S. or Not Listed",
+        "text": "Outside the U.S. or Not Listed"
+      }
+    },
+    "sectionLegalGuardian": {
+      "stateParentLives": {
+        "value": "Outside the U.S. or Not Listed",
+        "text": "Outside the U.S. or Not Listed"
+      },
+      "selectParentRelationship": null,
+      "dateParentMovedToAz": null,
+      "isParentFiledTaxLastYear": null,
+      "selectStateParentFiledTax": null,
+      "isParentHavingLicenseInAz": null,
+      "isParentEmployedInAz": null
+    }
+  },
+  "review": {
+    "paymentType": "payLater"
+  }
+}

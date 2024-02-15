@@ -1,0 +1,542 @@
+{
+  "flowDescription": "US citizen with military affiliation dependent veteran with self report course details",
+
+  "errorMessage": "This is a required field",
+  "ageGroup": "<24",
+  "appCreationDetails": {
+    "dob": {
+      "month": "January",
+      "date": "26",
+      "year": "2003"
+    },
+    "mainPhone": {
+      "country": "United States",
+      "phoneNumber": "2102232231"
+    },
+    "isMobileNumberEntered": { "text": "Yes", "value": "Y" },
+    "mobilePhone": {
+      "country": null,
+      "phoneNumber": null
+    },
+    "receiveInfoBySMS": { "text": "Yes", "value": "Y" }
+  },
+
+  "myInformation": {
+    "formerNames": [],
+    "legalSex": { "text": "Male", "value": "M" },
+    "primaryLanguage": {
+      "selectValue": {
+        "id": "3",
+        "language": "Aceh",
+        "languageCode3": "ace",
+        "displayOrder": 20,
+        "selected": true,
+        "text": "Aceh",
+        "value": "ace"
+      },
+      "inputValue": null
+    },
+    "homeAddress": {
+      "addressId": "1",
+      "type": "PERMANENT",
+      "street1": "#23 8th test",
+      "street2": "",
+      "city": "Cupertino",
+      "stateProvince": {
+        "stateCode": "AK",
+        "description": "Alaska",
+        "selected": true,
+        "text": "Alaska",
+        "value": "AK"
+      },
+      "postalCode": "123456121212",
+      "countryCode": {
+        "countryCode": "USA",
+        "countryCodeTwoChar": "US",
+        "description": "United States",
+        "selected": true,
+        "text": "United States",
+        "value": "USA"
+      }
+    },
+    "ethnicOrRacialBackground": {
+      "hispanicOrLatino": { "isHispanicOrLatino": null, "origin": null },
+      "race": [],
+      "primaryRace": null
+    },
+    "usCitizenship": {
+      "isUsCitizen": { "text": "I am a U.S. citizen", "value": true },
+      "countryOfBirth": {
+        "countryCode": "ALA",
+        "countryCodeTwoChar": "AX",
+        "description": "Aland Islands",
+        "selected": true,
+        "text": "Aland Islands",
+        "value": "ALA"
+      },
+      "ssn": "000000000",
+      "typeOfVisa": null,
+      "countryOfCitizenShip": {
+        "countryCode": "USA",
+        "countryCodeTwoChar": "US",
+        "description": "United States",
+        "selected": true,
+        "text": "United States",
+        "value": "USA"
+      },
+      "cityOfBirth": null,
+      "otherVisaChoices": null,
+      "issuingI20": null,
+      "intAddress": {
+        "type": "SEVIS",
+        "countryCode": null,
+        "street1": null,
+        "street2": "",
+        "city": null,
+        "stateProvince": null,
+        "postalCode": null
+      },
+      "shippingAddressType": null,
+      "shippingAddress": {
+        "type": "I20",
+        "countryCode": null,
+        "street1": null,
+        "street2": null,
+        "city": null,
+        "stateProvince": null,
+        "postalCode": null
+      }
+    },
+    "guardians": [],
+    "asuAffiliation": {
+      "affiliations": ["affiliationASUCOMOTH"],
+      "affiliateId": null
+    },
+    "usUniformedServices": {
+      "relation": {
+        "text": "I am the spouse/dependent of a U.S. service member or veteran",
+        "value": "Spouse/Dependent of a U.S. service member or veteran"
+      },
+      "status": null,
+      "branch": {
+        "text": "United States Marine Corps",
+        "value": "U.S. Marine Corps"
+      },
+      "appliedForBenefit": { "text": "No", "value": "N" },
+      "requestTranscript": null
+    },
+    "partnerBenefits": {
+      "educationBenefit": { "text": "Yes", "value": "Y" },
+      "currentEmployer": {
+        "corporatePartnerCode": "ADS",
+        "corporatePartnerDescription": "Amazon DSP",
+        "selected": true,
+        "text": "Amazon dsp",
+        "value": "Amazon DSP"
+      }
+    }
+  },
+  "myProgram": {
+    "programsSelected": [
+      {
+        "title": "Anthropology, BA",
+        "acadPlanCode": "LAASBBA",
+        "shortTitle": "BA",
+        "highAdmissionProgram": false,
+        "subPlanCode": null,
+        "payloadData": {
+          "priority": "1",
+          "programCode": "UGLA",
+          "planCode": "LAASBBA",
+          "location": "ONLNE",
+          "term": "2244",
+          "session": "SESB",
+          "subPlanCode": null
+        },
+        "startDate": "2024 summer - (Session B)"
+      }
+    ],
+    "otherInterests": [],
+    "rnToBsn": {
+      "isLicensed": null,
+      "license": {
+        "state": null,
+        "number": null,
+        "expirationDate": { "day": null, "month": null, "year": null },
+        "disciplinaryActionTaken": null
+      },
+      "dateScheduledForNclexrn": { "day": null, "month": null, "year": null },
+      "employer": null,
+      "partnerCode": null,
+      "releaseInfoToEmployer": null,
+      "communityColleges": null,
+      "reverseTransferAggrement": null
+    }
+  },
+  "mySchools": {
+    "schools": [
+      {
+        "highSchoolId": "1",
+        "country": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        },
+        "state": {
+          "stateCode": "AL",
+          "description": "Alabama",
+          "selected": false,
+          "text": "Alabama",
+          "value": "AL"
+        },
+        "sais": null,
+        "city": { "text": "Adamsville", "value": "Adamsville" },
+        "highSchool": {
+          "externalOrgId": "1100010100",
+          "schoolTypeCode": "HS",
+          "description": "Minor HS",
+          "countryCode": "USA",
+          "stateCode": "AL",
+          "city": "Adamsville",
+          "atpCode": "010375",
+          "selected": false,
+          "text": "Minor HS",
+          "value": "1100010100"
+        },
+        "schoolName": null,
+        "dateFirstAttended": { "month": null, "year": null },
+        "dateLastAttended": { "month": null, "year": null },
+        "graduationDate": {
+          "month": {
+            "order": 1,
+            "text": "January",
+            "value": "01",
+            "monthIndex": 0
+          },
+          "year": { "text": "2014", "value": 2014 }
+        },
+        "nameOnTranscript": {
+          "id": "1",
+          "nameType": "legal",
+          "firstName": "Abhishek",
+          "lastName": "Ganesan",
+          "middleName": null,
+          "suffix": null
+        }
+      }
+    ],
+    "college": {
+      "attendedCollege": {
+        "text": "Yes",
+        "value": "attended/attending college"
+      },
+      "totelSemisterCredits": "12",
+      "institutions": [
+        {
+          "country": {
+            "countryCode": "USA",
+            "countryCodeTwoChar": "US",
+            "description": "United States",
+            "selected": true,
+            "text": "United States",
+            "value": "USA"
+          },
+          "state": {
+            "stateCode": "AK",
+            "description": "Alaska",
+            "selected": false,
+            "text": "Alaska",
+            "value": "AK"
+          },
+          "city": { "text": "Akiachak", "value": "Akiachak" },
+          "institute": { "text": "Not listed", "value": "Not listed" },
+          "customInstituteName": "Test",
+          "degreeAwarded": {
+            "text": "Arizona General Education Curriculum in Progress",
+            "value": "AGECIP"
+          },
+          "degreeConcentration": "test",
+          "dateFirstAttended": {
+            "month": {
+              "order": 4,
+              "text": "April",
+              "value": "04",
+              "monthIndex": 3
+            },
+            "year": { "text": "2021", "value": 2021 }
+          },
+          "dateLastAttended": {
+            "month": {
+              "order": 3,
+              "text": "March",
+              "value": "03",
+              "monthIndex": 2
+            },
+            "year": { "text": "2023", "value": 2023 }
+          },
+          "nameOnTranscript": {
+            "id": "1",
+            "nameType": "legal",
+            "firstName": "Abhishek",
+            "lastName": "Ganesan",
+            "middleName": null,
+            "suffix": null,
+            "text": "Abhishek Ganesan",
+            "value": "1"
+          },
+          "type": "new"
+        }
+      ]
+    },
+    "iseligibleToReturnToColleges": { "text": "No", "value": "N" },
+    "ineligibleToReturnCollege": {
+      "first": {
+        "name": "Test",
+        "reasons": {
+          "academicRelated": { "text": "No", "value": "N" },
+          "studentConduct": { "text": "Yes", "value": "Y" },
+          "other": { "text": "No", "value": "N" },
+          "explaination": "Test"
+        }
+      },
+      "second": {
+        "name": "Test",
+        "reasons": {
+          "academicRelated": { "text": "Yes", "value": "Y" },
+          "studentConduct": { "text": "No", "value": "N" },
+          "other": { "text": "Yes", "value": "Y" },
+          "explaination": "Test"
+        }
+      }
+    },
+    "transcriptPolicyAcknowledge": "Yes"
+  },
+  "myHighSchoolGrades": {
+    "gradePath": "Y",
+    "overallAcademics": {
+      "unweightedGpa": 1,
+      "gpaScale": {
+        "id": "12",
+        "scaleDisplay": "100",
+        "psScaleName": "100P",
+        "selected": false,
+        "text": "100",
+        "value": "12"
+      },
+      "gradingSystem": {
+        "id": "2",
+        "displayScaleTypeName": "100 point based",
+        "selected": false,
+        "text": "100 point based",
+        "value": "100 point based"
+      },
+      "classRankSize": { "rank": null, "size": null }
+    },
+    "highSchoolCourses": [
+      {
+        "id": "5br38veuqo",
+        "highSchoolCourseworkId": "1",
+        "academicYear": {
+          "id": "2",
+          "acadYear": "Sophomore/10",
+          "selected": false,
+          "text": "Sophomore/10",
+          "value": "2"
+        },
+        "courseName": {
+          "id": "4",
+          "subjectId": "1",
+          "name": "English IV / Senior English",
+          "orderBy": "40",
+          "selected": false,
+          "text": "English IV / Senior English",
+          "value": "4"
+        },
+        "customeCourseName": null,
+        "duration": {
+          "id": "4",
+          "typeName": "Full Year",
+          "orderBy": "4",
+          "selected": false,
+          "text": "Full Year",
+          "value": "4"
+        },
+        "courseLevel": {
+          "id": "2",
+          "code": "HN",
+          "name": "Honors",
+          "orderBy": "2",
+          "selected": false,
+          "text": "Honors",
+          "value": "2"
+        },
+        "gradingSystemOption": null,
+        "subject": "1",
+        "grades": {
+          "yearGrade": {
+            "id": "12",
+            "grade": "100-90",
+            "orderBy": "1",
+            "gpaScaleTypeId": 2,
+            "selected": false,
+            "text": "100-90",
+            "value": "12"
+          }
+        }
+      },
+      {
+        "academicYear": {
+          "id": "1",
+          "acadYear": "Freshman/9",
+          "selected": false,
+          "text": "Freshman/9",
+          "value": "1"
+        },
+        "courseName": {
+          "id": "45",
+          "subjectId": "4",
+          "name": "World History",
+          "orderBy": "440",
+          "selected": false,
+          "text": "World History",
+          "value": "45"
+        },
+        "customeCourseName": null,
+        "duration": {
+          "id": "1",
+          "typeName": "Semester",
+          "orderBy": "1",
+          "selected": false,
+          "text": "Semester",
+          "value": "1"
+        },
+        "courseLevel": {
+          "id": "3",
+          "code": "AP",
+          "name": "Advanced Placement",
+          "orderBy": "3",
+          "selected": false,
+          "text": "Advanced Placement",
+          "value": "3"
+        },
+        "grades": {
+          "1stSemesterGrade": {
+            "id": "14",
+            "grade": "89-80",
+            "orderBy": "2",
+            "gpaScaleTypeId": 2,
+            "selected": false,
+            "text": "89-80",
+            "value": "14"
+          },
+          "2ndSemesterGrade": {
+            "id": "11",
+            "grade": "Pass",
+            "orderBy": "7",
+            "gpaScaleTypeId": 2,
+            "selected": false,
+            "text": "Pass",
+            "value": "11"
+          }
+        },
+        "type": "new",
+        "id": "wpq2kvwvk1",
+        "gradingSystemOption": "100 point based",
+        "subject": "4"
+      }
+    ]
+  },
+  "arizonaResidency": {
+    "sectionDomicile": {
+      "permanentHome": { "value": "AZ", "text": "Arizona" },
+      "isAzResident12m": { "text": "Yes", "value": "Y" },
+      "dateMovedToAz": "2022-02"
+    },
+    "sectionVote": {
+      "isRegisteredToVote": { "text": "Yes", "value": "Y" },
+      "selectStateRegisteredToVote": { "value": "AZ", "text": "Arizona" }
+    },
+    "sectionDriverLicense": {
+      "isHavingLicense": { "text": "Yes", "value": "Y" },
+      "selectStateLicenseIssued": { "value": "AZ", "text": "Arizona" },
+      "dateLicenseIssued": "2021-02"
+    },
+    "sectionMilitaryDependency": {
+      "selectSectorOfMilitary": { "text": "Veteran", "value": "veteran" },
+      "selectStateGuardianStationed": null,
+      "selectStateGuardianLegalResidence": null,
+      "dateGuardianRetired": "2020-03",
+      "isEligibleFor30or33ChapterBenefits": { "text": "Yes", "value": "Y" }
+    },
+    "sectionLegalGuardian": {
+      "stateParentLives": { "value": "AZ", "text": "Arizona" },
+      "selectParentRelationship": { "text": "Both", "value": "both" },
+      "dateParentMovedToAz": "2021-01",
+      "isParentFiledTaxLastYear": { "text": "Yes", "value": "Y" },
+      "selectStateParentFiledTax": { "value": "AZ", "text": "Arizona" },
+      "isParentHavingLicenseInAz": { "text": "Yes", "value": "Y" },
+      "isParentEmployedInAz": { "text": "Yes", "value": "Y" }
+    },
+    "sectionEnrollment": {
+      "isEnrolledInAnotherUni": { "text": "Yes", "value": "Y" },
+      "inputEnrolledLocation": "test",
+      "selectStateEnrolled": { "value": "AZ", "text": "Arizona" },
+      "isEnrollAZedCurrentOrLastYear": { "text": "Yes", "value": "Y" }
+    },
+    "sectionDependent": {
+      "isTaxClaimedAsDependent": { "text": "Yes", "value": "Y" }
+    },
+    "sectionFinancialSupport": {
+      "inputParentOrGuardianSupport": 50,
+      "inputEmploymentSupport": 20,
+      "inputFinancialAidSupport": 10,
+      "inputSpouseSupport": 10,
+      "inputOtherSourceSupport": 10,
+      "inputOtherSourceSupportSavings": "Y",
+      "inputOtherSourceSupportRetirement": "Y",
+      "inputOtherSourceSupportSocialSecurity": "Y",
+      "inputOtherSourceSupportVeteransBenefits": "Y",
+      "inputOtherSourceSupportStateOrFederalAid": "Y",
+      "inputOtherSourceSupportUnemployment": "Y",
+      "inputOtherSourceSupportOther": "Y",
+      "inputOtherSourceNota": "Test"
+    },
+    "sectionVehicle": {
+      "isOwnsVehicle": { "text": "Yes", "value": "Y" },
+      "isVehicleRegisteredInAZ": { "text": "Yes", "value": "Y" },
+      "dateVehicleRegistered": "2020-03"
+    },
+    "sectionTax": {
+      "isFiledTaxLastYear": { "text": "Yes", "value": "Y" },
+      "selectStateFiledTax": { "value": "AZ", "text": "Arizona" }
+    },
+    "sectionEmployment": {
+      "isEmployed": { "text": "Yes", "value": "Y" },
+      "selectStateEmployed": { "value": "AZ", "text": "Arizona" },
+      "dateEmployed": "2021-03",
+      "isEmployedInLast12m": null,
+      "selectStateEmployedLast12m": null
+    },
+    "sectionMarried": {
+      "isMarried": null,
+      "selectStateSpouseLives": { "value": "AZ", "text": "Arizona" },
+      "dateSpouseMovedToAz": "2020-04",
+      "isSpouseHavingValidId": { "text": "Yes", "value": "Y" },
+      "selectStateValidIdIssued": { "value": "AZ", "text": "Arizona" },
+      "dateSpouseObtainedId": "2020-05",
+      "isSpouseEmployed": { "text": "Yes", "value": "Y" },
+      "isSpouseFileTax": { "text": "Yes", "value": "Y" },
+      "selectStateSpouseFiledTax": { "value": "AZ", "text": "Arizona" },
+      "selectStateSpouseEmployed": { "value": "AZ", "text": "Arizona" },
+      "dateSpouseEmploymentStarted": "2020-02",
+      "isSpouseEmployedInAnyUni": { "text": "Yes", "value": "Y" },
+      "isSpouseDependent": { "text": "Yes", "value": "Y" }
+    }
+  },
+  "review": {
+    "paymentType": "payLater"
+  }
+}

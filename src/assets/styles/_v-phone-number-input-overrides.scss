@@ -1,0 +1,65 @@
+@import "vue-phone-number-input/dist/vue-phone-number-input.css";
+
+#MazPhoneNumberInput input {
+  min-height: 64px;
+  border-radius: 0px !important;
+}
+.select-country-container {
+  .country-selector__list {
+    top: 160% !important;
+  }
+}
+.base-phone-number-input {
+  height: 104px;
+  @media (max-width: 991px) {
+    height: 100px;
+  }
+  .invalid-feedback {
+    top: 24px;
+  }
+  .country-selector__toggle {
+    top: 50% !important;
+  }
+  .country-selector__country-flag {
+    padding-top: 13px;
+    padding-left: 3px;
+  }
+  .country-selector__label {
+    padding-top: 10px;
+  }
+  .is-focused {
+    input {
+      box-shadow: 0 0 0 0.2rem rgba(0, 163, 224, 0.5);
+    }
+  }
+  .input-tel__label,
+  .country-selector__label {
+    box-shadow: none !important;
+    color: var(--dark-1) !important;
+  }
+}
+.vue-phone-number-input.is-invalid {
+  input {
+    border-width: 2px;
+    border-bottom-width: 5px;
+    border-color: var(--danger) !important;
+  }
+  .is-focused {
+    input {
+      // color: #747474 !important;
+      box-shadow: 0 0 0 0.2rem rgba(204, 47, 47, 0.5) !important;
+    }
+  }
+}
+
+.vue-phone-number-input.is-valid {
+  .is-focused {
+    input {
+      box-shadow: 0 0 0 0.2rem rgba(0, 163, 224, 0.5) !important;
+    }
+  }
+}
+
+#MazPhoneNumberInput.is-valid input {
+  border-color: var(--light-4) !important;
+}

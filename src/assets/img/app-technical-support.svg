@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="headphones_in_circle" data-name="headphones in circle" transform="translate(-418 -299)">
+    <circle id="Ellipse_12432" data-name="Ellipse 12432" cx="16" cy="16" r="16" transform="translate(418 299)" fill="#ffc627"/>
+    <path id="font_awesome_headphones" data-name="font awesome headphones" d="M8-13A8,8,0,0,0,0-5v1.5a1.1,1.1,0,0,0,.553.894L1-2.381A3.5,3.5,0,0,0,4.5,1h.75A.75.75,0,0,0,6,.25v-5.5A.75.75,0,0,0,5.25-6H4.5A3.489,3.489,0,0,0,2-4.949V-5a6.007,6.007,0,0,1,6-6,6.007,6.007,0,0,1,6,6v.051A3.489,3.489,0,0,0,11.5-6h-.75a.75.75,0,0,0-.75.75V.25a.75.75,0,0,0,.75.75h.75A3.5,3.5,0,0,0,15-2.381l.449-.225A1.1,1.1,0,0,0,16-3.5V-5A8,8,0,0,0,8-13Z" transform="translate(426 321)" fill="#191919"/>
+  </g>
+</svg>

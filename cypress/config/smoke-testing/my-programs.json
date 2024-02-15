@@ -1,0 +1,166 @@
+{
+  "firstChoiceLowPriorityProgram": {
+    "title": "Anthropology, BA",
+    "term": "2024 fall - (Session B)"
+  },
+  "firstChoiceHighPriorityProgram": {
+    "first": {
+      "title": "Accountancy, BS",
+      "term": "2024 fall - (Session B)"
+    },
+    "second": {
+      "title": "Anthropology, BA",
+      "term": "2024 fall - (Session B)"
+    }
+  },
+  "rnToBsnProgram": {
+    "first": {
+      "title": "Nursing - RN/BSN, BSN",
+      "term": "2024 fall - (Session B)"
+    },
+    "second": {
+      "title": "Anthropology, BA",
+      "term": "2024 fall - (Session B)"
+    },
+    "sectionRnToBsn": {
+      "isLicensed": "Yes",
+      "license": {
+        "state": "Arizona",
+        "number": "1111111111",
+        "expirationDate": {
+          "month": "January",
+          "day": "01",
+          "year": "2023"
+        },
+        "disciplinaryActionTaken": "No"
+      },
+      "dateScheduledForNclexrn": {
+        "month": "January",
+        "day": "01",
+        "year": "2023"
+      },
+      "employer": "test",
+      "partnerCode": null,
+      "releaseInfoToEmployer": "Yes",
+      "communityColleges": "Central Arizona College",
+      "reverseTransferAggrement": "No Response"
+    }
+  },
+  "otherInterests": {
+    "firstChoiceProgram": {
+      "title": "Anthropology, BA",
+      "term": "2024 fall - (Session B)"
+    },
+    "interests": ["Pre-law", "Pre-med or pre-health*"]
+  },
+  "twoWayBinding": {
+    "programOfInterests": {
+      "code": 200,
+      "data": [
+        {
+          "priority": "1",
+          "program": "UGNU",
+          "plan": "NUNURDBSN",
+          "subplan": "NURRNBSN",
+          "campus": "ONLNE",
+          "concurrent": "0",
+          "createSecondAppFlag": null,
+          "secondAppType": null,
+          "secondAppIDRef": null,
+          "term": "2247",
+          "session": "SESB",
+          "title": "Nursing - RN/BSN, BSN",
+          "startTerm": "2024 fall - (Session B)"
+        },
+        {
+          "priority": "2",
+          "program": "UGLA",
+          "plan": "LAASBBA",
+          "subplan": null,
+          "campus": "ONLNE",
+          "concurrent": "0",
+          "createSecondAppFlag": null,
+          "secondAppType": null,
+          "secondAppIDRef": null,
+          "term": "2247",
+          "session": "SESB",
+          "title": "Anthropology, BA",
+          "startTerm": "2024 fall - (Session B)"
+        }
+      ]
+    },
+    "sarQuestions": {
+      "code": 200,
+      "data": [
+        {
+          "answer": "Y",
+          "name": "APPQNAME1"
+        },
+        {
+          "answer": "AZ",
+          "name": "APPQNAME2"
+        },
+        {
+          "answer": "1111111111",
+          "name": "APPQNAME3"
+        },
+        {
+          "answer": "2023-01-01",
+          "name": "APPQNAME4"
+        },
+        {
+          "answer": "N",
+          "name": "APPQNAME5"
+        },
+        {
+          "answer": "2023-01-01",
+          "name": "APPQNAME6"
+        },
+        {
+          "answer": "test",
+          "name": "APPQNAME7"
+        },
+        {
+          "answer": "test",
+          "name": "APPQNAME8"
+        },
+        {
+          "answer": "Y",
+          "name": "APPQNAME9"
+        },
+        {
+          "answer": "CAC",
+          "name": "APPQNAME10"
+        },
+        {
+          "answer": "N",
+          "name": "APPQNAME11"
+        },
+        {
+          "answer": "Y",
+          "name": "PREMED"
+        },
+        {
+          "answer": "Y",
+          "name": "PRELAW"
+        },
+        {
+          "answer": "Y",
+          "name": "PREVET"
+        },
+        {
+          "answer": "Y",
+          "name": "REVTRNQ"
+        },
+        {
+          "answer": "N",
+          "name": "SLFRPTQ1"
+        },
+        {
+          "answer": "0",
+          "name": "TTLCOLLCRD"
+        }
+      ]
+    }
+  }
+}

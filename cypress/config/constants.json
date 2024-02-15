@@ -1,0 +1,12 @@
+{
+  "creditCardDetails": [
+    { "type": "Visa", "number": "4111111111111111", "cvv": "999" },
+    { "type": "MasterCard", "number": "5454545454545454", "cvv": "998" },
+    { "type": "Discover", "number": "6011111111111117", "cvv": "996" }
+  ],
+  "testCaseTypes": {
+    "apiTesting": "apiTestcases",
+    "smokeTesting": "smokeTestcases",
+    "uatTesting": "uatTestcases"
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "email": "cypress+ed04088c-3ab3-4e35-9ee3-23a22@test.asu.edu",
+    "password": "Qwerty1234",
+    "type": "Application used for app page smoke testing."
+  },
+  {
+    "email": "cypress+eba88674-31cf-475b-9aa6-f1f38@test.asu.edu",
+    "password": "Qwerty1234",
+    "impersonateCallbackUrl": "http://localhost:8080/impersonate/callback/?token=eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJkc2hyZWUiLCJuYmYiOjE3MDU2NjQ5MjQsImltcGVyc29uYXRpb25fc3ViIjoiY3lwcmVzcytlYmE4ODY3NC0zMWNmLTQ3NWItOWFhNi1mMWYzOEB0ZXN0LmFzdS5lZHUiLCJzY29wZSI6WyJodHRwczovL2FwaS5hZG1zLWFhYS5hcHBzLmFzdS5lZHUvc2NvcGVzL3BlcnNvbi93cml0ZTphZG1pbiJdLCJpc3MiOiJhZG1zLWFhYS1ub25wcm9kIiwiaW1wZXJzb25hdGlvbl91c2VyX2lkIjoiMzAzNDQ0OSIsImV4cCI6MTcwODI1NjkyNCwiaWF0IjoxNzA1NjY0OTI0fQ.DYYPVJY11Fbd_0h8X0WJNi8kvldtdS_jwQxj7_eAnoqM52Eo674SCdTG-Y2QdAwZiqvKdI3f-2uMCLA36b7xL9A2MxU3QYDmV38pLcoMasOUKq8FGkuY6Uj-MgS5GIex8jMhKGEscWJuSP7R_FIMbS0bCvIcaf5FJlwU8fM96r8eOsDuTabgoizkzTHeZH_vlWOfNLepiN7RdZQOwGNBsLIS0PZBEZW9Euy46fI6nrVdlJzEFtnOycwtxLMxB0K-VsgCTrd9EOVA5Ra_EF6AMh9S0EyNBT18a4pelNMmu9NcjaHbcWvy3eQOjKtXSUoG61My0A80QND9TodtxyI0OiZCJ07lso4Syu0n0wF1T13jcC1dGJfHxxldktPeM7QYmhtv8N_Smt7H5KljuBbv_YTZkRPeoHLxSudty2_u51e5ToxMUIYF_BeP8ysWKP_u0erximHMdJOanwRA3zs0X0dQtkqGyQg2WZ-e4yDY4Gcg3biYcYVITmpyHaeRVdEOYpQDUl_ywh06u1Y-1yo2MzikhUSUbKMTnoI8Uy5hPkvvjRzqepeerna669XxhJ8Cj5xWWWm8Ug-0I1ZvMrhjTVvsL2T6TRvVVu7Rj_-LvB_DbHubFYHFQ7A62w4E_WBOMWg1byQCWK1axZIu1vzOYXDo4nR5CDUfzhkJpmF7h7I&appId=3138950",
+    "localRedirectUrl": "http://localhost:8080/payment/nelnet/callback?persistedAppId=3138950&transactionStatus=1&transactionId=5001613627&transactionResultMessage=This+transaction+has+been+approved.&orderNumber=3138950&transactionTotalAmount=7000&transactionDate=202402050317&transactionAcountType=DISCOVER&timestamp=1707128246028&hash=045729841d664557b96d6d00998837ac397ca6a3ac4ace86600c12e1140140d5",
+    "type": "Application with prefilled details till review page used for api testing, profile and features somke testing."
+  },
+  {
+    "email": "cypress+37a4b2a1-456b-4f02-b1ff-641d4@test.asu.edu",
+    "password": "Qwerty1234",
+    "sex": "female",
+    "firstName": "Cynthia",
+    "lastName": "McDermott",
+    "middleName": "Faith",
+    "suffix": "MD",
+    "ssn": "978932512",
+    "asuAffiliationId": "3474171717"
+  },
+  {
+    "email": "cypress+eb6804b8-05ad-4034-8341-010bd@test.asu.edu",
+    "password": "Qwerty1234",
+    "sex": "female",
+    "firstName": "Patti",
+    "lastName": "Wolf",
+    "middleName": "Lynn",
+    "suffix": "DVM",
+    "ssn": "979729857",
+    "asuAffiliationId": "7401063038"
+  }
+]

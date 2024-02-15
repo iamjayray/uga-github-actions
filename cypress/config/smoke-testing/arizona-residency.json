@@ -1,0 +1,729 @@
+{
+  "errorMessage": "This is a required field",
+  "validVisaCode": "RE",
+  "nonUsCitizenVisaCode": "F1",
+  "nonUsCountryCode": "AFG",
+  "applicationsResponse": {
+    "code": 200,
+    "data": [
+      {
+        "appId": "3137958",
+        "submitted": "N",
+        "createdAt": "2023-11-16 01:04:56",
+        "submittedAt": null,
+        "userInfo": {
+          "dateOfBirth": "2016-02-03",
+          "birthCountry": "ALA",
+          "citizenCountry": "ALA",
+          "visaCode": "DACA",
+          "attendedASU": null,
+          "asuId": "2132111112",
+          "firstGeneration": null,
+          "sex": "M",
+          "preferredFirstName": null,
+          "ssn": "*********",
+          "primaryLanguageAtHome": "ace",
+          "primaryLanguageAtHomeOther": null
+        },
+        "instStatus": null,
+        "name": {
+          "id": "1",
+          "nameType": "legal",
+          "firstName": "Abhishek",
+          "lastName": "Ganesan",
+          "middleName": null,
+          "suffix": null
+        }
+      }
+    ]
+  },
+  "highschool": {
+    "studiedInArizona": [
+      {
+        "highSchoolId": "1",
+        "extOrgId": "1100011020",
+        "ceeb": "030001",
+        "name": "Excalibur Charter School Inc",
+        "country": "USA",
+        "state": "AZ",
+        "city": "Apache Junction",
+        "gradMonth": "02",
+        "gradYear": "2027",
+        "startMonth": null,
+        "startYear": null,
+        "endMonth": null,
+        "endYear": null,
+        "sais": null,
+        "sessionCode": null,
+        "transcriptNameId": "1"
+      }
+    ],
+    "studiedOutSideArizona": [
+      {
+        "highSchoolId": "1",
+        "extOrgId": null,
+        "ceeb": null,
+        "name": "Accelerate Online Academy",
+        "country": "AFG",
+        "state": "BDS",
+        "city": "s",
+        "gradMonth": "2",
+        "gradYear": "2027",
+        "startMonth": null,
+        "startYear": null,
+        "endMonth": null,
+        "endYear": null,
+        "sais": null,
+        "sessionCode": null,
+        "transcriptNameId": "1"
+      }
+    ]
+  },
+  "nativeAmerican": [
+    {
+      "ethnicGroupCode": "N",
+      "culturalOriginCode": "N189",
+      "reportingPreference": false
+    }
+  ],
+  "militaryAffiliations": {
+    "none": {
+      "status": "None of these options apply",
+      "branch": "NA",
+      "vaEducationBenefits": "NA",
+      "jointServiceTranscript": "NA"
+    },
+    "activeDuty": {
+      "status": "Active Duty",
+      "branch": "U.S. Marine Corps",
+      "vaEducationBenefits": "N",
+      "jointServiceTranscript": "N"
+    },
+    "veteran": {
+      "status": "Veteran",
+      "branch": "U.S. Marine Corps",
+      "vaEducationBenefits": "N",
+      "jointServiceTranscript": "N"
+    },
+    "dependent": {
+      "status": "Spouse/Dependent of a U.S. service member or veteran",
+      "branch": "U.S. Marine Corps",
+      "vaEducationBenefits": "N",
+      "jointServiceTranscript": "NA"
+    }
+  },
+  "twoWayBindingResponses": {
+    "defaultResponse": {
+      "code": 200,
+      "data": [
+        {
+          "key": "ENRL_AZ",
+          "answer": "Y"
+        },
+        {
+          "key": "DEP_CLM",
+          "answer": "Y"
+        },
+        {
+          "key": "DOM_AZ_DT",
+          "answer": "2022-02"
+        },
+        {
+          "key": "DL_ID",
+          "answer": "Y"
+        },
+        {
+          "key": "DL_ST2",
+          "answer": "AZ"
+        },
+        {
+          "key": "DL_ISS_DT",
+          "answer": "2023-03"
+        },
+        {
+          "key": "DOM_AZ",
+          "answer": "Y"
+        },
+        {
+          "key": "DOM_WHO",
+          "answer": "father"
+        },
+        {
+          "key": "DOM_STATE",
+          "answer": "AZ"
+        },
+        {
+          "key": "DL_ST1",
+          "answer": "AZ"
+        },
+        {
+          "key": "JOB_CURR1",
+          "answer": "Y"
+        },
+        {
+          "key": "FINSUP12MA",
+          "answer": "10"
+        },
+        {
+          "key": "FINSUP12MB",
+          "answer": "50"
+        },
+        {
+          "key": "FINSUP12MC",
+          "answer": "10"
+        },
+        {
+          "key": "FINSUP12MD",
+          "answer": "10"
+        },
+        {
+          "key": "FINSUP12ME",
+          "answer": "20"
+        },
+        {
+          "key": "PAR_TAX",
+          "answer": "Y"
+        },
+        {
+          "key": "MARRIED",
+          "answer": null
+        },
+        {
+          "key": "RES_SUPA",
+          "answer": "Y"
+        },
+        {
+          "key": "RES_SUPB",
+          "answer": "Y"
+        },
+        {
+          "key": "RES_SUPC",
+          "answer": "Y"
+        },
+        {
+          "key": "RES_SUPD",
+          "answer": "Y"
+        },
+        {
+          "key": "RES_SUPE",
+          "answer": "Y"
+        },
+        {
+          "key": "RES_SUPF",
+          "answer": "Y"
+        },
+        {
+          "key": "RES_SUPG",
+          "answer": "Y"
+        },
+        {
+          "key": "ENRL_CUR1",
+          "answer": "Y"
+        },
+        {
+          "key": "ENRL_LOC1",
+          "answer": "test"
+        },
+        {
+          "key": "ENRL_ST",
+          "answer": "AZ"
+        },
+        {
+          "key": "VEH_OWN",
+          "answer": "Y"
+        },
+        {
+          "key": "PAR_JOB_AZ",
+          "answer": "Y"
+        },
+        {
+          "key": "DOM_PAR",
+          "answer": "AZ"
+        },
+        {
+          "key": "PAR_DL",
+          "answer": "Y"
+        },
+        {
+          "key": "RES_SUP_SC",
+          "answer": "Test"
+        },
+        {
+          "key": "DOM_EST_DT",
+          "answer": "2020-03"
+        },
+        {
+          "key": "SP_DEP_FIN",
+          "answer": "Y"
+        },
+        {
+          "key": "SP_DL_DT",
+          "answer": "2020-02"
+        },
+        {
+          "key": "SP_DOM_LOC",
+          "answer": "AZ"
+        },
+        {
+          "key": "SP_EMPL",
+          "answer": "Y"
+        },
+        {
+          "key": "SP_TAX_ST",
+          "answer": "AZ"
+        },
+        {
+          "key": "SP_STDNT",
+          "answer": "Y"
+        },
+        {
+          "key": "SP_DL_ID",
+          "answer": "Y"
+        },
+        {
+          "key": "SP_JOB",
+          "answer": "AZ"
+        },
+        {
+          "key": "SP_JOB_LOC",
+          "answer": "2021-04"
+        },
+        {
+          "key": "SP_TAX",
+          "answer": "Y"
+        },
+        {
+          "key": "PAR_TAX_ST",
+          "answer": "AZ"
+        },
+        {
+          "key": "TAX_LOC",
+          "answer": "AZ"
+        },
+        {
+          "key": "TAX_FILE",
+          "answer": "Y"
+        },
+        {
+          "key": "STVHREG",
+          "answer": "2022-03"
+        },
+        {
+          "key": "TRIBAL_CRT",
+          "answer": "Y"
+        },
+        {
+          "key": "VEH_REG_ST",
+          "answer": "Y"
+        },
+        {
+          "key": "DOM_PAR_DT",
+          "answer": "2021-03"
+        },
+        {
+          "key": "JOB_CURR",
+          "answer": "AZ"
+        },
+        {
+          "key": "JOB_LOC",
+          "answer": "AZ"
+        },
+        {
+          "key": "JOB_ST_DT",
+          "answer": "2019-02"
+        },
+        {
+          "key": "EMPL_12MO",
+          "answer": "Y"
+        }
+      ]
+    },
+    "militaryAffiliations": {
+      "activeDuty": {
+        "code": 201,
+        "data": [
+          {
+            "key": "DOM_AZ_DT",
+            "answer": null
+          },
+          {
+            "key": "DOM_AZ",
+            "answer": null
+          },
+          {
+            "key": "DOM_WHO",
+            "answer": null
+          },
+          {
+            "key": "DOM_STATE",
+            "answer": "Outside the U.S. or Not Listed"
+          },
+          {
+            "key": "PAR_TAX",
+            "answer": null
+          },
+          {
+            "key": "PAR_JOB_AZ",
+            "answer": null
+          },
+          {
+            "key": "DOM_PAR",
+            "answer": "Outside the U.S. or Not Listed"
+          },
+          {
+            "key": "PAR_DL",
+            "answer": null
+          },
+          {
+            "key": "PAR_TAX_ST",
+            "answer": null
+          },
+          {
+            "key": "LES_ST_RES",
+            "answer": "AK"
+          },
+          {
+            "key": "LOC_STAT",
+            "answer": "AL"
+          },
+          {
+            "key": "DOM_PAR_DT",
+            "answer": null
+          }
+        ]
+      },
+      "veteran": {
+        "code": 200,
+        "data": [
+          {
+            "key": "CH30_33BEN",
+            "answer": "Y"
+          },
+          {
+            "key": "DOM_AZ_DT",
+            "answer": null
+          },
+          {
+            "key": "DL_ID",
+            "answer": "Y"
+          },
+          {
+            "key": "DD214CHRSV",
+            "answer": "OUHC"
+          },
+          {
+            "key": "DL_ISS_DT",
+            "answer": "2019-05"
+          },
+          {
+            "key": "DOM_AZ",
+            "answer": null
+          },
+          {
+            "key": "DOM_WHO",
+            "answer": null
+          },
+          {
+            "key": "DOM_STATE",
+            "answer": "Outside the U.S. or Not Listed"
+          },
+          {
+            "key": "DL_ST1",
+            "answer": "AZ"
+          },
+          {
+            "key": "PAR_TAX",
+            "answer": null
+          },
+          {
+            "key": "MILEXITDT",
+            "answer": "2020-02"
+          },
+          {
+            "key": "PAR_JOB_AZ",
+            "answer": null
+          },
+          {
+            "key": "DOM_PAR",
+            "answer": "Outside the U.S. or Not Listed"
+          },
+          {
+            "key": "PAR_DL",
+            "answer": null
+          },
+          {
+            "key": "VOTEREG",
+            "answer": "Y"
+          },
+          {
+            "key": "PAR_TAX_ST",
+            "answer": null
+          },
+          {
+            "key": "VOTEREGST",
+            "answer": "AZ"
+          },
+          {
+            "key": "DOM_PAR_DT",
+            "answer": null
+          }
+        ]
+      },
+      "dependent": {
+        "veteran": {
+          "code": 200,
+          "data": [
+            {
+              "key": "CH30_33BEN",
+              "answer": "Y"
+            },
+            {
+              "key": "DOM_AZ_DT",
+              "answer": null
+            },
+            {
+              "key": "DL_ID",
+              "answer": "Y"
+            },
+            {
+              "key": "DL_ISS_DT",
+              "answer": "2019-05"
+            },
+            {
+              "key": "DOM_AZ",
+              "answer": null
+            },
+            {
+              "key": "DOM_WHO",
+              "answer": null
+            },
+            {
+              "key": "DOM_STATE",
+              "answer": "Outside the U.S. or Not Listed"
+            },
+            {
+              "key": "DL_ST1",
+              "answer": "AZ"
+            },
+            {
+              "key": "PAR_TAX",
+              "answer": null
+            },
+            {
+              "key": "PAR_JOB_AZ",
+              "answer": null
+            },
+            {
+              "key": "DOM_PAR",
+              "answer": "Outside the U.S. or Not Listed"
+            },
+            {
+              "key": "SP_VET_DIS",
+              "answer": "2020-02"
+            },
+            {
+              "key": "PAR_DL",
+              "answer": null
+            },
+            {
+              "key": "VOTEREG",
+              "answer": "Y"
+            },
+            {
+              "key": "SP_VET_TYP",
+              "answer": "veteran"
+            },
+            {
+              "key": "PAR_ST_RES",
+              "answer": null
+            },
+            {
+              "key": "SP_STA_LOC",
+              "answer": null
+            },
+            {
+              "key": "PAR_TAX_ST",
+              "answer": null
+            },
+            {
+              "key": "VOTEREGST",
+              "answer": "AZ"
+            },
+            {
+              "key": "DOM_PAR_DT",
+              "answer": null
+            }
+          ]
+        },
+        "other": {
+          "code": 200,
+          "data": [
+            {
+              "key": "CH30_33BEN",
+              "answer": null
+            },
+            {
+              "key": "DOM_AZ_DT",
+              "answer": null
+            },
+            {
+              "key": "DOM_AZ",
+              "answer": null
+            },
+            {
+              "key": "DOM_WHO",
+              "answer": null
+            },
+            {
+              "key": "DOM_STATE",
+              "answer": "Outside the U.S. or Not Listed"
+            },
+            {
+              "key": "PAR_TAX",
+              "answer": null
+            },
+            {
+              "key": "PAR_JOB_AZ",
+              "answer": null
+            },
+            {
+              "key": "DOM_PAR",
+              "answer": "Outside the U.S. or Not Listed"
+            },
+            {
+              "key": "SP_VET_DIS",
+              "answer": null
+            },
+            {
+              "key": "PAR_DL",
+              "answer": null
+            },
+            {
+              "key": "SP_VET_TYP",
+              "answer": "reserve"
+            },
+            {
+              "key": "PAR_ST_RES",
+              "answer": "AZ"
+            },
+            {
+              "key": "SP_STA_LOC",
+              "answer": "AL"
+            },
+            {
+              "key": "PAR_TAX_ST",
+              "answer": null
+            },
+            {
+              "key": "DOM_PAR_DT",
+              "answer": null
+            }
+          ]
+        }
+      }
+    }
+  },
+  "prop308": {
+    "highSchoolAcademics": {
+      "code": 200,
+      "data": {}
+    },
+    "highSchools": {
+      "code": 200,
+      "data": [
+        {
+          "highSchoolId": "1",
+          "extOrgId": "1219624133",
+          "ceeb": "030682",
+          "name": "Accelerate Online Academy",
+          "country": "USA",
+          "state": "AZ",
+          "city": "Anthem",
+          "gradMonth": "2",
+          "gradYear": "2010",
+          "startMonth": null,
+          "startYear": null,
+          "endMonth": null,
+          "endYear": null,
+          "sais": "3748374398",
+          "sessionCode": null,
+          "transcriptNameId": "1"
+        }
+      ]
+    },
+    "DACA": {
+      "applications": {
+        "code": 200,
+        "data": [
+          {
+            "appId": "3138080",
+            "submitted": "N",
+            "createdAt": "2023-12-13 04:54:23",
+            "submittedAt": null,
+            "userInfo": {
+              "dateOfBirth": "1996-01-01",
+              "birthCountry": "AFG",
+              "citizenCountry": "AFG",
+              "visaCode": "DACA",
+              "attendedASU": null,
+              "asuId": "",
+              "firstGeneration": null,
+              "sex": "M",
+              "preferredFirstName": "A",
+              "ssn": "*********",
+              "primaryLanguageAtHome": "spa",
+              "primaryLanguageAtHomeOther": null,
+              "email": "cypress+test564@test.asu.edu"
+            },
+            "instStatus": "never attended",
+            "name": {
+              "id": "1",
+              "nameType": "legal",
+              "firstName": "Darren",
+              "lastName": "Oberbrunner",
+              "middleName": "Ethan",
+              "suffix": "IV"
+            }
+          }
+        ]
+      }
+    },
+    "UD": {
+      "applications": {
+        "code": 200,
+        "data": [
+          {
+            "appId": "3138080",
+            "submitted": "N",
+            "createdAt": "2023-12-13 04:54:23",
+            "submittedAt": null,
+            "userInfo": {
+              "dateOfBirth": "1996-01-01",
+              "birthCountry": "AFG",
+              "citizenCountry": "AFG",
+              "visaCode": "UD",
+              "attendedASU": null,
+              "asuId": "",
+              "firstGeneration": null,
+              "sex": "M",
+              "preferredFirstName": "A",
+              "ssn": "*********",
+              "primaryLanguageAtHome": "spa",
+              "primaryLanguageAtHomeOther": null,
+              "email": "cypress+test564@test.asu.edu"
+            },
+            "instStatus": "never attended",
+            "name": {
+              "id": "1",
+              "nameType": "legal",
+              "firstName": "Darren",
+              "lastName": "Oberbrunner",
+              "middleName": "Ethan",
+              "suffix": "IV"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

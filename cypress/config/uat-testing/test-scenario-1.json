@@ -1,0 +1,426 @@
+{
+  "flowDescription": "Non Resident Student F(1) visa with military affiliation veteran and RN-BSN program flow",
+
+  "errorMessage": "This is a required field",
+  "ageGroup": "24+",
+
+  "appCreationDetails": {
+    "dob": {
+      "month": "January",
+      "date": "1",
+      "year": "1996"
+    },
+    "mainPhone": {
+      "country": "United States",
+      "phoneNumber": "4804804800"
+    },
+    "isMobileNumberEntered": { "text": "Yes", "value": "Y" },
+    "mobilePhone": {
+      "country": null,
+      "phoneNumber": null
+    },
+    "receiveInfoBySMS": { "text": "No", "value": "N" }
+  },
+
+  "myInformation": {
+    "formerNames": [],
+    "legalSex": { "text": "Male", "value": "M" },
+    "primaryLanguage": {
+      "selectValue": {
+        "id": "3",
+        "language": "Aceh",
+        "languageCode3": "ace",
+        "displayOrder": 20,
+        "selected": true,
+        "text": "Aceh",
+        "value": "ace"
+      },
+      "inputValue": null
+    },
+    "homeAddress": {
+      "addressId": "1",
+      "type": "PERMANENT",
+      "street1": "76 Front St",
+      "street2": "",
+      "city": "Ketchikan",
+      "stateProvince": {
+        "stateCode": "AL",
+        "description": "Alabama",
+        "selected": true,
+        "text": "Alabama",
+        "value": "AL"
+      },
+      "postalCode": "99901",
+      "countryCode": {
+        "countryCode": "USA",
+        "countryCodeTwoChar": "US",
+        "description": "United States",
+        "selected": true,
+        "text": "United States",
+        "value": "USA"
+      }
+    },
+    "ethnicOrRacialBackground": {
+      "hispanicOrLatino": { "isHispanicOrLatino": null, "origin": null },
+      "race": [],
+      "primaryRace": null
+    },
+    "usCitizenship": {
+      "isUsCitizen": { "text": "I am not a U.S. citizen", "value": false },
+      "countryOfBirth": {
+        "countryCode": "ALA",
+        "countryCodeTwoChar": "AX",
+        "description": "Aland Islands",
+        "selected": true,
+        "text": "Aland Islands",
+        "value": "ALA"
+      },
+      "ssn": "000000000",
+      "typeOfVisa": {
+        "text": "Student (F-1)",
+        "value": "Student_(F1)",
+        "visaPermitTypeCode": "F1"
+      },
+      "countryOfCitizenShip": {
+        "countryCode": "ALA",
+        "countryCodeTwoChar": "AX",
+        "description": "Aland Islands",
+        "selected": true,
+        "text": "Aland Islands",
+        "value": "ALA"
+      },
+      "cityOfBirth": "Bangalore",
+      "otherVisaChoices": null,
+      "issuingI20": { "text": "No", "value": "no" },
+      "intAddress": {
+        "type": "SEVIS",
+        "countryCode": {
+          "countryCode": "ALB",
+          "countryCodeTwoChar": "AL",
+          "description": "Albania",
+          "selected": true,
+          "text": "Albania",
+          "value": "ALB"
+        },
+        "street1": "street1",
+        "street2": "street2",
+        "city": "Bangalore",
+        "stateProvince": {
+          "stateCode": "DIB",
+          "description": "Diber",
+          "selected": true,
+          "text": "Diber",
+          "value": "DIB"
+        },
+        "postalCode": "1234556"
+      },
+      "shippingAddressType": {
+        "text": "Other",
+        "value": "Other",
+        "type": "Other"
+      },
+      "shippingAddress": {
+        "type": "I20",
+        "countryCode": {
+          "countryCode": "ALA",
+          "countryCodeTwoChar": "AX",
+          "description": "Aland Islands",
+          "selected": true,
+          "text": "Aland Islands",
+          "value": "ALA"
+        },
+        "street1": "street1",
+        "street2": "street2",
+        "city": "city",
+        "stateProvince": "state",
+        "postalCode": "123456"
+      }
+    },
+    "guardians": [
+      {
+        "firstName": "Test",
+        "lastName": "Test",
+        "guardianRelation": { "text": "Aunt", "value": "Aunt" },
+        "highestSchoolingLevel": {
+          "text": "High School",
+          "value": "High School"
+        },
+        "previousAsuStudent": { "text": "No", "value": false },
+        "isLiving": { "text": "Yes", "value": true },
+        "email": "test@gmail.com",
+        "phoneNumber": "232132131",
+        "type": "new"
+      }
+    ],
+    "asuAffiliation": {
+      "affiliations": ["affiliationASUCOMOTH"],
+      "affiliateId": "2132111112"
+    },
+    "usUniformedServices": {
+      "relation": {
+        "text": "I am a U.S. service member or veteran",
+        "value": "I am a U.S. service member or veteran"
+      },
+      "status": { "text": "Veteran", "value": "Veteran" },
+      "branch": { "text": "United States Army", "value": "U.S. Army" },
+      "appliedForBenefit": { "text": "No", "value": "N" },
+      "requestTranscript": { "text": "No", "value": "N" }
+    },
+    "partnerBenefits": {
+      "educationBenefit": { "text": "Yes", "value": "Y" },
+      "currentEmployer": {
+        "corporatePartnerCode": "ADS",
+        "corporatePartnerDescription": "Amazon DSP",
+        "selected": true,
+        "text": "Amazon dsp",
+        "value": "Amazon DSP"
+      }
+    }
+  },
+  "myProgram": {
+    "programsSelected": [
+      {
+        "title": "Nursing - RN/BSN, BSN",
+        "acadPlanCode": "NUNURDBSN",
+        "shortTitle": "BSN",
+        "startDate": "2024 fall - (Session B)",
+        "highAdmissionProgram": true,
+        "type": "new",
+        "subPlanCode": "NURRNBSN",
+        "payloadData": {
+          "priority": "1",
+          "programCode": "UGNU",
+          "planCode": "NUNURDBSN",
+          "subPlanCode": "NURRNBSN",
+          "location": "ONLNE",
+          "term": "2247",
+          "session": "SESB"
+        }
+      },
+      {
+        "title": "Anthropology, BA",
+        "acadPlanCode": "LAASBBA",
+        "shortTitle": "BA",
+        "startDate": "2024 fall - (Session B)",
+        "highAdmissionProgram": false,
+        "type": "new",
+        "subPlanCode": null,
+        "payloadData": {
+          "priority": "2",
+          "programCode": "UGLA",
+          "planCode": "LAASBBA",
+          "subPlanCode": null,
+          "location": "ONLNE",
+          "term": "2247",
+          "session": "SESB"
+        }
+      }
+    ],
+    "otherInterests": ["otherInterestPREVET"],
+    "rnToBsn": {
+      "isLicensed": { "text": "No", "value": "N" },
+      "license": {
+        "state": {
+          "stateCode": "AK",
+          "description": "Alaska",
+          "selected": true,
+          "text": "Alaska",
+          "value": "AK"
+        },
+        "number": "221312312",
+        "expirationDate": {
+          "day": { "text": "05", "value": "05" },
+          "month": {
+            "order": 3,
+            "text": "March",
+            "value": "03",
+            "monthIndex": 2
+          },
+          "year": { "text": "2071", "value": 2071 }
+        },
+        "disciplinaryActionTaken": { "text": "No", "value": "N" }
+      },
+      "dateScheduledForNclexrn": {
+        "day": { "text": "06", "value": "06" },
+        "month": { "order": 6, "text": "June", "value": "06", "monthIndex": 5 },
+        "year": { "text": "2070", "value": 2070 }
+      },
+      "employer": "Test",
+      "partnerCode": "TEst",
+      "releaseInfoToEmployer": { "text": "No", "value": "N" },
+      "communityColleges": {
+        "text": "Arizona Western College",
+        "value": "AWC"
+      },
+      "reverseTransferAggrement": { "text": "No", "value": "N" }
+    }
+  },
+  "mySchools": {
+    "schools": [
+      {
+        "highSchoolId": "1",
+        "country": {
+          "countryCode": "USA",
+          "countryCodeTwoChar": "US",
+          "description": "United States",
+          "selected": true,
+          "text": "United States",
+          "value": "USA"
+        },
+        "state": {
+          "stateCode": "AL",
+          "description": "Alabama",
+          "selected": false,
+          "text": "Alabama",
+          "value": "AL"
+        },
+        "sais": null,
+        "city": { "text": "Adamsville", "value": "Adamsville" },
+        "highSchool": {
+          "externalOrgId": "1100010100",
+          "schoolTypeCode": "HS",
+          "description": "Minor HS",
+          "countryCode": "USA",
+          "stateCode": "AL",
+          "city": "Adamsville",
+          "atpCode": "010375",
+          "selected": false,
+          "text": "Minor HS",
+          "value": "1100010100"
+        },
+        "schoolName": null,
+        "dateFirstAttended": { "month": null, "year": null },
+        "dateLastAttended": { "month": null, "year": null },
+        "graduationDate": {
+          "month": {
+            "order": 1,
+            "text": "January",
+            "value": "01",
+            "monthIndex": 0
+          },
+          "year": { "text": "2014", "value": 2014 }
+        },
+        "nameOnTranscript": {
+          "id": "1",
+          "nameType": "legal",
+          "firstName": "Abhishek",
+          "lastName": "Ganesan",
+          "middleName": null,
+          "suffix": null
+        }
+      }
+    ],
+    "college": {
+      "attendedCollege": {
+        "text": "Yes",
+        "value": "attended/attending college"
+      },
+      "totelSemisterCredits": "1",
+      "institutions": [
+        {
+          "country": {
+            "countryCode": "USA",
+            "countryCodeTwoChar": "US",
+            "description": "United States",
+            "selected": true,
+            "text": "United States",
+            "value": "USA"
+          },
+          "state": {
+            "stateCode": "AZ",
+            "description": "Arizona",
+            "selected": false,
+            "text": "Arizona",
+            "value": "AZ"
+          },
+          "city": { "text": "Phoenix", "value": "Phoenix" },
+          "institute": {
+            "externalOrgId": "1100104275",
+            "schoolTypeCode": "4YR",
+            "description": "Argosy University Phoenix",
+            "countryCode": "USA",
+            "stateCode": "AZ",
+            "city": "Phoenix",
+            "atpCode": null,
+            "selected": false,
+            "text": "Argosy University Phoenix",
+            "value": "1100104275"
+          },
+          "customInstituteName": null,
+          "degreeAwarded": {
+            "text": "Arizona General Education Curriculum in Progress",
+            "value": "AGECIP"
+          },
+          "degreeConcentration": "test",
+          "dateFirstAttended": {
+            "month": {
+              "order": 3,
+              "text": "March",
+              "value": "03",
+              "monthIndex": 2
+            },
+            "year": { "text": "2022", "value": 2022 }
+          },
+          "dateLastAttended": {
+            "month": {
+              "order": 2,
+              "text": "February",
+              "value": "02",
+              "monthIndex": 1
+            },
+            "year": { "text": "2023", "value": 2023 }
+          },
+          "nameOnTranscript": {
+            "id": "1",
+            "nameType": "legal",
+            "firstName": "Abhishek",
+            "lastName": "Ganesan",
+            "middleName": null,
+            "suffix": null,
+            "text": "Abhishek Ganesan",
+            "value": "1"
+          },
+          "type": "new"
+        }
+      ]
+    },
+    "iseligibleToReturnToColleges": { "text": "No", "value": "N" },
+    "ineligibleToReturnCollege": {
+      "first": {
+        "name": "Test",
+        "reasons": {
+          "academicRelated": { "text": "No", "value": "N" },
+          "studentConduct": { "text": "No response", "value": "NA" },
+          "other": { "text": "Yes", "value": "Y" },
+          "explaination": "Test"
+        }
+      },
+      "second": {
+        "name": "Test",
+        "reasons": {
+          "academicRelated": { "text": "No", "value": "N" },
+          "studentConduct": { "text": "No response", "value": "NA" },
+          "other": { "text": "No", "value": "N" },
+          "explaination": "Test"
+        }
+      }
+    },
+    "transcriptPolicyAcknowledge": "Yes"
+  },
+  "myHighSchoolGrades": {
+    "gradePath": null,
+    "overallAcademics": {
+      "unweightedGpa": null,
+      "gpaScale": null,
+      "gradingSystem": null,
+      "classRankSize": { "rank": null, "size": null },
+      "delete": true
+    },
+    "highSchoolCourses": []
+  },
+  "arizonaResidency": {},
+  "review": {
+    "paymentType": "payNow",
+    "creditCardType": "MasterCard"
+  }
+}
