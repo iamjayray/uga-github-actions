@@ -24,6 +24,9 @@ jobs:
       - name: Host
         run: yarn dev
 
+      - name: Api testing
+        run: yarn test:e2e:ci:api-testing
+
     # - name: Run Cypress Tests
     #   run: |
     #     chmod +x runcypress.sh
