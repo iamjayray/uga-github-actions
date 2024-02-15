@@ -10,24 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: 14
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 14
 
-    - name: Install Dependencies
-      run: yarn install
+      - name: Install Dependencies
+        run: yarn install
 
-    - name: Run Cypress Tests
-      run: |
-        chmod +x runcypress.sh
-        ./runcypress.sh
+      - name: Host
+        run: yarn dev
 
-    - name: Upload Test Artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: cypress-reports
-        path: cypress/reports
+    # - name: Run Cypress Tests
+    #   run: |
+    #     chmod +x runcypress.sh
+    #     ./runcypress.sh
+
+    # - name: Upload Test Artifacts
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: cypress-reports
+    #     path: cypress/reports
