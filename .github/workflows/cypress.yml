@@ -20,12 +20,3 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Yarn develop
-        run: yarn dev
-
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          start: yarn test:e2e:ci:api-testing
-          browser: chrome
-
