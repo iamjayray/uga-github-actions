@@ -9,12 +9,6 @@ jobs:
   cypress-tests:
     runs-on: ubuntu-latest
 
-    services:
-      # Start the Docker daemon in the GitHub Actions runner
-      docker:
-        image: docker:dind
-        options: --privileged
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -24,10 +18,19 @@ jobs:
         with:
           node-version: 14
 
-      - name: Build Docker Image
-        run: |
-          docker build -t uga-docker .
+      - name: Install Dependencies
+        run: yarn install
 
-      - name: Run Cypress Tests in Docker
-        run: |
-          docker run -v ${{ github.workspace }}:/app -w /app uga-docker ./runcypress.sh
+      - name: Host
+        run: yarn dev && yarn test:e2e:ci:api-testing
+
+    # - name: Run Cypress Tests
+    #   run: |
+    #     chmod +x runcypress.sh
+    #     ./runcypress.sh
+
+    # - name: Upload Test Artifacts
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: cypress-reports
+    #     path: cypress/reports
